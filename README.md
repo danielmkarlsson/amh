@@ -1,2 +1,2 @@
 # amh
-amh files
+.amh files
