@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications" document-path="file:///Users/Mats/Music/DMK/Ruins">
+	<patch>
+		<clock tempo="120" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="_bubblerStereo?type=au&amp;key=aumf+bubSDHK&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="_bubblerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhIrYnViElNESEtPENwAAAAAAAAAAAAAABoAAAAAQf2b9gAAAAE/O0btAAAA
+AkLGYFoAAAADQQBtAgAAAARDSAAAAAAABQAAAAAAAAAGvceDHgAAAAcAAAAAAAAACAAAAAAAAAAJ
+AAAAAAAAAApGnEAAAAAAC0LIAAAAAAAMQsgAAAAAAA0/gAAAAAAADgAAAAAAAAAPAAAAAAAAABAA
+AAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAA
+AAAAAAAYAAAAAAAAABkAAAAAW1VzZXIgUHJlc2V0EAAACAAVABoAIgAvADQAOQBBAEYASwBQAS8B
+OwAAAAAAAAIBAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAE9
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="time" property-index="0">
+					<midi-controller smoothing="0" map-minimum="20" map-maximum="200">
+						<midi-message-spec type="pitch-bend" port="1" channel="0"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="time vari" property-index="1">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="5">
+						<midi-message-spec type="pitch-bend" port="1" channel="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="pitch-bend" port="1" channel="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grain size" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="50">
+						<midi-message-spec type="pitch-bend" port="1" channel="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="pitch-bend" port="1" channel="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="g start vari" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="100">
+						<midi-message-spec type="pitch-bend" port="1" channel="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="6">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="4">
+						<midi-message-spec type="pitch-bend" port="1" channel="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="oct vari" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="2">
+						<midi-message-spec type="pitch-bend" port="1" channel="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="g reversal" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="100">
+						<midi-message-spec type="pitch-bend" port="1" channel="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="filter freq" property-index="10">
+					<midi-controller smoothing="0" map-minimum="20" map-maximum="20000">
+						<midi-message-spec type="pitch-bend" port="1" channel="9"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="resonance" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="100">
+						<midi-message-spec type="pitch-bend" port="1" channel="10"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>0</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.251188643150958</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<audio-connection from="_bubblerStereo_1" from-outlet="0" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="1" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="SoundOut" to-inlet="1"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="1061" top="109" width="300" height="170" encoding="UTF-8">
+			<para></para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="479" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="100" snapshots-width="100" interpolate-mode="0"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="_bubblerStereo_1" patcher-x="1084" patcher-y="683" editor-visible="1" editor-x="110" editor-y="0" editor-width="450" editor-height="490"/>
+		<contraption-view contraption-name="SoundOut" patcher-x="1090" patcher-y="872" editor-visible="1" editor-x="0" editor-y="490"/>
+		<contraption-view contraption-name="SGain_1" patcher-x="1090" patcher-y="837" editor-visible="1" editor-x="0" editor-y="0"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>

@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications/AudioMulch%202.1.1" document-path="file:///Users/danielmkarlsson/Music">
+	<patch>
+		<clock tempo="120" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.501187233627272</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="_bubblerStereo?type=au&amp;key=aumf+bubSDHK&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="_bubblerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5dUHJvZ3JhbU51bWJlclR0eXBlXG1hbnVmYWN0dXJlclRu
+YW1lV3ZzdGRhdGFXdmVyc2lvbldzdWJ0eXBlEAASYXVtZhJTREhLW1VzZXIgUHJlc2V0TxCsQ2Nu
+SwAAAKRGeENrAAAAAStidWIAAAABAAAAHVVzZXIgUHJlc2V0AAAAAAAAAAAAAAAAAAAAAAA9w2MO
+Pe38jj98z/M+yqsqAAAAAD8xYsUAAAAAPfHjyAAAAAAAAAAAAAAAAD+AAAA/gAAAP4AAAD+AAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAB
+EitidWIACAAXACUAKgA3ADwARABMAFQAVgBbAGAAbAEbAR0AAAAAAAACAQAAAAAAAAAPAAAAAAAA
+AAAAAAAAAAABIg==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="time" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="pitch-bend" port="0" channel="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="time vari" property-index="1">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="31.1176219251663">
+						<midi-message-spec type="pitch-bend" port="0" channel="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="pitch-bend" port="0" channel="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grain size" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="50">
+						<midi-message-spec type="pitch-bend" port="0" channel="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="g size vari" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="100">
+						<midi-message-spec type="pitch-bend" port="0" channel="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="pitch-bend" port="0" channel="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="7">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="0"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="oct vari" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="2">
+						<midi-message-spec type="pitch-bend" port="0" channel="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="g reversal" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="100">
+						<midi-message-spec type="pitch-bend" port="0" channel="9"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="filter freq" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="DtBlkFx?type=vst" name="DtBlkFx_2">
+			<properties>
+				<chunk>
+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
+				</chunk>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="0.FrqA" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="22"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqB" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="23"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Amp" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="24"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Fx" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="20"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Val" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="25"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqA" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="26"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqB" property-index="10">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="27"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Amp" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="28"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Fx" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="29"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Val" property-index="13">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="30"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqA" property-index="14">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="31"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqB" property-index="15">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="32"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Amp" property-index="16">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Fx" property-index="17">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="34"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Val" property-index="18">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="35"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqA" property-index="19">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="36"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqB" property-index="20">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="37"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Amp" property-index="21">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="38"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Fx" property-index="22">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="39"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Val" property-index="23">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="40"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqA" property-index="24">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="41"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqB" property-index="25">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="42"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Amp" property-index="26">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="43"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Fx" property-index="27">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="44"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Val" property-index="28">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="45"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqA" property-index="29">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="46"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqB" property-index="30">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="47"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Amp" property-index="31">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="48"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Fx" property-index="32">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="49"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Val" property-index="33">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="50"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqA" property-index="34">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="51"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqB" property-index="35">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="52"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Amp" property-index="36">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="53"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Fx" property-index="37">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="54"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Val" property-index="38">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="55"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqA" property-index="39">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="56"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqB" property-index="40">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="57"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Amp" property-index="41">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="58"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Fx" property-index="42">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="59"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Val" property-index="43">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="60"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="DtBlkFx?type=vst" name="DtBlkFx_1">
+			<properties>
+				<chunk>
+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
+				</chunk>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="0.FrqA" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="22"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqB" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="23"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Amp" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="24"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Fx" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="20"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Val" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="25"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqA" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="26"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqB" property-index="10">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="27"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Amp" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="28"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Fx" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="29"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Val" property-index="13">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="30"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqA" property-index="14">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="31"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqB" property-index="15">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="32"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Amp" property-index="16">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Fx" property-index="17">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="34"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Val" property-index="18">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="35"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqA" property-index="19">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="36"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqB" property-index="20">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="37"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Amp" property-index="21">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="38"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Fx" property-index="22">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="39"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Val" property-index="23">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="40"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqA" property-index="24">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="41"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqB" property-index="25">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="42"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Amp" property-index="26">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="43"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Fx" property-index="27">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="44"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Val" property-index="28">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="45"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqA" property-index="29">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="46"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqB" property-index="30">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="47"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Amp" property-index="31">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="48"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Fx" property-index="32">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="49"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Val" property-index="33">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="50"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqA" property-index="34">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="51"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqB" property-index="35">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="52"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Amp" property-index="36">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="53"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Fx" property-index="37">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="54"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Val" property-index="38">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="55"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqA" property-index="39">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="56"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqB" property-index="40">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="57"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Amp" property-index="41">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="58"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Fx" property-index="42">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="59"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Val" property-index="43">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="60"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="P4Mixer" name="P4Mixer_1">
+			<properties>
+				<property index="0" name="MasterGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="MasterMute">
+					<bool>0</bool>
+				</property>
+				<property index="2" name="Mute_1">
+					<bool>0</bool>
+				</property>
+				<property index="3" name="Mute_2">
+					<bool>0</bool>
+				</property>
+				<property index="4" name="Mute_3">
+					<bool>0</bool>
+				</property>
+				<property index="5" name="Mute_4">
+					<bool>0</bool>
+				</property>
+				<property index="6" name="Solo_1">
+					<bool>0</bool>
+				</property>
+				<property index="7" name="Solo_2">
+					<bool>0</bool>
+				</property>
+				<property index="8" name="Solo_3">
+					<bool>0</bool>
+				</property>
+				<property index="9" name="Solo_4">
+					<bool>0</bool>
+				</property>
+				<property index="10" name="Gain_1">
+					<double>0</double>
+				</property>
+				<property index="11" name="Gain_2">
+					<double>0</double>
+				</property>
+				<property index="12" name="Gain_3">
+					<double>1</double>
+				</property>
+				<property index="13" name="Gain_4">
+					<double>1</double>
+				</property>
+				<property index="14" name="Pan_1">
+					<double>0</double>
+				</property>
+				<property index="15" name="Pan_2">
+					<double>1</double>
+				</property>
+				<property index="16" name="Pan_3">
+					<double>0</double>
+				</property>
+				<property index="17" name="Pan_4">
+					<double>1</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain_1" property-index="10">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="1"/>
+							<mapping-point in="16383" out="0"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_2" property-index="11">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="1"/>
+							<mapping-point in="16383" out="0"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_3" property-index="12">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_4" property-index="13">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="C4__s_?type=au&amp;key=aufxDEQSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C4__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkR6AAAAAAADQqaqqwAAAARDbAAA
+AAAABUP2gAAAAAAGRFZAAAAAAAdEegAAAAAACEQRwAAAAAAJQ5KAAAAAAApEFUAAAAAAC0ONAAAA
+AAAMAAAAAAAAAA0AAAAAAAAADkP4AAAAAAAPRBHAAAAAABBDRgAAAAAAEUPyAAAAAAASQx8AAAAA
+ABMAAAAAAAAAFAAAAAAAAAAVRCGAAAAAABZEEcAAAAAAF0NGAAAAAAAYQ/IAAAAAABlDHwAAAAAA
+GgAAAAAAAAAbAAAAAAAAABxEJIAAAAAAHUQRwAAAAAAeQp4AAAAAAB9D3QAAAAAAIEL+AAAAAAAh
+AAAAAAAAACIAAAAAAAAAI0QOwABPEQU5AAAFOQAAAAQAAAABREVRU3NldEEAAAUZWFBzdDxQcmVz
+ZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkRlZXBlciIgR2VuZXJp
+Y1R5cGU9IlJNQkMiPgoJCTxQcmVzZXRIZWFkZXI+CgkJCTxQbHVnaW5OYW1lPkM0PC9QbHVnaW5O
+YW1lPgoJCQk8UGx1Z2luVmVyc2lvbj43LjAuMDwvUGx1Z2luVmVyc2lvbj4KCQkJPEFjdGl2ZVNl
+dHVwPlNFVFVQX0E8L0FjdGl2ZVNldHVwPgoJCQk8UmVhZE9ubHk+dHJ1ZTwvUmVhZE9ubHk+CgkJ
+PC9QcmVzZXRIZWFkZXI+CgkJPE1lc3NhZ2VUb1NoZWxsLz4KCQk8UHJlc2V0RGF0YSBTZXR1cD0i
+U0VUVVBfQSIgU2V0dXBOYW1lPSJEZWVwZXIiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFsV29y
+bGQiPjg2IDU0OSA3NjA2IDAuNzUgMCAwIDAgLTE1ICogKgoqICogKiAqIDAgMCAwIDAgMwotNDAu
+Mjk5OTk5OTk5OTk5OTk3MTU4IC0xMS42OTk5OTk5OTk5OTk5OTkyODkgMC43NSAzMC44OTk5OTk5
+OTk5OTk5OTg1NzkgMzUuMDcwMDAwMDAwMDAwMDAwMjg0IDAgMCAqIDAKMCAwIDAgMCAzIC0yOC4z
+MDAwMDAwMDAwMDAwMDA3MTEgLTE1LjY5OTk5OTk5OTk5OTk5OTI4OSAwLjc1IDE0LjE2MDAwMDAw
+MDAwMDAwMDE0MgoxNSAwIDAgKiAwIDAgMCAwIDAKMyAtMjcuMzk5OTk5OTk5OTk5OTk4NTc5IC0x
+NS42OTk5OTk5OTk5OTk5OTkyODkgMC43NSAxNC4xNjAwMDAwMDAwMDAwMDAxNDIgMTUgMCAwICoK
+MCAwIDAgMCAwIDMgLTM0LjI5OTk5OTk5OTk5OTk5NzE1OCAtMjAuNjk5OTk5OTk5OTk5OTk5Mjg5
+IDAuNzUKMTAuNTg5OTk5OTk5OTk5OTk5ODU4IDEyLjAxOTk5OTk5OTk5OTk5OTU3NCAwIDAgKiAw
+IDwvUGFyYW1ldGVycz4KCQk8L1ByZXNldERhdGE+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQ
+X0IiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFsV29ybGQiPjkyIDQwMDAgMTEwNzEgMC41OTk5
+OTk5OTk5OTk5OTk5Nzc4IDAgMCAwIDAgKiAqCiogKiAqICogMCAwIDAgMCAwCi0yNyAtOCAwLjUg
+MzQuOTkwMDAwMDAwMDAwMDAxOTkgNDAuMjcwMDAwMDAwMDAwMDAzMTI2IDAgMCAqIDAKMCAwIDAg
+MCAwIC0xOS4xOTk5OTk5OTk5OTk5OTkyODkgLTggMC41IDE2LjAzMDAwMDAwMDAwMDAwMTEzNwoy
+NSAwIDAgKiAwIDAgMCAwIDAKMCAtMzAuMTAwMDAwMDAwMDAwMDAxNDIxIC04IDAuNSA0Ljk5MDAw
+MDAwMDAwMDAwMDIxMzIgOS45ODAwMDAwMDAwMDAwMDA0MjYzIDAgMCAqCjAgMCAwIDAgMCAwIC0z
+NS4yOTk5OTk5OTk5OTk5OTcxNTggLTggMC41CjIgNSAwIDAgKiAwIDwvUGFyYW1ldGVycz4KCQk8
+L1ByZXNldERhdGE+Cgk8L1ByZXNldD4KPC9QcmVzZXRDaHVua1hNTFRyZWU+CjkyODkQANIQERIV
+UTFRMtETFFEwXk1haW4gSW5wdXQgQnVz0RMWXxAPTWFpbiBPdXRwdXQgQnVzEkRFUVMACAAZAB4A
+KwAwADUAQABIAFUAXQBiAGcAcwGjBuAG4gbnBukG6wbuBvAG/wcCBxQAAAAAAAACAQAAAAAAAAAY
+AAAAAAAAAAAAAAAAAAAHGQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="MUtility?type=vst" name="MUtility_1">
+			<properties>
+				<chunk>
+eNrtmU1vm0AQhu/+FYhDL5aDwV+RCo5i100jQZoaKfetmdirLLsIFpf013dYEgKGHipxqva2et+Z
+2dnZfcQB96aImXGGNKOCe6Z9NTUN4AcRUX70zFw+T67Nm/XIzUBKlDLj9m7rmRi0PRHOgQUiAs/0
+4VkaY2NPjyeJVp6mwOVjCph1zyMoVIZPYyohVeuAFP7X7xsmDi8h/Y0VZo5pJCQlMWDIbRSpqA9B
+SnJ4Qe1qajfkDclgx/PYM5vZW2wpbecrqWy1ii7bHatmjcmno/xsBIKLcYiBIBpZX7aqwctitYxd
+Ac+JxMlVdSfLaGNYhjhIcoa+jB85YVS+lgdZNH1g5HXHyU8GeHD70gkoYzSDg+BRdtFKaYckThig
+40xnq4a542dgIoG6cDNzVyQdAe+regVFr95b545Q3lbucdtUliPu09XU24Yvjm0hIPLUu1lCuMAl
+6VeZ2nJi91hptWvTeiwXdruS0py2tgcG+MzKK2um74Owt0XUvwnWFX3gR3nqvODwF0nKUfWM5Umw
+PAbV9CVJT++4zpf2Ynltrt0qwv4bepqszkX9E1lTjdX/h9Xa3QouU8EY4mSt3Qchoa1Yb1jh969a
+ORowDZgGbGjAnBqwmQZMA6YBGxqwWQ3YXAOmAdOADQ3YvAZsoQHTgGnAhgZsUQO21IBpwDRgQwO2
+rAFbacA0YBqwoQFbVYCdqcizByje6PoItdBvJY66tUau9f4jbj36A0w+toJldGVyTWF0aEVuYWJs
+ZWQ9IjAiIHBhcmFtZXRlcnBhbm9yYW1hPSIwIiBwYXJhbWV0ZXJwYW5vcmFtYWxlZnQ9Ii0xIiBw
+YXJhbWV0ZXJwYW5vcmFtYXJpZ2h0PSIxIiBwYXJhbWV0ZXJQYXJhbTE9IjAiIHBhcmFtZXRlclBh
+cmFtMj0iMCIgcGFyYW1ldGVyUmVsZWFzZT0iMC4xIiBwYXJhbWV0ZXJSTVNFbmFibGVkPSIwIiBw
+YXJhbWV0ZXJSTVNIb2xkPSIwIiBwYXJhbWV0ZXJSTVNMZW5ndGg9IjAuMDEiIHBhcmFtZXRlclN3
+YXBMZWZ0UmlnaHQ9IjAiIHBhcmFtZXRlclZvbHVtZT0iMSI+PENvbnRyb2xsZXJzLz48Tm90ZUNv
+bnRyb2xsZXJzLz48L1ByZXNldDc+CjxQcmV2aW91c05leHRQcmVzZXRDb250cm9sbGVyLz4KPENv
+bnRyb2xsZXJzLz4KPE5vdGVDb250cm9sbGVycy8+Cjwvc2V0dGluZ3M+ClN3YXBMZWZ0UmlnaHQ9
+IjAiIHBhcmFtZXRlclZvbHVtZT0iMSI+PENvbnRyb2xsZXJzLz48Tm90ZUNvbnRyb2xsZXJzLw==
+				</chunk>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="MGain" name="MGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>1</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="21"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Mute" property-index="1">
+					<midi-controller invert="1" toggle="0" threshold="8064">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="20"/>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="MGain" name="MGain_2">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>1</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="21"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Mute" property-index="1">
+					<midi-controller invert="1" toggle="0" threshold="8064">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="20"/>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="P4Mixer" name="P4Mixer_2">
+			<properties>
+				<property index="0" name="MasterGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="MasterMute">
+					<bool>0</bool>
+				</property>
+				<property index="2" name="Mute_1">
+					<bool>0</bool>
+				</property>
+				<property index="3" name="Mute_2">
+					<bool>0</bool>
+				</property>
+				<property index="4" name="Mute_3">
+					<bool>0</bool>
+				</property>
+				<property index="5" name="Mute_4">
+					<bool>0</bool>
+				</property>
+				<property index="6" name="Solo_1">
+					<bool>0</bool>
+				</property>
+				<property index="7" name="Solo_2">
+					<bool>0</bool>
+				</property>
+				<property index="8" name="Solo_3">
+					<bool>0</bool>
+				</property>
+				<property index="9" name="Solo_4">
+					<bool>0</bool>
+				</property>
+				<property index="10" name="Gain_1">
+					<double>0</double>
+				</property>
+				<property index="11" name="Gain_2">
+					<double>0</double>
+				</property>
+				<property index="12" name="Gain_3">
+					<double>1</double>
+				</property>
+				<property index="13" name="Gain_4">
+					<double>1</double>
+				</property>
+				<property index="14" name="Pan_1">
+					<double>0</double>
+				</property>
+				<property index="15" name="Pan_2">
+					<double>1</double>
+				</property>
+				<property index="16" name="Pan_3">
+					<double>0</double>
+				</property>
+				<property index="17" name="Pan_4">
+					<double>1</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain_1" property-index="10">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="1"/>
+							<mapping-point in="16383" out="0"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_2" property-index="11">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="1"/>
+							<mapping-point in="16383" out="0"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_3" property-index="12">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_4" property-index="13">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="GeometerStereo?type=au&amp;key=aumfDFgrDFX!&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="GeometerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXmRlc3Ry
+b3lmeC1kYXRhV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkRGWCFbVXNlciBQcmVzZXRPEQfEAAAAAAAA
+AAAAAAD3AAAAAEEQAAAAAAABAAAAAAAAAAJAQAAAAAAAAz9BgwYAAAAEP1+/fwAAAAU/AQIEAAAA
+Bj7ly5cAAAAHPt27dwAAAAg+mTJlAAAACT0j1woAAAAKPSPXCgAAAAs9I9cKAAAADD0j1woAAAAN
+PSPXCgAAAA49I9cKAAAADz0j1woAAAAQPSPXCgAAABE9I9cKAAAAEj0j1woAAAATPSPXCgAAABQ9
+I9cKAAAAFT0j1woAAAAWPSPXCgAAABc9I9cKAAAAGD0j1woAAAAZPSPXCgAAABo9I9cKAAAAGz0j
+1woAAAAcPSPXCgAAAB09I9cKAAAAHj0j1woAAAAfPSPXCgAAACA9I9cKAAAAIT0j1woAAAAiPSPX
+CgAAACM9I9cKAAAAJD0j1woAAAAlPSPXCgAAACY9I9cKAAAAJz0j1woAAAAoPSPXCgAAACk9I9cK
+AAAAKj0j1woAAAArPSPXCgAAACw9I9cKAAAALT0j1woAAAAuPSPXCgAAAC89I9cKAAAAMD0j1woA
+AAAxPSPXCgAAADI9I9cKAAAAMwAAAAAAAAA0Py1atQAAADU+ESJFAAAANj4pUqUAAAA3Pq1atQAA
+ADg/X79/AAAAOT8VKlUAAAA6PQECBAAAADs/PXr2AAAAPAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAA
+PwAAAAAAAABAAAAAAAAAAEEAAAAAAAAAQgAAAAAAAABDAAAAAAAAAEQAAAAAAAAARQAAAAAAAABG
+AAAAAAAAAEcAAAAAAAAASAAAAAAAAABJAAAAAAAAAEoAAAAAAAAASwAAAAAAAABMAAAAAAAAAE0A
+AAAAAAAATgAAAAAAAABPAAAAAAAAAFAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAFMAAAAAAAAAVAAA
+AAAAAABVAAAAAAAAAFYAAAAAAAAAVwAAAAAAAABYAAAAAAAAAFkAAAAAAAAAWgAAAAAAAABbAAAA
+AAAAAFwAAAAAAAAAXQAAAAAAAABeAAAAAAAAAF8AAAAAAAAAYAAAAAAAAABhAAAAAAAAAGIAAAAA
+AAAAYwAAAAAAAABkQOAAAAAAAGU/AAAAAAAAZgAAAAAAAABnAAAAAAAAAGg+GZmaAAAAaT8AAAAA
+AABqPoAAAAAAAGs/AAAAAAAAbAAAAAAAAABtPwAAAAAAAG4/AAAAAAAAbz8AAAAAAABwPwAAAAAA
+AHE/AAAAAAAAcj8AAAAAAABzPwAAAAAAAHQ/AAAAAAAAdT8AAAAAAAB2PwAAAAAAAHc/AAAAAAAA
+eD8AAAAAAAB5PwAAAAAAAHo/AAAAAAAAez8AAAAAAAB8PwAAAAAAAH0/AAAAAAAAfj8AAAAAAAB/
+PwAAAAAAAIA/AAAAAAAAgT8AAAAAAACCPwAAAAAAAIM/AAAAAAAAhD8AAAAAAACFPwAAAAAAAIY/
+AAAAAAAAhz8AAAAAAACIPwAAAAAAAIk/AAAAAAAAij8AAAAAAACLPwAAAAAAAIw/AAAAAAAAjT8A
+AAAAAACOPwAAAAAAAI8/AAAAAAAAkD8AAAAAAACRPwAAAAAAAJI/AAAAAAAAkz8AAAAAAACUPwAA
+AAAAAJVA4AAAAAAAlj8AAAAAAACXAAAAAAAAAJgAAAAAAAAAmT4ZmZoAAACaPwAAAAAAAJs+gAAA
+AAAAnD8AAAAAAACdAAAAAAAAAJ4/AAAAAAAAnz8AAAAAAACgPwAAAAAAAKE/AAAAAAAAoj8AAAAA
+AACjPwAAAAAAAKQ/AAAAAAAApT8AAAAAAACmPwAAAAAAAKc/AAAAAAAAqD8AAAAAAACpPwAAAAAA
+AKo/AAAAAAAAqz8AAAAAAACsPwAAAAAAAK0/AAAAAAAArj8AAAAAAACvPwAAAAAAALA/AAAAAAAA
+sT8AAAAAAACyPwAAAAAAALM/AAAAAAAAtD8AAAAAAAC1PwAAAAAAALY/AAAAAAAAtz8AAAAAAAC4
+PwAAAAAAALk/AAAAAAAAuj8AAAAAAAC7PwAAAAAAALw/AAAAAAAAvT8AAAAAAAC+PwAAAAAAAL8/
+AAAAAAAAwD8AAAAAAADBPwAAAAAAAMI/AAAAAAAAwz8AAAAAAADEPwAAAAAAAMU/AAAAAAAAxkDg
+AAAAAADHPwAAAAAAAMgAAAAAAAAAyQAAAAAAAADKPhmZmgAAAMs/AAAAAAAAzD6AAAAAAADNPwAA
+AAAAAM4AAAAAAAAAzz8AAAAAAADQPwAAAAAAANE/AAAAAAAA0j8AAAAAAADTPwAAAAAAANQ/AAAA
+AAAA1T8AAAAAAADWPwAAAAAAANc/AAAAAAAA2D8AAAAAAADZPwAAAAAAANo/AAAAAAAA2z8AAAAA
+AADcPwAAAAAAAN0/AAAAAAAA3j8AAAAAAADfPwAAAAAAAOA/AAAAAAAA4T8AAAAAAADiPwAAAAAA
+AOM/AAAAAAAA5D8AAAAAAADlPwAAAAAAAOY/AAAAAAAA5z8AAAAAAADoPwAAAAAAAOk/AAAAAAAA
+6j8AAAAAAADrPwAAAAAAAOw/AAAAAAAA7T8AAAAAAADuPwAAAAAAAO8/AAAAAAAA8D8AAAAAAADx
+PwAAAAAAAPI/AAAAAAAA8z8AAAAAAAD0PwAAAAAAAPU/AAAAAAAA9j8AAABPESrUREZncgABAgAA
+AAAAAAAAIAAAAPcAAAABAAAAJAAAAAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAA
+AAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAA
+FgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAk
+AAAAJQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQAAADIA
+AAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAA/AAAAQAAA
+AEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoAAABLAAAATAAAAE0AAABOAAAA
+TwAAAFAAAABRAAAAUgAAAFMAAABUAAAAVQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAFwAAABd
+AAAAXgAAAF8AAABgAAAAYQAAAGIAAABjAAAAZAAAAGUAAABmAAAAZwAAAGgAAABpAAAAagAAAGsA
+AABsAAAAbQAAAG4AAABvAAAAcAAAAHEAAAByAAAAcwAAAHQAAAB1AAAAdgAAAHcAAAB4AAAAeQAA
+AHoAAAB7AAAAfAAAAH0AAAB+AAAAfwAAAIAAAACBAAAAggAAAIMAAACEAAAAhQAAAIYAAACHAAAA
+iAAAAIkAAACKAAAAiwAAAIwAAACNAAAAjgAAAI8AAACQAAAAkQAAAJIAAACTAAAAlAAAAJUAAACW
+AAAAlwAAAJgAAACZAAAAmgAAAJsAAACcAAAAnQAAAJ4AAACfAAAAoAAAAKEAAACiAAAAowAAAKQA
+AAClAAAApgAAAKcAAACoAAAAqQAAAKoAAACrAAAArAAAAK0AAACuAAAArwAAALAAAACxAAAAsgAA
+ALMAAAC0AAAAtQAAALYAAAC3AAAAuAAAALkAAAC6AAAAuwAAALwAAAC9AAAAvgAAAL8AAADAAAAA
+wQAAAMIAAADDAAAAxAAAAMUAAADGAAAAxwAAAMgAAADJAAAAygAAAMsAAADMAAAAzQAAAM4AAADP
+AAAA0AAAANEAAADSAAAA0wAAANQAAADVAAAA1gAAANcAAADYAAAA2QAAANoAAADbAAAA3AAAAN0A
+AADeAAAA3wAAAOAAAADhAAAA4gAAAOMAAADkAAAA5QAAAOYAAADnAAAA6AAAAOkAAADqAAAA6wAA
+AOwAAADtAAAA7gAAAO8AAADwAAAA8QAAAPIAAADzAAAA9AAAAPUAAAD2R2VvbWV0ZXIgTG9GaQAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEQAAAAAAAA
+QEAAAD9BgwY/X79/PwECBD7ly5c+3bt3PpkyZT0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9
+I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j
+1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPX
+Cj0j1wo9I9cKPSPXCj0j1wo9I9cKPSPXCgAAAAA/LVq1PhEiRT4pUqU+rVq1P1+/fz8VKlU9AQIE
+Pz169gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA4AAAPwAA
+AAAAAAAAAAAAPhmZmj8AAAA+gAAAPwAAAAAAAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAA
+PwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/
+AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8A
+AAA/AAAAPwAAAD8AAAA/AAAAQOAAAD8AAAAAAAAAAAAAAD4ZmZo/AAAAPoAAAD8AAAAAAAAAPwAA
+AD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAA
+PwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/
+AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAEDgAAA/AAAAAAAAAAAA
+AAA+GZmaPwAAAD6AAAA/AAAAAAAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAA
+AD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAA
+PwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/
+AAAAPwAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAQABJERmdyAAgAFwAcACkALgAzAEIASgBSAFcAXABoCDAzCDMKAAAAAAAAAgEA
+AAAAAAAADwAAAAAAAAAAAAAAAAAAMw8=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="points where" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="47">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:ext'n'cross" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:freq" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:rand" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:span" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:dydx" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="9"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="point:level" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="10"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interpolate how" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="47">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="11"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:polygon" property-index="10">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="12"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:wrongy" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="13"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:smoothie" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="14"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:reversie" property-index="13">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="15"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:pulse" property-index="14">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="16"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:friends" property-index="15">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="17"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:sing" property-index="16">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="18"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="interp:shuffle" property-index="17">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="19"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Maximizer?type=au&amp;key=aufxZnOMiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Maximizer_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9NEmladHBPEQgXGNVuAAIAAAALCAAAAADIQiFVkD5QAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAMhCuzg/wQAAAAAA
+AKBBAADIQgAAyEIAAIBAAADIQgAAAAAAAAABAQIAAAAAAAAAAgAAAAEAAAAAAAAAAQEAAAAAAAAA
+AgAAAAAAAAACAAAABQAAAAIAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAFhVbnRpdGxlZBAA
+AAgAFQAaACIALwA0ADkAQQBGAEsAUAhrCHQAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAI
+dg==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<audio-connection from="_bubblerStereo_1" from-outlet="0" to="GeometerStereo_1" to-inlet="0"/>
+		<audio-connection from="GeometerStereo_1" from-outlet="1" to="P4Mixer_1" to-inlet="3"/>
+		<audio-connection from="P4Mixer_2" from-outlet="1" to="MGain_2" to-inlet="0"/>
+		<audio-connection from="MGain_2" from-outlet="0" to="_bubblerStereo_1" to-inlet="1"/>
+		<audio-connection from="MGain_1" from-outlet="0" to="_bubblerStereo_1" to-inlet="0"/>
+		<audio-connection from="P4Mixer_2" from-outlet="0" to="MGain_1" to-inlet="0"/>
+		<audio-connection from="P4Mixer_1" from-outlet="0" to="P4Mixer_2" to-inlet="0"/>
+		<audio-connection from="P4Mixer_1" from-outlet="1" to="P4Mixer_2" to-inlet="1"/>
+		<audio-connection from="MUtility_1" from-outlet="1" to="P4Mixer_1" to-inlet="1"/>
+		<audio-connection from="MUtility_1" from-outlet="0" to="P4Mixer_1" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="C4__s__1" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="C4__s__1" to-inlet="1"/>
+		<audio-connection from="P4Mixer_2" from-outlet="1" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="P4Mixer_2" from-outlet="0" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="1" to="MUtility_1" to-inlet="1"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="0" to="MUtility_1" to-inlet="0"/>
+		<audio-connection from="P4Mixer_1" from-outlet="1" to="DtBlkFx_2" to-inlet="0"/>
+		<audio-connection from="DtBlkFx_2" from-outlet="0" to="P4Mixer_2" to-inlet="3"/>
+		<audio-connection from="P4Mixer_1" from-outlet="0" to="DtBlkFx_1" to-inlet="0"/>
+		<audio-connection from="DtBlkFx_1" from-outlet="0" to="P4Mixer_2" to-inlet="2"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="1" to="GeometerStereo_1" to-inlet="1"/>
+		<audio-connection from="GeometerStereo_1" from-outlet="0" to="P4Mixer_1" to-inlet="2"/>
+		<audio-connection from="C4__s__1" from-outlet="0" to="Ozone_5_Maximizer_1" to-inlet="0"/>
+		<audio-connection from="C4__s__1" from-outlet="1" to="Ozone_5_Maximizer_1" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="1" to="SoundOut" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="767" top="213" width="443" height="430" encoding="UTF-8">
+			<para>Filter		1</para>
+			<para>Contrast		2</para>
+			<para>Smear		3</para>
+			<para>Threshold		4</para>
+			<para>Clip		5</para>
+			<para>Resize		6</para>
+			<para>Resample		7</para>
+			<para>Shift		8</para>
+			<para>Constshift		9</para>
+			<para>Harmshift		10</para>
+			<para>HarmRepitch		11</para>
+			<para>HarmFilt		12</para>
+			<para>AutoHarm		13</para>
+			<para>Triangles		14</para>
+			<para>Squares		15</para>
+			<para>Saws		16</para>
+			<para>Pointy		17</para>
+			<para>Sweep		18</para>
+			<para>HarmMask		19</para>
+			<para>AutoHarmMask	20</para>
+			<para>ASubH1Mask		21</para>
+			<para>ASubH2Mask		22</para>
+			<para>ASubH3Mask		23</para>
+			<para>ThreshMask		24</para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="479" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="100" snapshots-width="100" interpolate-mode="0"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="SGain_1" patcher-x="-187" patcher-y="108" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="_bubblerStereo_1" patcher-x="-188" patcher-y="-177" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="DtBlkFx_2" patcher-x="-75" patcher-y="25" editor-visible="0" editor-x="440" editor-y="0"/>
+		<contraption-view contraption-name="DtBlkFx_1" patcher-x="-93" patcher-y="-12" editor-visible="0" editor-x="0" editor-y="0" editor-width="440" editor-height="520"/>
+		<contraption-view contraption-name="P4Mixer_1" patcher-x="-188" patcher-y="-43" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="C4__s__1" patcher-x="-187" patcher-y="152" editor-visible="0" editor-x="30" editor-y="30"/>
+		<contraption-view contraption-name="MUtility_1" patcher-x="-188" patcher-y="-89" editor-visible="0" editor-x="10" editor-y="10"/>
+		<contraption-view contraption-name="MGain_1" patcher-x="-56" patcher-y="-203" editor-visible="0" editor-x="580" editor-y="280"/>
+		<contraption-view contraption-name="MGain_2" patcher-x="-43" patcher-y="-169" editor-visible="0" editor-x="690" editor-y="280"/>
+		<contraption-view contraption-name="P4Mixer_2" patcher-x="-188" patcher-y="54" editor-visible="0" editor-x="70" editor-y="20"/>
+		<contraption-view contraption-name="GeometerStereo_1" patcher-x="-115" patcher-y="-125" editor-visible="0" editor-x="450" editor-y="0"/>
+		<contraption-view contraption-name="SoundOut" patcher-x="-183" patcher-y="283" editor-visible="0" editor-x="0" editor-y="490"/>
+		<contraption-view contraption-name="Ozone_5_Maximizer_1" patcher-x="-185" patcher-y="232" editor-visible="0" editor-x="10" editor-y="10" editor-width="550" editor-height="230"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>

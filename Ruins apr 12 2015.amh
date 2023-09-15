@@ -1,0 +1,3260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications" document-path="file:///Users/Mats/Music/DMK">
+	<patch>
+		<clock tempo="120" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Start" property-index="1">
+					<midi-controller threshold="8064">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="37"/>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="AuxOut1" name="AuxOut1">
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="DtBlkFx?type=vst" name="DtBlkFx_2">
+			<properties>
+				<chunk>
+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
+				</chunk>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Delay" property-index="1">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.05421686746988">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="BlkSz" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.37951808772891">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqA" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqB" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Amp" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Fx" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Val" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqA" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqB" property-index="10">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Amp" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="9"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Fx" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="10"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Val" property-index="13">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="11"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqA" property-index="14">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="12"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqB" property-index="15">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="13"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Amp" property-index="16">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="14"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Fx" property-index="17">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="15"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Val" property-index="18">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="16"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqA" property-index="19">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="17"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqB" property-index="20">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="18"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Amp" property-index="21">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="19"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Fx" property-index="22">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="20"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Val" property-index="23">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="21"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqA" property-index="24">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="22"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqB" property-index="25">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="23"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Amp" property-index="26">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="24"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Fx" property-index="27">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="25"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Val" property-index="28">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="26"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqA" property-index="29">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="27"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqB" property-index="30">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="28"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Amp" property-index="31">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="29"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Fx" property-index="32">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="30"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Val" property-index="33">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="31"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqA" property-index="34">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="32"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqB" property-index="35">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Amp" property-index="36">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="34"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Fx" property-index="37">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="35"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Val" property-index="38">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="36"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqA" property-index="39">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="37"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqB" property-index="40">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="38"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Amp" property-index="41">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="39"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Fx" property-index="42">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="40"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Val" property-index="43">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="41"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="RVerb__s_?type=au&amp;key=aufxRRFSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="RVerb__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8QpAAAAAAAAAAAAAAAEwAAAABD+gAAAAAAAURatqUAAAACRHoAAAAAAANEegAAAAAABER6AAAA
+AAAFRG2AAAAAAAZEegAAAAAAB0R6AAAAAAAIQ/mAAAAAAAlD7QAAAAAACkPr8ocAAAALRDoAAAAA
+AAxEegAAAAAADUQmwAAAAAAORCaccgAAAA9D94AAAAAAEER6AAAAAAARP4AAAAAAABJAgAAATxEF
+RAAABUQAAAAEAAAAAVJSRlNzZXRBAAAFJFhQc3Q8UHJlc2V0Q2h1bmtYTUxUcmVlIHZlcnNpb249
+IjIiPgoJPFByZXNldCBOYW1lPSIiIEdlbmVyaWNUeXBlPSJSUlZCIj4KCQk8UHJlc2V0SGVhZGVy
+PgoJCQk8UGx1Z2luTmFtZT5SVmVyYjwvUGx1Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OC4w
+LjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4K
+CQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdl
+VG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0EiPgoJCQk8UGFyYW1ldGVycyBU
+eXBlPSJSZWFsV29ybGQiPjMgMCAxMC4zMTAwMDAwMDAwMDAwMDA0OTcgMTAwIC0xMiAwIDEwIDEu
+NjAwMDAwMDAwMDAwMDAwMDg4OCAxIDEKNDkyIDIxMDAwIDAuNzA5OTk5OTk5OTk5OTk5OTY0NDcg
+MC40MDAwMDAwMDAwMDAwMDAwMjIyIDEgKiAqIDAgMAowIDE1NiAyMTAwMCAwIDE5ODggNyAwIDAu
+MjAwMDAwMDAwMDAwMDAwMDExMSA0MAoxIDMgMTcuMDk3MTg4NjYyNTAyMzY4NTcyIDIwMDAwIDEg
+LTIgMiAxLjUgMjEwMDAKLTYuMDk5OTk5OTk5OTk5OTk5NjQ0NyAxIDAuMDAxMDAwMDAwMDAwMDAw
+MDAwMDIwOCAwIDIyLjUgKiAxIDEgMQoxIDUgNCAxMDAgMy41IDAgMSAyIDgwCi0zNSAzIC0wLjYx
+OTk5OTk5OTk5OTk5OTk5NTU2IDI0NyAwLjIwMDAwMDAwMDAwMDAwMDAxMTEgMSAtMC40NTk5OTk5
+OTk5OTk5OTk5NjQ0NyAqICoKKiAwICogKiAqIDwvUGFyYW1ldGVycz4KCQk8L1ByZXNldERhdGE+
+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0IiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFs
+V29ybGQiPjEgMiAyLjM5OTk5OTk5OTk5OTk5OTkxMTIgMTAwIDAgMCA3IDEuNjAwMDAwMDAwMDAw
+MDAwMDg4OCAxIDAuNTk5OTk5OTk5OTk5OTk5OTc3OAo0OTIgMjAwOCAwLjcwOTk5OTk5OTk5OTk5
+OTk2NDQ3IDAuMjg3MDAwMDAwMDAwMDAwMDMyODYgMSAqICogMCAwCi0xMC42OTk5OTk5OTk5OTk5
+OTkyODkgMTU2IDU3MjMuMTAwMDAwMDAwMDAwMzYzOCAwIDE5ODggNyAwIDEgMTAuMDE5OTk5OTk5
+OTk5OTk5NTc0CjEgMyAxMC4wOTk5OTk5OTk5OTk5OTk2NDUgOTAyNy41IDAgLTIgMiAxLjUgMjg4
+NQotMy41IDEgMC44NDk5OTk5OTk5OTk5OTk4NjY3NyAwLjIyMDAwMDAwMDAwMDAwMDAwMTExIDAg
+KiAxIDEgMQowIC0xIDAgMCAzLjUgMCAxIDIgODAKLTQwIDMgMCAzNDAgLTAuNSAxIDAuMjk5OTk5
+OTk5OTk5OTk5OTg4OSAqICoKKiAwICogKiAqIDwvUGFyYW1ldGVycz4KCQk8L1ByZXNldERhdGE+
+Cgk8L1ByZXNldD4KPC9QcmVzZXRDaHVua1hNTFRyZWU+CgAAAAAQANIQERIVUTFRMtETFFEwXk1h
+aW4gSW5wdXQgQnVz0RMWXxAPTWFpbiBPdXRwdXQgQnVzElJSRlMACAAZAB4AKwAwADUAQABIAFUA
+XQBiAGcAcwEaBmIGZAZpBmsGbQZwBnIGgQaEBpYAAAAAAAACAQAAAAAAAAAYAAAAAAAAAAAAAAAA
+AAAGmw==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="FF_Pro_QStereo?type=au&amp;key=aumfFPQrFabF&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="FF_Pro_QStereo_1">
+			<properties>
+				<au-class-info>
+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
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C6__s_?type=au&amp;key=aufxC6QSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C6__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RAbwAAAAAAAAAAAAAADYAAAAAQyaqqwAAAAEAAAAAAAAAAgAAAAAAAAADRHoAAAAAAARDbDTF
+AAAABUP2eWIAAAAGREe/PgAAAAdEegAAAAAACAAAAAAAAAAJAAAAAAAAAApEegAAAAAAC0P5gAAA
+AAAMRA7bbgAAAA1D+v5yAAAADkP6/5kAAAAPQ5a20gAAABBDgIwmAAAAEQAAAAAAAAASAAAAAAAA
+ABNEGmAAAAAAFEQR1VUAAAAVQ5AMMQAAABZEMsA2AAAAF0OXAH8AAAAYAAAAAAAAABkAAAAAAAAA
+GkQqAAAAAAAbRBGVVQAAABxDkAwxAAAAHUQmwOAAAAAeQ4F/pAAAAB8AAAAAAAAAIAAAAAAAAAAh
+RDaAAAAAACJEEdVVAAAAI0OQDDEAAAAkRBRAaAAAACVDSPnVAAAAJgAAAAAAAAAnAAAAAAAAAChE
+JLAAAAAAKUQR1VUAAAAqQ5AMMQAAACtEBYFIAAAALAAAAAAAAAAtAAAAAAAAAC4AAAAAAAAAL0R6
+AAAAAAAwQ/oAAAAAADFEDttuAAAAMkP6/nIAAAAzQ/r/mQAAADRDlrbSAAAANUQ2ASRPEQcIAAAH
+CAAAAAQAAAABQzZRU3NldEEAAAboWFBzdDxQcmVzZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+
+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdlbmVyaWNUeXBlPSI2TUJDIj4KCQk8UHJlc2V0
+SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNjwvUGx1Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+
+OC4wLjE8L1BsdWdpblZlcnNpb24+CgkJCTxBY3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1
+cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNz
+YWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFy
+ZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43
+NSAwIDAgMCAtMTIgKiAqCiogKiAqICogMCAwIDAgMCAzCi0zMC42MDAwMDAwMDAwMDAwMDE0MjEg
+LTExLjkwMDAwMDAwMDAwMDAwMDM1NSAwLjc1IDY5LjgxOTk5OTk5OTk5OTk5MzE3OSA0MC4yNzAw
+MDAwMDAwMDAwMDMxMjYgMCAwICogMAowIDAgMCAwIDMgLTI1LjYwMDAwMDAwMDAwMDAwMTQyMSAt
+MTEuOTAwMDAwMDAwMDAwMDAwMzU1IDAuNzUgNTAuMTE5OTk5OTk5OTk5OTk3NDQyCjI5LjkyMDAw
+MDAwMDAwMDAwMTcwNSAwIDAgKiAwIDAgMCAwIDAKMyAtMjEuNjAwMDAwMDAwMDAwMDAxNDIxIC0x
+MS45MDAwMDAwMDAwMDAwMDAzNTUgMC43NSAzMC4wNTk5OTk5OTk5OTk5OTg3MjEgMjAuMDM5OTk5
+OTk5OTk5OTk5MTQ3IDAgMCAqCjAgMCAwIDAgMCAzIC0yNy4zMDAwMDAwMDAwMDAwMDA3MTEgLTEx
+LjkwMDAwMDAwMDAwMDAwMDM1NSAwLjc1CjIwIDUgMCAwICogMCAwIDAgMAowIDAgMCAwIDAuNSAx
+Ni4wMzAwMDAwMDAwMDAwMDExMzcgMTYwLjMxMDAwMDAwMDAwMDAwMjI3IDAgMAoqIDAgMCAwIDAg
+MCAwIDAgMAowLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3IDE2MC4zMTAwMDAwMDAwMDAwMDIyNyAw
+IDAgKiAwIDEwMCAxLjY0OTk5OTk5OTk5OTk5OTkxMTIKMCA0LjUgMjk5NyAxLjY0OTk5OTk5OTk5
+OTk5OTkxMTIgMCA0LjUgMCAwIDAKMCAwIDAgMCAwIDAgMCAwIDAKMCAwIDEgMSAwIDwvUGFyYW1l
+dGVycz4KCQk8L1ByZXNldERhdGE+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0IiIFNldHVw
+TmFtZT0iRGVmYXVsdCBBIj4KCQkJPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj45MiA0MDAw
+IDExMDcxIDAuNTk5OTk5OTk5OTk5OTk5OTc3OCAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAg
+MAowIC04IDAuNSAzNC45OTAwMDAwMDAwMDAwMDE5OSA0MC4yNzAwMDAwMDAwMDAwMDMxMjYgMSAx
+ICogMAowIDAgMCAwIDAgMCAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3CjI1IDEgMSAqIDAg
+MCAwIDAgMAowIDAgLTggMC41IDQuOTkwMDAwMDAwMDAwMDAwMjEzMiA5Ljk4MDAwMDAwMDAwMDAw
+MDQyNjMgMSAxICoKMCAwIDAgMCAwIDAgMCAtOCAwLjUKMiA1IDEgMSAqIDAgMCAwIDAKMCAxLjEw
+MDAwMDAwMDAwMDAwMDA4ODggMCAwIDAuNSAxNi4wMzAwMDAwMDAwMDAwMDExMzcgMTYwLjMxMDAw
+MDAwMDAwMDAwMjI3IDEgMQoqIDAgMCAwIDAgMCAxIDAgMAowLjUgMTYuMDMwMDAwMDAwMDAwMDAx
+MTM3IDE2MC4zMTAwMDAwMDAwMDAwMDIyNyAxIDEgKiAwIDEwMDAgMS42NDk5OTk5OTk5OTk5OTk5
+MTEyCjAgNC41IDUwMDMgMS42NDk5OTk5OTk5OTk5OTk5MTEyIDAgNC41IDAgMCAwCjAgMCAwIDAg
+MCAwIDAgMCAwCjAgMCAxIDEgMCA8L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJPC9QcmVz
+ZXQ+CjwvUHJlc2V0Q2h1bmtYTUxUcmVlPgoAAAAAEADSEBESFVExUTLRExRRMF5NYWluIElucHV0
+IEJ1c9ETFl8QD01haW4gT3V0cHV0IEJ1cxJDNlFTAAgAGQAeACsAMAA1AEAASABVAF0AYgBnAHMC
+Mwk/CUEJRglICUoJTQlPCV4JYQlzAAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAACXg=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="P4Mixer" name="P4Mixer_3">
+			<properties>
+				<property index="0" name="MasterGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="MasterMute">
+					<bool>0</bool>
+				</property>
+				<property index="2" name="Mute_1">
+					<bool>0</bool>
+				</property>
+				<property index="3" name="Mute_2">
+					<bool>0</bool>
+				</property>
+				<property index="4" name="Mute_3">
+					<bool>0</bool>
+				</property>
+				<property index="5" name="Mute_4">
+					<bool>0</bool>
+				</property>
+				<property index="6" name="Solo_1">
+					<bool>0</bool>
+				</property>
+				<property index="7" name="Solo_2">
+					<bool>0</bool>
+				</property>
+				<property index="8" name="Solo_3">
+					<bool>0</bool>
+				</property>
+				<property index="9" name="Solo_4">
+					<bool>0</bool>
+				</property>
+				<property index="10" name="Gain_1">
+					<double>1</double>
+				</property>
+				<property index="11" name="Gain_2">
+					<double>1</double>
+				</property>
+				<property index="12" name="Gain_3">
+					<double>0.262777890675724</double>
+				</property>
+				<property index="13" name="Gain_4">
+					<double>0.259831231590452</double>
+				</property>
+				<property index="14" name="Pan_1">
+					<double>0</double>
+				</property>
+				<property index="15" name="Pan_2">
+					<double>1</double>
+				</property>
+				<property index="16" name="Pan_3">
+					<double>0</double>
+				</property>
+				<property index="17" name="Pan_4">
+					<double>1</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain_3" property-index="12">
+					<midi-controller smoothing="0.200000002980232" map-minimum="0.00398107170553497" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="2" number="108"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_4" property-index="13">
+					<midi-controller smoothing="0.200000002980232" map-minimum="7.94328234724282E-09" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="2" number="108"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="Auto_Tune_EvoStereo?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Auto_Tune_EvoStereo_3">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RBSgA
+AACQAAAAkMgFAAAAAAAAMSAtMTEuOTAwMDAwMDAwMDAwMDAwMzU1AAAABgAABDgAAAAgAAAAAgAA
+AAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAABAAEAAQABAAAAAQAAAAEAAAAB
+AAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEA
+AQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAA
+AAEAAAABAAAAAAABAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0
+AAAACP//+9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQWZBZ4F
+owWmAAAAAAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAABas=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Buff_rice?type=vst" name="Buff_rice_3">
+			<properties>
+				<property index="0" name="Bit Preci">
+					<double>1</double>
+				</property>
+				<property index="1" name="Interpola">
+					<double>1</double>
+				</property>
+				<property index="2" name="in gain">
+					<double>0.5</double>
+				</property>
+				<property index="3" name="window st">
+					<double>0.090944878757</double>
+				</property>
+				<property index="4" name="window en">
+					<double>0.674454808235168</double>
+				</property>
+				<property index="5" name="window sp">
+					<double>0.094488188624382</double>
+				</property>
+				<property index="6" name="toggle sp">
+					<double>0.194380864500999</double>
+				</property>
+				<property index="7" name="overlap">
+					<double>1</double>
+				</property>
+				<property index="8" name="out gain">
+					<double>0.5</double>
+				</property>
+				<property index="9" name="hpf freq">
+					<double>0.028665978461504</double>
+				</property>
+				<property index="10" name="phase">
+					<double>0.271676301956177</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="window st" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.33">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="119"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="window sp" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.5">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="120"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_12">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.501187233627272</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Imager?type=au&amp;key=aufxZnOIiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Imager_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9JEmladHBPEQgjGNVuAAIAAAAXCAAAAADIQgAAAABQAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAACamRHBAAAAAJqZEcGamRHBAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAEhCAQEBAQEBAQAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAyEIAAOBAAAD6QAAA4UEAAHpCAAC4QgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACgQAAA8EIAAPpEAEAcRgAAAAAAAAAAAgAAAAQAAAAAAAAAAAAA
+AFtVc2VyIFByZXNldBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAh3CIMAAAAAAAACAQAAAAAAAAAN
+AAAAAAAAAAAAAAAAAAAIhQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_14">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.354813389233575</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_7">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="DtBlkFx?type=vst" name="DtBlkFx_1">
+			<properties>
+				<chunk>
+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
+				</chunk>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Delay" property-index="1">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.05421686746988">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="BlkSz" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.37951808772891">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqA" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.FrqB" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Amp" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Fx" property-index="7">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="0.Val" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqA" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.FrqB" property-index="10">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Amp" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="9"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Fx" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="10"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="1.Val" property-index="13">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="11"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqA" property-index="14">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="12"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.FrqB" property-index="15">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="13"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Amp" property-index="16">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="14"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Fx" property-index="17">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="15"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="2.Val" property-index="18">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="16"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqA" property-index="19">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="17"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.FrqB" property-index="20">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="18"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Amp" property-index="21">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="19"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Fx" property-index="22">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="20"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="3.Val" property-index="23">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="21"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqA" property-index="24">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="22"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.FrqB" property-index="25">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="23"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Amp" property-index="26">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="24"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Fx" property-index="27">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="25"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="4.Val" property-index="28">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="26"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqA" property-index="29">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="27"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.FrqB" property-index="30">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="28"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Amp" property-index="31">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="29"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Fx" property-index="32">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="30"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="5.Val" property-index="33">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="31"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqA" property-index="34">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="32"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.FrqB" property-index="35">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="33"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Amp" property-index="36">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="34"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Fx" property-index="37">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="35"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="6.Val" property-index="38">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="36"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqA" property-index="39">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="37"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.FrqB" property-index="40">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="38"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Amp" property-index="41">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="39"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Fx" property-index="42">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="40"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="7.Val" property-index="43">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="41"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="FileRecorder" name="FileRecorder_1">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>1</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_2">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Buff_rice?type=vst" name="Buff_rice_1">
+			<properties>
+				<property index="0" name="Bit Preci">
+					<double>1</double>
+				</property>
+				<property index="1" name="Interpola">
+					<double>1</double>
+				</property>
+				<property index="2" name="in gain">
+					<double>0.5</double>
+				</property>
+				<property index="3" name="window st">
+					<double>0.125984251499176</double>
+				</property>
+				<property index="4" name="window en">
+					<double>0.674454808235168</double>
+				</property>
+				<property index="5" name="window sp">
+					<double>0.968504011631012</double>
+				</property>
+				<property index="6" name="toggle sp">
+					<double>0.194380864500999</double>
+				</property>
+				<property index="7" name="overlap">
+					<double>1</double>
+				</property>
+				<property index="8" name="out gain">
+					<double>0.5</double>
+				</property>
+				<property index="9" name="hpf freq">
+					<double>0.028665978461504</double>
+				</property>
+				<property index="10" name="phase">
+					<double>0.271676301956177</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="window st" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.5">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="112"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="window sp" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0.5" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="116"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Auto_Tune_EvoStereo?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Auto_Tune_EvoStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RBSgA
+AACQAAAAkFRNM0lERTJNQzR6TVRBd01EQXdNREF3TURBd01ESXlOAAAABgAABDgAAAAgAAAAAgAA
+AAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAABAAEAAQABAAAAAQAAAAEAAAAB
+AAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEA
+AQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAA
+AAEAAAABAAAAAAABAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0
+AAAACP//+9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQWZBZ4F
+owWmAAAAAAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAABas=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Auto_Tune_EvoStereo?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Auto_Tune_EvoStereo_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RBSjI
+bX6shBRAASgFAAAoBQAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACQAAAABgAABDgAAAAgAAAAAgAA
+AAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAABAAEAAQABAAAAAQAAAAEAAAAB
+AAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEA
+AQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAAAAEAAAABAAAAAAABAAEAAQABAAAAAQAA
+AAEAAAABAAAAAAABAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0
+AAAACP//+9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQWZBZ4F
+owWmAAAAAAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAABas=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Buff_rice?type=vst" name="Buff_rice_2">
+			<properties>
+				<property index="0" name="Bit Preci">
+					<double>1</double>
+				</property>
+				<property index="1" name="Interpola">
+					<double>1</double>
+				</property>
+				<property index="2" name="in gain">
+					<double>0.5</double>
+				</property>
+				<property index="3" name="window st">
+					<double>0.226377949118614</double>
+				</property>
+				<property index="4" name="window en">
+					<double>0.674454808235168</double>
+				</property>
+				<property index="5" name="window sp">
+					<double>0.263779520988464</double>
+				</property>
+				<property index="6" name="toggle sp">
+					<double>0.194380834698677</double>
+				</property>
+				<property index="7" name="overlap">
+					<double>1</double>
+				</property>
+				<property index="8" name="out gain">
+					<double>0.5</double>
+				</property>
+				<property index="9" name="hpf freq">
+					<double>0.028665978461504</double>
+				</property>
+				<property index="10" name="phase">
+					<double>0.271676301956177</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="window st" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.25">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="117"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="window sp" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="0.5">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="118"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C6__s_?type=au&amp;key=aufxC6QSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C6__s__2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RAbwAAAAAAAAAAAAAADYAAAAAQ6aqqwAAAAEAAAAAAAAAAgAAAAAAAAADRHoAAAAAAARDMcpx
+AAAABUP2eWIAAAAGREe/PgAAAAdEegAAAAAACAAAAAAAAAAJAAAAAAAAAApEdHAAAAAAC0P6AAAA
+AAAMQ6Y22wAAAA1D+v5yAAAADkP6/5kAAAAPQ5a20gAAABBDgIwmAAAAEQAAAAAAAAASAAAAAAAA
+ABNENmAAAAAAFEQeTjkAAAAVQkRhhgAAABZEMsA2AAAAF0OXAH8AAAAYAAAAAAAAABkAAAAAAAAA
+GkRGAAAAAAAbRBXOOQAAABxCRGGGAAAAHUQmwOAAAAAeQ4F/pAAAAB8AAAAAAAAAIAAAAAAAAAAh
+RFKAAAAAACJEEdVVAAAAI0JEYYYAAAAkRBRAaAAAACVDSPnVAAAAJgAAAAAAAAAnAAAAAAAAAChD
+9gAAAAAAKUQR1VUAAAAqQkRhhgAAACtEBYFIAAAALAAAAAAAAAAtAAAAAAAAAC4AAAAAAAAAL0RY
+YAAAAAAwQ/gAAAAAADFDpjbbAAAAMkP6/nIAAAAzQ/r/mQAAADRDlrbSAAAANURJwSRPEQd0AAAH
+dAAAAAQAAAABQzZRU3NldEEAAAdUWFBzdDxQcmVzZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+
+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdlbmVyaWNUeXBlPSI2TUJDIj4KCQk8UHJlc2V0
+SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNjwvUGx1Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+
+OC4wLjE8L1BsdWdpblZlcnNpb24+CgkJCTxBY3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1
+cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNz
+YWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFy
+ZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+NTYgNTQ5IDUwMDMgMC43
+NSAwIDAgMCAtNiAqICoKKiAqICogKiAwIDAgMCAwIDQuNzk5OTk5OTk5OTk5OTk5ODIyNAotMjEu
+NjAwMDAwMDAwMDAwMDAxNDIxIC0yMS44OTk5OTk5OTk5OTk5OTg1NzkgMC43NSA2OS44MTk5OTk5
+OTk5OTk5OTMxNzkgNDAuMjcwMDAwMDAwMDAwMDAzMTI2IDAgMCAqIDAKMCAwIDAgMCAzLjYwMDAw
+MDAwMDAwMDAwMDA4ODggLTE2LjYwMDAwMDAwMDAwMDAwMTQyMSAtMjEuODk5OTk5OTk5OTk5OTk4
+NTc5IDAuNzUgNTAuMTE5OTk5OTk5OTk5OTk3NDQyCjI5LjkyMDAwMDAwMDAwMDAwMTcwNSAwIDAg
+KiAwIDAgMCAwIDAKMyAtMTIuNTk5OTk5OTk5OTk5OTk5NjQ1IC0yMS44OTk5OTk5OTk5OTk5OTg1
+NzkgMC43NSAzMC4wNTk5OTk5OTk5OTk5OTg3MjEgMjAuMDM5OTk5OTk5OTk5OTk5MTQ3IDAgMCAq
+CjAgMCAwIDAgMCAzIC00MC42MDAwMDAwMDAwMDAwMDE0MjEgLTIxLjg5OTk5OTk5OTk5OTk5ODU3
+OSAwLjc1CjIwIDUgMCAwICogMCAwIDAgMAowIDAgLTEuODAwMDAwMDAwMDAwMDAwMDQ0NCAtMTAg
+MC41IDE2LjAzMDAwMDAwMDAwMDAwMTEzNyAxNjAuMzEwMDAwMDAwMDAwMDAyMjcgMCAwCiogMCAw
+IDAgMCAwIC0wLjA5OTk5OTk5OTk5OTk5OTk2MzkxOCAtMTAuODAwMDAwMDAwMDAwMDAwNzExIC0x
+MAowLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3IDE2MC4zMTAwMDAwMDAwMDAwMDIyNyAwIDAgKiAw
+IDEwMCAxLjY0OTk5OTk5OTk5OTk5OTkxMTIKMCA0LjUgNTMwMiAxLjY0OTk5OTk5OTk5OTk5OTkx
+MTIgMCA0LjUgMCAwIDAKMCAwIDAgMCAwIDAgMCAwIDAKMCAwIDEgMSAwIDwvUGFyYW1ldGVycz4K
+CQk8L1ByZXNldERhdGE+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0IiIFNldHVwTmFtZT0i
+RGVmYXVsdCBBIj4KCQkJPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj45MiA0MDAwIDExMDcx
+IDAuNTk5OTk5OTk5OTk5OTk5OTc3OCAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAgMAowIC04
+IDAuNSAzNC45OTAwMDAwMDAwMDAwMDE5OSA0MC4yNzAwMDAwMDAwMDAwMDMxMjYgMSAxICogMAow
+IDAgMCAwIDAgMCAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3CjI1IDEgMSAqIDAgMCAwIDAg
+MAowIDAgLTggMC41IDQuOTkwMDAwMDAwMDAwMDAwMjEzMiA5Ljk4MDAwMDAwMDAwMDAwMDQyNjMg
+MSAxICoKMCAwIDAgMCAwIDAgMCAtOCAwLjUKMiA1IDEgMSAqIDAgMCAwIDAKMCAxLjEwMDAwMDAw
+MDAwMDAwMDA4ODggMCAwIDAuNSAxNi4wMzAwMDAwMDAwMDAwMDExMzcgMTYwLjMxMDAwMDAwMDAw
+MDAwMjI3IDEgMQoqIDAgMCAwIDAgMCAxIDAgMAowLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3IDE2
+MC4zMTAwMDAwMDAwMDAwMDIyNyAxIDEgKiAwIDEwMDAgMS42NDk5OTk5OTk5OTk5OTk5MTEyCjAg
+NC41IDUwMDMgMS42NDk5OTk5OTk5OTk5OTk5MTEyIDAgNC41IDAgMCAwCjAgMCAwIDAgMCAwIDAg
+MCAwCjAgMCAxIDEgMCA8L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJPC9QcmVzZXQ+Cjwv
+UHJlc2V0Q2h1bmtYTUxUcmVlPgoAAAAAEADSEBESFVExUTLRExRRMF5NYWluIElucHV0IEJ1c9ET
+Fl8QD01haW4gT3V0cHV0IEJ1cxJDNlFTAAgAGQAeACsAMAA1AEAASABVAF0AYgBnAHMCMwmrCa0J
+sgm0CbYJuQm7CcoJzQnfAAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAACeQ=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_9">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Maximizer?type=au&amp;key=aufxZnOMiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Maximizer_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9NEmladHBPEQgXGNVuAAIAAAALCAAAAADIQvYB+z1QAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAMhCuzg/waD2p70A
+AKBBAADIQgAAyEIAAKpAAADIQgAAAAAAAAABAQIAAAAAAAAAAgAAAAEAAAAAAAAAAQEAAAAAAAAA
+AgAAAAAAAAACAAAABQAAAAIAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAFtVc2VyIFByZXNl
+dBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAhrCHcAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAA
+AAAIeQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="_bubblerStereo?type=au&amp;key=aumf+bubSDHK&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="_bubblerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhIrYnViElNESEtPENwAAAAAAAAAAAAAABoAAAAAQxYAAAAAAAEAAAAAAAAA
+AkLFxboAAAADQSFChQAAAARCSZMmAAAABQAAAAAAAAAGwCZzTQAAAAcAAAAAAAAACAAAAAAAAAAJ
+AAAAAAAAAApGnEAAAAAAC0LIAAAAAAAMQsgAAAAAAA0/gAAAAAAADgAAAAAAAAAPAAAAAAAAABAA
+AAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAA
+AAAAAAAYAAAAAAAAABkAAAAAW1VzZXIgUHJlc2V0EAAACAAVABoAIgAvADQAOQBBAEYASwBQAS8B
+OwAAAAAAAAIBAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAE9
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="8" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="2" number="107"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grain size" property-index="3">
+					<midi-controller smoothing="0" map-minimum="2.5" map-maximum="20">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="113"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="4">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="112"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="6">
+					<midi-controller smoothing="0" map-minimum="-3.9" map-maximum="-0.9">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="5" number="113"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="filter freq" property-index="10">
+					<midi-controller smoothing="0" map-minimum="20" map-maximum="20000">
+						<midi-message-spec type="7-bit-control-change" port="1" channel="3" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="RVerb__s_?type=au&amp;key=aufxRRFSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="RVerb__s__2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8QpAAAAAAAAAAAAAAAEwAAAABD+gAAAAAAAURatqUAAAACRHoAAAAAAANEegAAAAAABER6AAAA
+AAAFRG2AAAAAAAZEegAAAAAAB0R6AAAAAAAIRDuAAAAAAAlD7QAAAAAACkPr8ocAAAALRDoAAAAA
+AAxEegAAAAAADUQmwAAAAAAORCaccgAAAA9D94AAAAAAEER6AAAAAAARP4AAAAAAABJAgAAATxEF
+QwAABUMAAAAEAAAAAVJSRlNzZXRBAAAFI1hQc3Q8UHJlc2V0Q2h1bmtYTUxUcmVlIHZlcnNpb249
+IjIiPgoJPFByZXNldCBOYW1lPSIiIEdlbmVyaWNUeXBlPSJSUlZCIj4KCQk8UHJlc2V0SGVhZGVy
+PgoJCQk8UGx1Z2luTmFtZT5SVmVyYjwvUGx1Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OC4w
+LjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4K
+CQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdl
+VG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0EiPgoJCQk8UGFyYW1ldGVycyBU
+eXBlPSJSZWFsV29ybGQiPjMgMCAxMC4zMTAwMDAwMDAwMDAwMDA0OTcgMTAwIC02IDAgMTAgMS42
+MDAwMDAwMDAwMDAwMDAwODg4IDEgMQo0OTIgMjEwMDAgMC43MDk5OTk5OTk5OTk5OTk5NjQ0NyAw
+LjQwMDAwMDAwMDAwMDAwMDAyMjIgMSAqICogMCAwCjAgMTU2IDIxMDAwIDAgMTk4OCA3IDAgMC4y
+MDAwMDAwMDAwMDAwMDAwMTExIDQwCjEgMyAxNy4wOTcxODg2NjI1MDIzNjg1NzIgMjAwMDAgMSAt
+MiAyIDEuNSAyMTAwMAotNi4wOTk5OTk5OTk5OTk5OTk2NDQ3IDEgMC4wMDEwMDAwMDAwMDAwMDAw
+MDAwMjA4IDAgMjIuNSAqIDEgMSAxCjEgNSA0IDEwMCAzLjUgMCAxIDIgODAKLTM1IDMgLTAuNjE5
+OTk5OTk5OTk5OTk5OTk1NTYgMjQ3IDAuMjAwMDAwMDAwMDAwMDAwMDExMSAxIC0wLjQ1OTk5OTk5
+OTk5OTk5OTk2NDQ3ICogKgoqIDAgKiAqICogPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4K
+CQk8UHJlc2V0RGF0YSBTZXR1cD0iU0VUVVBfQiI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxX
+b3JsZCI+MSAyIDIuMzk5OTk5OTk5OTk5OTk5OTExMiAxMDAgMCAwIDcgMS42MDAwMDAwMDAwMDAw
+MDAwODg4IDEgMC41OTk5OTk5OTk5OTk5OTk5Nzc4CjQ5MiAyMDA4IDAuNzA5OTk5OTk5OTk5OTk5
+OTY0NDcgMC4yODcwMDAwMDAwMDAwMDAwMzI4NiAxICogKiAwIDAKLTEwLjY5OTk5OTk5OTk5OTk5
+OTI4OSAxNTYgNTcyMy4xMDAwMDAwMDAwMDAzNjM4IDAgMTk4OCA3IDAgMSAxMC4wMTk5OTk5OTk5
+OTk5OTk1NzQKMSAzIDEwLjA5OTk5OTk5OTk5OTk5OTY0NSA5MDI3LjUgMCAtMiAyIDEuNSAyODg1
+Ci0zLjUgMSAwLjg0OTk5OTk5OTk5OTk5OTg2Njc3IDAuMjIwMDAwMDAwMDAwMDAwMDAxMTEgMCAq
+IDEgMSAxCjAgLTEgMCAwIDMuNSAwIDEgMiA4MAotNDAgMyAwIDM0MCAtMC41IDEgMC4yOTk5OTk5
+OTk5OTk5OTk5ODg5ICogKgoqIDAgKiAqICogPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4K
+CTwvUHJlc2V0Pgo8L1ByZXNldENodW5rWE1MVHJlZT4KAAAAABAA0hAREhVRMVEy0RMUUTBeTWFp
+biBJbnB1dCBCdXPRExZfEA9NYWluIE91dHB1dCBCdXMSUlJGUwAIABkAHgArADAANQBAAEgAVQBd
+AGIAZwBzARoGYQZjBmgGagZsBm8GcQaABoMGlQAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAA
+AAaa
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<audio-connection from="C6__s__2" from-outlet="1" to="FF_Pro_QStereo_1" to-inlet="1"/>
+		<audio-connection from="C6__s__1" from-outlet="0" to="Buff_rice_2" to-inlet="0"/>
+		<audio-connection from="RVerb__s__1" from-outlet="1" to="SGain_2" to-inlet="1"/>
+		<audio-connection from="SGain_12" from-outlet="1" to="RVerb__s__1" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="1" to="FileRecorder_1" to-inlet="1"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="0" to="SGain_14" to-inlet="0"/>
+		<audio-connection from="SGain_14" from-outlet="1" to="DtBlkFx_2" to-inlet="0"/>
+		<audio-connection from="Buff_rice_2" from-outlet="1" to="Auto_Tune_EvoStereo_2" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="1" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="_bubblerStereo_1" from-outlet="1" to="SGain_14" to-inlet="1"/>
+		<audio-connection from="Buff_rice_1" from-outlet="1" to="Auto_Tune_EvoStereo_1" to-inlet="1"/>
+		<audio-connection from="SGain_2" from-outlet="1" to="SGain_9" to-inlet="1"/>
+		<audio-connection from="SGain_14" from-outlet="0" to="DtBlkFx_1" to-inlet="0"/>
+		<audio-connection from="Buff_rice_3" from-outlet="1" to="Auto_Tune_EvoStereo_3" to-inlet="1"/>
+		<audio-connection from="C6__s__1" from-outlet="1" to="Buff_rice_3" to-inlet="1"/>
+		<audio-connection from="FileRecorder_1" from-outlet="1" to="AuxOut1" to-inlet="1"/>
+		<audio-connection from="RVerb__s__1" from-outlet="0" to="SGain_2" to-inlet="0"/>
+		<audio-connection from="FF_Pro_QStereo_1" from-outlet="1" to="Ozone_5_Maximizer_1" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="SoundOut" to-inlet="1"/>
+		<audio-connection from="SGain_7" from-outlet="1" to="C6__s__2" to-inlet="1"/>
+		<audio-connection from="DtBlkFx_1" from-outlet="0" to="P4Mixer_3" to-inlet="0"/>
+		<audio-connection from="P4Mixer_3" from-outlet="1" to="C6__s__1" to-inlet="1"/>
+		<audio-connection from="C6__s__1" from-outlet="1" to="Ozone_5_Imager_1" to-inlet="1"/>
+		<audio-connection from="DtBlkFx_2" from-outlet="0" to="SGain_12" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="0" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="P4Mixer_3" from-outlet="0" to="C6__s__1" to-inlet="0"/>
+		<audio-connection from="Buff_rice_2" from-outlet="0" to="Auto_Tune_EvoStereo_2" to-inlet="0"/>
+		<audio-connection from="SGain_9" from-outlet="1" to="P4Mixer_3" to-inlet="1"/>
+		<audio-connection from="DtBlkFx_2" from-outlet="0" to="P4Mixer_3" to-inlet="1"/>
+		<audio-connection from="Buff_rice_1" from-outlet="0" to="Auto_Tune_EvoStereo_1" to-inlet="0"/>
+		<audio-connection from="FF_Pro_QStereo_1" from-outlet="0" to="Ozone_5_Maximizer_1" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="0" to="FileRecorder_1" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="0" to="Buff_rice_1" to-inlet="0"/>
+		<audio-connection from="FileRecorder_1" from-outlet="0" to="AuxOut1" to-inlet="0"/>
+		<audio-connection from="C6__s__2" from-outlet="0" to="FF_Pro_QStereo_1" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="1" to="Buff_rice_2" to-inlet="1"/>
+		<audio-connection from="Ozone_5_Imager_1" from-outlet="0" to="SGain_7" to-inlet="0"/>
+		<audio-connection from="SGain_2" from-outlet="0" to="SGain_9" to-inlet="0"/>
+		<audio-connection from="DtBlkFx_1" from-outlet="0" to="SGain_12" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="1" to="Buff_rice_1" to-inlet="1"/>
+		<audio-connection from="SGain_9" from-outlet="0" to="P4Mixer_3" to-inlet="0"/>
+		<audio-connection from="SGain_7" from-outlet="0" to="C6__s__2" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Imager_1" from-outlet="1" to="SGain_7" to-inlet="1"/>
+		<audio-connection from="Buff_rice_3" from-outlet="0" to="Auto_Tune_EvoStereo_3" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="0" to="Ozone_5_Imager_1" to-inlet="0"/>
+		<audio-connection from="SGain_12" from-outlet="0" to="RVerb__s__1" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="0" to="Buff_rice_3" to-inlet="0"/>
+		<audio-connection from="RVerb__s__2" from-outlet="1" to="_bubblerStereo_1" to-inlet="1"/>
+		<audio-connection from="RVerb__s__2" from-outlet="1" to="P4Mixer_3" to-inlet="3"/>
+		<audio-connection from="RVerb__s__2" from-outlet="0" to="SGain_12" to-inlet="0"/>
+		<audio-connection from="RVerb__s__2" from-outlet="0" to="_bubblerStereo_1" to-inlet="0"/>
+		<audio-connection from="RVerb__s__2" from-outlet="0" to="P4Mixer_3" to-inlet="2"/>
+		<audio-connection from="RVerb__s__2" from-outlet="1" to="SGain_12" to-inlet="1"/>
+		<audio-connection from="Auto_Tune_EvoStereo_1" from-outlet="0" to="RVerb__s__2" to-inlet="0"/>
+		<audio-connection from="Auto_Tune_EvoStereo_3" from-outlet="1" to="RVerb__s__2" to-inlet="1"/>
+		<audio-connection from="Auto_Tune_EvoStereo_1" from-outlet="1" to="RVerb__s__2" to-inlet="1"/>
+		<audio-connection from="Auto_Tune_EvoStereo_2" from-outlet="0" to="RVerb__s__2" to-inlet="0"/>
+		<audio-connection from="Auto_Tune_EvoStereo_2" from-outlet="1" to="RVerb__s__2" to-inlet="1"/>
+		<audio-connection from="Auto_Tune_EvoStereo_3" from-outlet="0" to="RVerb__s__2" to-inlet="0"/>
+	</patch>
+	<metasurface>
+		<document-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="AuxOut1"></contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="DtBlkFx_2">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="11" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="12" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="13" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="14" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="15" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="16" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="17" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="18" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="19" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="20" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="21" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="22" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="23" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="24" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="25" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="26" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="27" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="28" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="29" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="30" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="31" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="32" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="33" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="34" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="35" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="36" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="37" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="38" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="39" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="40" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="41" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="42" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="43" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="RVerb__s__1">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="FF_Pro_QStereo_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="C6__s__1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="P4Mixer_3">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="11" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="12" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="13" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="14" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="15" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="16" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="17" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Auto_Tune_EvoStereo_3">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Buff_rice_3">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_12">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Ozone_5_Imager_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_14">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_7">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="DtBlkFx_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="11" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="12" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="13" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="14" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="15" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="16" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="17" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="18" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="19" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="20" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="21" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="22" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="23" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="24" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="25" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="26" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="27" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="28" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="29" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="30" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="31" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="32" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="33" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="34" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="35" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="36" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="37" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="38" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="39" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="40" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="41" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="42" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="43" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="FileRecorder_1">
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_1">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_2">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Buff_rice_1">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SoundOut">
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Auto_Tune_EvoStereo_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Auto_Tune_EvoStereo_2">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Buff_rice_2">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="2" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="3" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="4" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="5" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="6" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="7" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="8" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="9" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="10" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="C6__s__2">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="SGain_9">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="1" restore="1"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="Ozone_5_Maximizer_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="_bubblerStereo_1">
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+			<contraption-snapshot-restore-mask contraption-name="RVerb__s__2">
+				<property-snapshot-restore-mask property-index="0" restore="1"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+				<property-snapshot-restore-mask property-index="0" restore="0"></property-snapshot-restore-mask>
+			</contraption-snapshot-restore-mask>
+		</document-snapshot-restore-mask>
+		<document-snapshots>
+			<document-snapshot index="0" name="Normal Room" colour="#DC0D00">
+				<contraption-snapshot contraption-name="DtBlkFx_2">
+					<property-snapshot property-index="0">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="1">
+						<double>0.0627499967813492</double>
+					</property-snapshot>
+					<property-snapshot property-index="2">
+						<double>0.289770007133484</double>
+					</property-snapshot>
+					<property-snapshot property-index="3">
+						<double>0.349999994039536</double>
+					</property-snapshot>
+					<property-snapshot property-index="4">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="5">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="6">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="7">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="8">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="9">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="10">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="11">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="12">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="13">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="14">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="15">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="16">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="17">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="18">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="19">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="20">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="21">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="22">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="23">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="24">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="25">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="26">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="27">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="28">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="29">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="30">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="31">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="32">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="33">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="34">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="35">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="36">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="37">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="38">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="39">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="40">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="41">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="42">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="43">
+						<double>0</double>
+					</property-snapshot>
+				</contraption-snapshot>
+				<contraption-snapshot contraption-name="DtBlkFx_1">
+					<property-snapshot property-index="0">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="1">
+						<double>0.0627499967813492</double>
+					</property-snapshot>
+					<property-snapshot property-index="2">
+						<double>0.289770007133484</double>
+					</property-snapshot>
+					<property-snapshot property-index="3">
+						<double>0.349999994039536</double>
+					</property-snapshot>
+					<property-snapshot property-index="4">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="5">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="6">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="7">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="8">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="9">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="10">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="11">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="12">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="13">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="14">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="15">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="16">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="17">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="18">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="19">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="20">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="21">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="22">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="23">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="24">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="25">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="26">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="27">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="28">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="29">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="30">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="31">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="32">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="33">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="34">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="35">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="36">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="37">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="38">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="39">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="40">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="41">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="42">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="43">
+						<double>0</double>
+					</property-snapshot>
+				</contraption-snapshot>
+			</document-snapshot>
+			<document-snapshot index="1" name="Infinite room" colour="#0070EE">
+				<contraption-snapshot contraption-name="DtBlkFx_2">
+					<property-snapshot property-index="0">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="1">
+						<double>0.0627499967813492</double>
+					</property-snapshot>
+					<property-snapshot property-index="2">
+						<double>0.289770007133484</double>
+					</property-snapshot>
+					<property-snapshot property-index="3">
+						<double>0.349999994039536</double>
+					</property-snapshot>
+					<property-snapshot property-index="4">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="5">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="6">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="7">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="8">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="9">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="10">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="11">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="12">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="13">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="14">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="15">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="16">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="17">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="18">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="19">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="20">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="21">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="22">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="23">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="24">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="25">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="26">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="27">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="28">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="29">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="30">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="31">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="32">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="33">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="34">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="35">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="36">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="37">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="38">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="39">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="40">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="41">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="42">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="43">
+						<double>0</double>
+					</property-snapshot>
+				</contraption-snapshot>
+				<contraption-snapshot contraption-name="DtBlkFx_1">
+					<property-snapshot property-index="0">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="1">
+						<double>0.0627499967813492</double>
+					</property-snapshot>
+					<property-snapshot property-index="2">
+						<double>0.289770007133484</double>
+					</property-snapshot>
+					<property-snapshot property-index="3">
+						<double>0.349999994039536</double>
+					</property-snapshot>
+					<property-snapshot property-index="4">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="5">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="6">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="7">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="8">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="9">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="10">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="11">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="12">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="13">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="14">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="15">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="16">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="17">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="18">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="19">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="20">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="21">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="22">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="23">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="24">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="25">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="26">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="27">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="28">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="29">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="30">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="31">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="32">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="33">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="34">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="35">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="36">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="37">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="38">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="39">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="40">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="41">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="42">
+						<double>0</double>
+					</property-snapshot>
+					<property-snapshot property-index="43">
+						<double>0</double>
+					</property-snapshot>
+				</contraption-snapshot>
+			</document-snapshot>
+		</document-snapshots>
+		<metasurface-points>
+			<metasurface-point snapshot-index="0" x="0" y="0"></metasurface-point>
+			<metasurface-point snapshot-index="1" x="0" y="1"></metasurface-point>
+		</metasurface-points>
+	</metasurface>
+	<application-view>
+		<notes visible="0" left="599" top="166" width="339" height="343" encoding="UTF-8">
+			<para>Add 3 ms</para>
+		</notes>
+		<metasurface-view visible="0" left="168" top="22" width="1039" height="870" parameters-visible="1" snapshots-visible="1" parameters-width="181" snapshots-width="181" interpolate-mode="1"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="AuxOut1" patcher-x="-33" patcher-y="1111"/>
+		<contraption-view contraption-name="DtBlkFx_2" patcher-x="-195" patcher-y="52" editor-visible="0" editor-x="80" editor-y="160"/>
+		<contraption-view contraption-name="RVerb__s__1" patcher-x="-102" patcher-y="-195" editor-visible="0" editor-x="810" editor-y="0"/>
+		<contraption-view contraption-name="FF_Pro_QStereo_1" patcher-x="-127" patcher-y="993" editor-visible="0" editor-x="0" editor-y="230"/>
+		<contraption-view contraption-name="C6__s__1" patcher-x="-124" patcher-y="775" editor-visible="0" editor-x="90" editor-y="10"/>
+		<contraption-view contraption-name="P4Mixer_3" patcher-x="-127" patcher-y="644" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="Auto_Tune_EvoStereo_3" patcher-x="-428" patcher-y="428" editor-visible="0" editor-x="10" editor-y="10" editor-width="530" editor-height="230"/>
+		<contraption-view contraption-name="Buff_rice_3" patcher-x="-246" patcher-y="314" editor-visible="0" editor-x="0" editor-y="270" editor-width="510" editor-height="230"/>
+		<contraption-view contraption-name="SGain_12" patcher-x="-102" patcher-y="-230" editor-visible="0" editor-x="600" editor-y="330"/>
+		<contraption-view contraption-name="Ozone_5_Imager_1" patcher-x="-125" patcher-y="837" editor-visible="0" editor-x="10" editor-y="10"/>
+		<contraption-view contraption-name="SGain_14" patcher-x="-256" patcher-y="-32" editor-visible="0" editor-x="100" editor-y="0"/>
+		<contraption-view contraption-name="SGain_7" patcher-x="-125" patcher-y="885" editor-visible="0" editor-x="450" editor-y="0"/>
+		<contraption-view contraption-name="DtBlkFx_1" patcher-x="-221" patcher-y="14" editor-visible="0" editor-x="0" editor-y="20"/>
+		<contraption-view contraption-name="FileRecorder_1" patcher-x="-33" patcher-y="1076" editor-visible="1" editor-x="190" editor-y="480"/>
+		<contraption-view contraption-name="SGain_1" patcher-x="-127" patcher-y="1113" editor-visible="0" editor-x="450" editor-y="0"/>
+		<contraption-view contraption-name="SGain_2" patcher-x="-102" patcher-y="134" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="Buff_rice_1" patcher-x="-440" patcher-y="311" editor-visible="0" editor-x="0" editor-y="0" editor-width="510" editor-height="230"/>
+		<contraption-view contraption-name="SoundOut" patcher-x="-127" patcher-y="1148" editor-visible="0" editor-x="0" editor-y="70"/>
+		<contraption-view contraption-name="Auto_Tune_EvoStereo_1" patcher-x="-498" patcher-y="369" editor-visible="0" editor-x="0" editor-y="140" editor-width="530" editor-height="230"/>
+		<contraption-view contraption-name="Auto_Tune_EvoStereo_2" patcher-x="-463" patcher-y="401" editor-visible="0" editor-x="0" editor-y="370" editor-width="530" editor-height="230"/>
+		<contraption-view contraption-name="Buff_rice_2" patcher-x="-341" patcher-y="311" editor-visible="0" editor-x="0" editor-y="230" editor-width="510" editor-height="230"/>
+		<contraption-view contraption-name="C6__s__2" patcher-x="-125" patcher-y="930" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="SGain_9" patcher-x="-103" patcher-y="226" editor-visible="0" editor-x="0" editor-y="140"/>
+		<contraption-view contraption-name="Ozone_5_Maximizer_1" patcher-x="-127" patcher-y="1028" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="_bubblerStereo_1" patcher-x="-256" patcher-y="-76" editor-visible="1" editor-x="250" editor-y="20" editor-width="450" editor-height="450"/>
+		<contraption-view contraption-name="RVerb__s__2" patcher-x="-398" patcher-y="544" editor-visible="0" editor-x="50" editor-y="260"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>
