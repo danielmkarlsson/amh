@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications/AudioMulch%202.2.5" document-path="file:///Users/danielmkarlsson/Dropbox/MBP_local/amh/Ruins%20from%20the%20ground%20up">
+	<patch>
+		<clock tempo="140" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>0</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="_bubblerMono?type=au&amp;key=aumf+bubSDHK&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="_bubblerMono_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhIrYnViElNESEtPENwAAAAAAAAAAAAAABoAAAAAQaAAAAAAAAEAAAAAAAAA
+AkNAhQoAAAADQSWrVwAAAARDIjRpAAAABQAAAAAAAAAGQGPHjwAAAAcAAAAAAAAACAAAAAAAAAAJ
+AAAAAAAAAApGnEAAAAAAC0LIAAAAAAAMQcZs2gAAAA0/gAAAAAAADgAAAAAAAAAPAAAAAAAAABAA
+AAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAA
+AAAAAAAYAAAAAAAAABkAAAAAWFVudGl0bGVkEAAACAAVABoAIgAvADQAOQBBAEYASwBQAS8BOAAA
+AAAAAAIBAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAE6
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="0" map-minimum="150" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grain size" property-index="3">
+					<midi-controller smoothing="0" map-minimum="2.5" map-maximum="20">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="4">
+					<midi-controller smoothing="0" map-minimum="150" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="6">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="mix" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="25">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="0"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="_bubblerMono?type=au&amp;key=aumf+bubSDHK&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="_bubblerMono_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhIrYnViElNESEtPENwAAAAAAAAAAAAAABoAAAAAQaAAAAAAAAEAAAAAAAAA
+AkMm7dwAAAADQfWrVwAAAARDH9evAAAABQAAAAAAAAAGPtGjRwAAAAcAAAAAAAAACAAAAAAAAAAJ
+AAAAAAAAAApGnEAAAAAAC0LIAAAAAAAMPkmTJgAAAA0/gAAAAAAADgAAAAAAAAAPAAAAAAAAABAA
+AAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAA
+AAAAAAAYAAAAAAAAABkAAAAAW1VzZXIgUHJlc2V0EAAACAAVABoAIgAvADQAOQBBAEYASwBQAS8B
+OwAAAAAAAAIBAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAE9
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="0" map-minimum="150" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grain size" property-index="3">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="50">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="4">
+					<midi-controller smoothing="0" map-minimum="150" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="6">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="mix" property-index="12">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="25">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="0"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="1"/>
+							<mapping-point in="16383" out="0"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<audio-connection from="_bubblerMono_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="_bubblerMono_2" from-outlet="0" to="SoundOut" to-inlet="1"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="1135" top="87" width="300" height="170" encoding="UTF-8">
+			<para></para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="611" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="180" snapshots-width="180" interpolate-mode="0"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="SoundOut" patcher-x="69" patcher-y="-224" editor-visible="0" editor-x="440" editor-y="0"/>
+		<contraption-view contraption-name="_bubblerMono_1" patcher-x="-5" patcher-y="-346" editor-visible="1" editor-x="0" editor-y="0" editor-width="440" editor-height="350"/>
+		<contraption-view contraption-name="_bubblerMono_2" patcher-x="125" patcher-y="-353" editor-visible="1" editor-x="440" editor-y="0" editor-width="440" editor-height="330"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>
