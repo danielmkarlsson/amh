@@ -1,0 +1,209 @@
+(
+MIDIClient.init;
+m = MIDIOut(0);
+
+//random sine envelope
+
+
+(
+a = [
+	[98, 120, 22.5, 0.1, 0.1]
+	,[99, 120, 22.5, 0.1, 0.1]
+	,[100, 120, 22.5, 0.1, 0.1]
+	,[101, 120, 22.5, 0.1, 0.1]
+	,[102, 120, 22.5, 0.1, 0.1]
+	,[103, 120, 22.5, 0.1, 0.1]
+	,[104, 120, 22.5, 0.1, 0.1]
+	,[105, 120, 22.5, 0.1, 0.1]
+	,[106, 120, 22.5, 0.1, 0.1]
+	,[107, 120, 22.5, 600, 60]
+	,[108, 360, 120, 0.1, 0.1]
+
+
+
+
+
+
+];
+
+a.do{ arg i;
+	var
+		cc = i.at(0),
+		maxduration = i.at(1),
+		minduration = i.at(2),
+		maxpause =	i.at(3),
+		minpause =  i.at(4)
+	;
+
+	Routine {
+		var dur, hold, p, dt, n;
+		loop {
+			dur = rrand(minduration, maxduration);
+			hold = rrand(minpause, maxpause);
+			p = Env.sine(dur,127); // p = Env([0,127],[dur]);
+			dt = 0.05; //leave this alone
+			n = dur/dt;
+
+			n.do {|i|
+				m.control(2, cc, p.at(i/n * dur));
+				dt.wait;
+			};
+			hold.wait;
+		}
+
+	}.play;
+};
+
+// Random values w/in time threshold values
+
+~vmx=127;
+~vmn=0;
+~tmx=120;
+~tmn=90;
+
+(112..124).do {|cc|
+	Routine {
+		var n;
+		loop {
+			n = ~vmx.rand + ~vmn;
+			m.control(2,cc,n);
+			rrand(~tmx, ~tmn).wait;
+		}
+	}.play
+}
+;
+~bothTime=90 ;
+~geometerTime=90 ;
+~dtbklTime=90 ;
+
+// ändra tiden det tar innan ett nytt värde för väntetiden slumpas, on the fly:
+~bothMinTimeInterval=22.5 ;
+~bothMaxTimeInterval=120 ;
+
+~geometerMinTimeInterval=22.5 ;
+~geometerMaxTimeInterval=120 ;
+
+~dtbklMinTimeInterval=22.5 ;
+~dtbklMaxTimeInterval=120 ;
+
+~bothRoutine=Routine{
+	inf.do{
+		var waitTime=~bothTime ;
+
+		(0..40).do { |i| m.control(5,i,[rrand(0,35),rrand(44,103)].choose) } ;
+		(190..127).do { |i| m.control(2,i,rrand(0,127)) };
+		(0..2).do { |i| m.control(3,i,rrand(0,127)) } ;
+
+		//"new geometer and dtbkl value sent".postln ;
+		waitTime.wait
+	}
+} ;
+
+~geometerRoutine=Routine{
+	inf.do{
+		var waitTime=~geometerTime ;
+
+		(120..127).do { |i| m.control(2,i,rrand(0,127)) };
+		(0..2).do { |i| m.control(3,i,rrand(0,127))} ;
+
+		//"new geometer value sent".postln ;
+		waitTime.wait
+	}
+} ;
+
+~dtbklRoutine=Routine{
+	inf.do{
+		var waitTime=~dtbklTime ;
+
+		(0..39).do { |i| m.control(5,i,[rrand(0,35),rrand(44,103)].choose) } ;
+
+		//"new dtbkl value sent".postln ;
+		waitTime.wait
+	}
+} ;
+
+~bothTimeRadomizer=Routine{
+	inf.do{
+		~bothTime=rrand(20,120) ;
+		rrand(~bothMinTimeInterval,~bothMaxTimeInterval).wait
+	}
+} ;
+
+~geometerTimeRadomizer=Routine{
+	inf.do{
+		~geometerTime=rrand(20,120) ;
+		rrand(~geometerMinTimeInterval,~geometerMaxTimeInterval).wait
+	}
+} ;
+
+~dtbklTimeRadomizer=Routine{
+	inf.do{
+		~dtbklTime=rrand(20,120) ;
+		rrand(~dtbklMinTimeInterval,~dtbklMaxTimeInterval).wait
+	}
+} ;
+)
+
+;
+
+(
+// starta båda:
+~bothRoutine.reset.play ;
+// stoppa båda:
+//~bothRoutine.stop ;
+
+// starta geometer:
+~geometerRoutine.reset.play ;
+// stoppa geometer:
+//~geometerRoutine.stop ;
+
+// starta dtbkl:
+~dtbklRoutine.reset.play ;
+// stopppa dtbkl:
+//~dtbklRoutine.stop ;
+
+// slumpa nytt värde för väntetiden innan nya värden slumpas, both:
+~bothTimeRadomizer.reset.play ;
+~bothTimeRadomizer.stop ;
+
+// slumpa nytt värde för väntetiden innan nya värden slumpas, geometer:
+~geometerTimeRadomizer.reset.play ;
+~geometerTimeRadomizer.stop ;
+
+// slumpa nytt värde för väntetiden innan nya värden slumpas, dibkl:
+~dtbklTimeRadomizer.reset.play ;
+~dtbklTimeRadomizer.stop ;
+);
+
+(
+~maxduration2 = 30;
+~minduration2 = 1;
+~maxpause2 = 30;
+~minpause2 = 1;
+
+Routine {
+	var dur, hold, p, sqr, dt, n, up, down;
+	sqr=Pser(#[127,0],inf).asStream ;
+	loop {
+		dur = rrand(~minduration2,~maxduration2);
+		hold = rrand(~minpause2,~maxpause2);
+		dt = 0.05; //leave this alone
+		n = dur/dt;
+		up=sqr.next ;
+		down=sqr.next ;
+
+		// skicka 127:
+		m.control(2,3,up);
+		//[up,"mjau"].postln ;
+		dur.wait ;
+		// skicka 0:
+		m.control(2,3,down.next);
+		//[down, "is ZERO"].postln ;
+		hold.wait;
+		}
+}.play
+);
+)
+
+
+
