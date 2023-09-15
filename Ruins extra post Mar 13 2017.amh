@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications/AudioMulch%202.2.5" document-path="file:///Users/danielmkarlsson/Dropbox/MBA_local/amh">
+	<patch>
+		<clock tempo="140" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>0</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="FilePlayer" name="FilePlayer_1">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="Loop">
+					<bool>0</bool>
+				</property>
+				<property index="4" name="LoopDelay">
+					<double>0</double>
+				</property>
+				<property index="5" name="AutoRewind">
+					<bool>1</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SGain" name="SGain_2">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.6752623149688786</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="C4__s_?type=au&amp;key=aufxDEQSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C4__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVlhVbnRpdGxlZE8R
+ASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkQmwAAAAAADQ/oAAAAAAARDdgAAAAAA
+BURAAAAAAAAGRGNAAAAAAAdEQEAAAAAACEP6AAAAAAAJQ76AAAAAAApEGcAAAAAAC0OXAAAAAAAM
+AAAAAAAAAA0AAAAAAAAADkQlwAAAAAAPQ/oAAAAAABBDvoAAAAAAEUP7AAAAAAASQ2kAAAAAABMA
+AAAAAAAAFAAAAAAAAAAVRD4AAAAAABZD+gAAAAAAF0O+gAAAAAAYQ6aAAAAAABlCyAAAAAAAGgAA
+AAAAAAAbAAAAAAAAABxEHAAAAAAAHUP6AAAAAAAeQ76AAAAAAB9DSQAAAAAAIAAAAAAAAAAhAAAA
+AAAAACIAAAAAAAAAI0QLwABPEQS0AAAEtAAAAAQAAAABREVRU3NldEEAAASUWFBzdDxQcmVzZXRD
+aHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IiIgR2VuZXJpY1R5cGU9IlJN
+QkMiPgoJCTxQcmVzZXRIZWFkZXI+CgkJCTxQbHVnaW5OYW1lPkM0PC9QbHVnaW5OYW1lPgoJCQk8
+UGx1Z2luVmVyc2lvbj45LjEuMDwvUGx1Z2luVmVyc2lvbj4KCQkJPEFjdGl2ZVNldHVwPlNFVFVQ
+X0E8L0FjdGl2ZVNldHVwPgoJCQk8UmVhZE9ubHk+dHJ1ZTwvUmVhZE9ubHk+CgkJPC9QcmVzZXRI
+ZWFkZXI+CgkJPE1lc3NhZ2VUb1NoZWxsLz4KCQk8UHJlc2V0RGF0YSBTZXR1cD0iU0VUVVBfQSI+
+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+OTIgNDAwMCAxMTA3MSAwLjU5OTk5OTk5
+OTk5OTk5OTk3NzggMCAwIDAgMCAqICoKKiAqICogKiAwIDAgMCAwIDAKLTI3IC04IDAuNSAzNC45
+OTAwMDAwMDAwMDAwMDE5OSA0MC4yNzAwMDAwMDAwMDAwMDMxMjYgMCAwICogMAowIDAgMCAwIDAg
+LTE5LjE5OTk5OTk5OTk5OTk5OTI4OSAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3CjI1IDAg
+MCAqIDAgMCAwIDAgMAowIC0zMC4xMDAwMDAwMDAwMDAwMDE0MjEgLTggMC41IDQuOTkwMDAwMDAw
+MDAwMDAwMjEzMiA5Ljk4MDAwMDAwMDAwMDAwMDQyNjMgMCAwICoKMCAwIDAgMCAwIDAgLTM1LjI5
+OTk5OTk5OTk5OTk5NzE1OCAtOCAwLjUKMiA1IDAgMCAqIDAgPC9QYXJhbWV0ZXJzPgoJCTwvUHJl
+c2V0RGF0YT4KCQk8UHJlc2V0RGF0YSBTZXR1cD0iU0VUVVBfQiI+CgkJCTxQYXJhbWV0ZXJzIFR5
+cGU9IlJlYWxXb3JsZCI+OTIgNDAwMCAxMTA3MSAwLjU5OTk5OTk5OTk5OTk5OTk3NzggMCAwIDAg
+MCAqICoKKiAqICogKiAwIDAgMCAwIDAKLTI3IC04IDAuNSAzNC45OTAwMDAwMDAwMDAwMDE5OSA0
+MC4yNzAwMDAwMDAwMDAwMDMxMjYgMCAwICogMAowIDAgMCAwIDAgLTE5LjE5OTk5OTk5OTk5OTk5
+OTI4OSAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3CjI1IDAgMCAqIDAgMCAwIDAgMAowIC0z
+MC4xMDAwMDAwMDAwMDAwMDE0MjEgLTggMC41IDQuOTkwMDAwMDAwMDAwMDAwMjEzMiA5Ljk4MDAw
+MDAwMDAwMDAwMDQyNjMgMCAwICoKMCAwIDAgMCAwIDAgLTM1LjI5OTk5OTk5OTk5OTk5NzE1OCAt
+OCAwLjUKMiA1IDAgMCAqIDAgPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4KCTwvUHJlc2V0
+Pgo8L1ByZXNldENodW5rWE1MVHJlZT4KoE1YERAA0hAREhVRMVEy0RMUUTBeTWFpbiBJbnB1dCBC
+dXPRExZfEA9NYWluIE91dHB1dCBCdXMSREVRUwAIABkAHgArADAANQBAAEgAVQBdAGIAZwBwAaAG
+WAZaBl8GYQZjBmYGaAZ3BnoGjAAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAaR
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="EchoBoyStereo?type=au&amp;key=aufxEB  SToy&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="EchoBoyStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5ec291bmR0b3lzLWRhdGFUdHlwZVxtYW51ZmFjdHVyZXJU
+bmFtZVRkYXRhV3ZlcnNpb25Xc3VidHlwZV8REFdXSURHRVQgPSBFY2hvQm95Ow1WRVJTSU9OID0g
+MzsNU0FWRURfQllfVkVSU0lPTiA9IDQuMS4xOw1QUkVTRVQgPTAxMDEwMDAwNDEwNDAxMDEwMDA8
+MTRdSEZRN0s/Vz1EZz9bPExFVDg9WjpdSFZYWT5SPl1JNGdsVmE1XTJYYDVbSDBKTWdmY2JjP0VA
+Yzk0a1ZJQmpfZE43X2JpZTFvYlgxMk1RPjxfTEtFOllSUmU5Z2c8V2kwalQ/UVhjVWVHb2hlZVsy
+UDldN0lnaEA8YUNaRDc9Zjs2UkIyO2w2RE5AOUZgQElcVE86Rmk/ZDRCVT86TElkTFAxSz5TSUY9
+PGdVTVBWQjpCMmE5R0ZuRGk/TkJkN1tHbjg/OVk2SjdbUmE7ODo9UkpMSDVHRm5EaT9OQmQ3W0du
+OD85WTZKN1tvSjk5TlhkQV1nNWc3OmJJUmlCPVRtWG86QG05Wm9jaThGbDRPRUhZamZPOTY8MUFK
+XDw0VGJqN0E5RmY5TGE6VUszNV9tOz9IWj44amFhbGpDTTlnYVtfO1QyZWRta1M3TmRPVT5AMGJs
+WFgxVWgxaTFVaExfaUZQa2Q6b1Y1SW5OYjNdbFhbNzg5S0lrblA0Q1tYZGlfNVxDUDI8MltSRklB
+P1hgVkI3b2s8XDpBRFdeWGxdQTleZURYOUQ/MFtUTFNQSUFdNlNPYlxNVzhLY0dlQ1Q9ajRPPWlK
+TEBGQEkxNGpmNzEwUDJOXEZoV1tnbTFcSVI9S0trbW9tWVw3TFlAZmFCQGBcZ2lNWlxVMkVESlxQ
+OllrZjk4VkxnPzY5VUJFV15DWTRAZFRQT1xGRGM3SlVcWTVMY1E0S1BNP0RvXj45UzYySk1VazZR
+R1Y8a100Z0U6WmVZVW5CZ1AwOU47QWJoQTRFQGM6MkJlOGZjSFc2SkJeVThfRFpnMEpOQj5BUUNi
+NzBSRGFsPVM+XltTT0NWVEJCX0ZdZEhLTWNsZE9XVWY9YEBvNltgM1JIPkpsZDw2V2pIODhNW2JP
+QFJVWEdaTEVWNFswaTk3SVNlZFxcQklEVUlrVGpBND09NldCYFlRaFgzVERCZVcxTltiZDtGTVo5
+Z2UyWWZaQ2tKUmU3NGZKY0hAYUFqWz9vPDBFVVJLRDRCUEpSQl48SUFYS2o8UzhcNFExUG9FYT9k
+V2Neb2RHYkhBMjg1Z2QzS2drSlxcRFs2TmNWZWlGZEteYVRFNllHUmJqY0hiMlg3W0NeTWVXPUY4
+VmUxNFg2WFRbUz1TOVJkPWhBSlw0VmxGYT4wOGA6XjlJVTRuUzJJOE9vXGJgWTVCTmpTYmU0VmtF
+QlBVQGwyXlo9NlM+ODhbbmVsY1JuZzZMVUFPOWhOaGVOWklWVzROWDdIZkJYajJdZUNCakg3TjZS
+Zko6PkU3UTNiOE1DQUI5XklhRlA7TWVSa2xNNjI7bVREO0g3TmRPVT5AMGJsW0FMUzdJbWk2QU1c
+Y1JuZzZMVUFPOWhOaGVOWklWVzRMQjpJQUk0RWtIRWBQUUpBXTJQO09AR2hCVEZvbEBIRzxWZTE0
+WDZYVFtTNlZdRlRrXWlLaFBbT1JpWGY2bFs7WWkwUE1eQFxHVFlIZzpRSjY3SVZDRFdaRzdaRD9I
+ZWBKSm1rWl9sU1Y9PTtPOms9Yzc5aE5lMWVQWFBcWjY7XjJSUEFWZGJXYz1YbUNobTZjS25EakZj
+a1hVYTRbNTNvZUtqXkRaRD5XaT05MTZqWVVdNGhHQ1FhOT9NOEc6RFdqRVw8Rm9kXG1SWG5uV2JJ
+PEJhbm01R2BPQFdtYFQ8VlpNMFplRVI4Zk4/OUdaaDdKbzlVbDNjPjtrTEliRTVsVVBCPE9gSmtd
+TzFVNVljVTRaaEI4Ulpua29BZzlAVmNKN2U8ZlFNWzFcVFw+ZEwyY0JqN1M/STJgWEZnbDlMW0Jr
+bTpSalcxbTBqYmRZYlVYQ19IMGRPXUBLNkRcPVBPWT1bXVNoVkluXF5MZT5pWlU7W2k9QWRmPUBM
+MzlsV1FSZldmOTEya1A0Z0BiQFxmaDVgYTZnXEM+Q0Q4QTJVPTlmSlRCQG9UUWpOWEk7QURRQ2pY
+UEs1NjlROjw2SFphTDppZzhrMFVHWz1vYjpIN1FYYTZBWl0wbz83XmJTWl9hSV5eWG5JS043NGph
+S1JOX09kNmFWY00+bWFHRUhhaF9mbTFOQGZfNmpIODYzbVVSZkJrMElXZjFFYjk/bTlabk5XYT08
+TldbSEQxW187VDJlZG1rU2RWNG9AZE1YbWltPj5Zaj9lSzdaTD9YT0pJQVg7Z0c9ZWc7QFNZXEM/
+aWhhMldSPzQ7SzYza0hvVVxKTFc5a2hISGI9TUdsPUZvO1JJPmxhN1o4O0BhW187VDJlZG1rUztS
+bzFuQWhhRz9DQUpuXlQ1VEBpYzdIOEdWU2MyNEI5Q1NaTlNtRmFqVzBRTDs1VFJoRzRgTDBlWlA6
+aE5GX0AyMk83blo5MF5cZGEyV1I/NDtLNjNjXU1jQ2I2VWVhW11lZVpDZDY4OThSQk9HO2swM11j
+PDRoaldYb0VcTllgOEcyYUk4XjVhPDVXbVlmUF9sUTxXNzU9RVRIRGlfXERjPjtrTEliRTVsVkc0
+YWRkam5FMFxSSTNlMEA/UU9kYzFlNDk6MkgxTzVkQ0lNMllCMDU5akRTQ0JiO1plMlhlaEZRX1pc
+QkVhbm0+PllqP2VLN1pMO25EWkhbMV5lUjE0a0FGN11paUM3XzxSSzJSQ242OWMzNDpOOGxAXVxI
+P1trYmBPaWJvXkg8bD5DWV8+Okc9YjxjUm5nNkxVQU85XDJCMFY5WlZAQTBNPTtQUltRYW8+MTw6
+UEJbMlpVUkZjPjtrTEliRTVsVmA5ODJIVlpJMTQ0YUw4NWJWQGE/XkZPa29kXzZMNDhtUWQ0aUJa
+WT8zb0hlQUw4WDs8UUhbTUc/NFpHWj9UYmdQQ1BYVVRhNFBNaTw3ZU5LZlJdZmMwbTJWNFhFO01J
+PFBvP0FkMFZWYk9hYmdENW1dZUI8TWZrQU9fVUFFPGJFQFtKYT1NNF5kbEFBXmNQMUpJVU5abT9J
+VUVJX0VAWDZCR21BQmRLSTw/UzQ6TjhsQF1cSD85NTJEbEk3PE5fMFliVkRHVkVoZUhiNTVlbWwz
+WDhTUl5CMUQ3XTZrPj4+PktobF9PZ2JZUVhYQDBCU0dhST9hS0hgS0pCa0xbRGRHMlFBTlxgQzQ9
+OURLSDpUT2xGb1pbNV45am1vQEs2S0VsVUM8aWZPQkNqWDBtWz0wZW9IUz0zNGw8M01hPE9XT2Yy
+R09qPltKVjM0Ok44bEBdXEg/M1A6YWVuRDhrSWJGbE5YazlJTkZmZW9bPDpWN1k7T2E8QFloU2Ey
+ZmFQbTg5PWFCWWpFX0Q2P0g8Y1hRSGhYWENaRjUyNjhCQmJcQGRia1NqbG08UDAwRmdoVGAzSmFT
+ZllHUW47X1tvSVo8OGVMWDQwVj5SYDBGZ2hUYDNKYVNebVM/YjA8OEhAPWVXTF41TFdkQlNVZWFH
+R1Q3Mk1LOTZgZDA8ZjNvPkxWb2RDRWhKVzVZbzRoaldYb0VcTllgSmJFXGVmYWVWM1xMTFc4VD5i
+aENkTGxoNERrO0RTPUpgZG8yVkFCRzttaFk8b0UySVU2RmVMVmBBaUJMOzlOV0wxVFY7OjRJUGZD
+PGhfXWFXOURHYkM1XW5fMFlAOldJVGdmVV5GSDcxXzA9XFZmZz84VlRFZGhqV1hvRVxOWWBmS0pk
+SlRfPG5XX1pFaVVQTDU6bFA0ZmhrQEZBVEwyamM+O2tMSWJFNWxUYUtPW2A6RDJZZk42bGpRO2xB
+T1hkOGAyNm9jMT5DNU0+PllqP2VLN1pMPVZmXTZZO2M/WWs9RkRRNkdMZWJdSTdGN0tfZWkxMTg7
+UVMyYW9sVGxATTxAWWhTYTJmYVBsQFBib2VUVE1JQWI1PGRhUkJuXlhlZVFqRTZVP1ZCUD1RZDRp
+QlpZPzNvRGddPDFuYFw+XF1gPkJBZkhtTTs7NjFFVzBUbmFSM1hsY1JuZzZMVUFPOURASTRtYWFK
+SW02QFZOb01vNDQ1b0ZKPVBLa0BWRWYyR1BPUTVWaDIwZ2lRUzhlZU9gZUtsW0xpQEtcUmBKP108
+QFloU2EyZmFQbWhfRzQyOU5TZVA+UERkQWsyMkxcTzxAWWhTYTJmYVBvXWRBRVxuMGw5PzRpO0FF
+WmlhTjFQQ2RVPGdsUF5ZW1tJNkM/VGZuP1hJUzQ6TjhsQF1cSD9FNmFFNVRMW11PUF5BV0Q+akBS
+XFMzb2VvOlBqNEQxPGM+O2tMSWJFNWxUYTJXUj80O0s2M2ZbakNINkBiOWRjRExPSWZcRTFYS1lo
+Q1A/RVtXMzlMYzQ6TjhsQF1cSD9DbUI0Q0FMQEpVP0JqUkJMNFFkZUw1U2ReU29GUldMVzFlNDk6
+MkgxTzVkYTJXUj80O0s2M2piZllnXTdJWWVDNUxtWUdfVVhPaEBmXDE1S2A2QUFFZjdAQ1U6WlRs
+P208QFloU2EyZmFQb2lpXExZZF01REgzWjRGNGUxQGAxMFNvNltHRWU+S1Y1Pj5Zaj9lSzdaTDM0
+Ok44bEBdXEg/XUpmT2JQYmVOP1VpTG9vRUtlaWlCMWBZVFZBQ01fQ2lDU1pOU21GYWpXMGEyV1I/
+NDtLNjNgZ2Y0OW9iQDFaVmBkaExISltkZVBIQUtobF1naFBFMlM0Ok44bEBdXEg/TFRnYDA9UD1e
+NFFZTGxGOWs4OG9mPFtGWT1vZmNmXz00Rm4/O01uODVAWGEyV1I/NDtLNjNnOT1sMDNIM0tROGAz
+RlowW1FpSm0xYzxaUVNlYDVlS2M0Ok44bEBdXEg/M2Izb1plX01PS2VHRm5EaT9OQmQ3W0duOD85
+WTZKN1s8QFloU2EyZmFQbD84P25bRm1lbV9LVWw4SWVma0tiV288Z01bTWdAW0lfPGhfXWFXOURH
+YkM0Ok44bEBdXEg/PW5nOEQ5Y0BLVTxOVGI8T0hsMFBTPkdvODM2UGhpTz48QFloU2EyZmFQb0Fa
+Q1pWNzZIRlRATWZOXVJQNzM2V0NTWk5TbUZhalcwYTJXUj80O0s2M2lES0g6VE9sRm9aaV9VOEJK
+WmZcWGc9ZUZnWE1JMlZTQzQ6TjhsQF1cSD9bOFtGTks1MDREY2RmTT9CVTdDN2REaGpXWG9FXE5Z
+YDxAWWhTYTJmYVBvTlVBVzBEPzBOTlpZXlo5O0hEZGRWPEBZaFNhMmZhUG0wMkBJTjdjaV5HMWlF
+Y0hfQmhPV19VSDZlb0NZSF1OOGEyV1I/NDtLNjNgRzBpVj5dWGRLMUVFVTBRb0ZkbE44W29MSk8/
+ZU0wMDlqVWFqVTNmPUw2PEBZaFNhMmZhUGxCTGRNXjs/bGhmQzQ6TjhsQF1cSD9YN1tDXk1lVz1G
+OGEyV1I/NDtLNjNmZ1ptR15nRGBKPz44b0ZbZUU7aVVCR21ANT5fSURQPTdBTFpXOUtGMV4wPjNs
+bVtuZmE1PjJpVkFORDRdZjlNaG1OUTVJU0xgWm1tYjM3MkNRZ0BiWDAwMF9iMDAwMDsNEmF1ZngS
+U1RveVtVc2VyIFByZXNldE8Q1AAAAAAAAAAAAAAAGQAAAAYAAAAAAAAABwAAAAAAAAAIAAAAAAAA
+AAlCyAAAAAAADQAAAAAAAAAPAAAAAAAAABJBAAAAAAAAEwAAAAAAAAAVP4AAAAAAABhBAAAAAAAA
+GUN6AAAAAAAaAAAAAAAAAB4AAAAAAAAAIAAAAAAAAAAhAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAk
+AAAAAAAAACY/gAAAAAAAKkBAAAAAAAArPyi9BAAAADJBAAAAAAAAMwAAAAAAAAA+QfgAAAAAAHpC
+8AAAEAASRUIgIAAIABcAJgArADgAPQBCAEoAUhCtELIQtxDDEZoRnAAAAAAAAAIBAAAAAAAAAA8A
+AAAAAAAAAAAAAAAAABGh
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Little_SpaceyStereo?type=au&amp;key=aumfLiSpExSl&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Little_SpaceyStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhJMaVNwEkV4U2xPEKQAAAAAAAAAAAAAABMAAAAAQsgAAAAAAAEAAAAAAAAA
+AkAAAAAAAAADPdGXNAAAAAQAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAcAAAAAAAAACECgAAAAAAAJ
+AAAAAAAAAAoAAAAAAAAACz5MzM0AAAAMAAAAAAAAAA0AAAAAAAAADkIgAAAAAAAPvcYxjAAAABA+
+Oy7MAAAAET47LswAAAASAAAAAFtVc2VyIFByZXNldBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAD3
+AQMAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAAAAABBQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>4</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="FF_Pro_LStereo?type=au&amp;key=aumfFPLrFabF&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="FF_Pro_LStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXkZhYkZp
+bHRlckZsYWdzV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkZhYkZfEA9EZWZhdWx0IFNldHRpbmdPEKQA
+AAAAAAAAAAAAABMAAAAAQV7rhQAAAAFAQAAAAAAAAj6AAAAAAAADPsuW3QAAAAQ+1eJpAAAABT8Z
+mZoAAAAGP4AAAAAAAAcAAAAAAAAACAAAAAAAAAAJQAAAAAAAAAoAAAAAAAAAC7wj1woAAAAMP4AA
+AAAAAA0AAAAAAAAADj+AAAAAAAAPAAAAAAAAABA/gAAAAAAAET+AAAAAAAASAAAAABABEAASRlBM
+cgAIABcAHAApAC4AMwBCAEoAUgBXAFwAbgEVARcBGQAAAAAAAAIBAAAAAAAAAA8AAAAAAAAAAAAA
+AAAAAAEe
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<audio-connection from="FilePlayer_1" from-outlet="1" to="C4__s__1" to-inlet="1"/>
+		<audio-connection from="C4__s__1" from-outlet="0" to="EchoBoyStereo_1" to-inlet="0"/>
+		<audio-connection from="FilePlayer_1" from-outlet="0" to="C4__s__1" to-inlet="0"/>
+		<audio-connection from="SGain_2" from-outlet="1" to="Little_SpaceyStereo_1" to-inlet="1"/>
+		<audio-connection from="SGain_2" from-outlet="0" to="Little_SpaceyStereo_1" to-inlet="0"/>
+		<audio-connection from="EchoBoyStereo_1" from-outlet="0" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="EchoBoyStereo_1" from-outlet="1" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="C4__s__1" from-outlet="1" to="EchoBoyStereo_1" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="SGain_2" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="SGain_2" to-inlet="1"/>
+		<audio-connection from="FF_Pro_LStereo_1" from-outlet="1" to="SoundOut" to-inlet="1"/>
+		<audio-connection from="FF_Pro_LStereo_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="Little_SpaceyStereo_1" from-outlet="0" to="FF_Pro_LStereo_1" to-inlet="0"/>
+		<audio-connection from="Little_SpaceyStereo_1" from-outlet="1" to="FF_Pro_LStereo_1" to-inlet="1"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="1061" top="82" width="300" height="170" encoding="UTF-8">
+			<para></para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="479" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="180" snapshots-width="180" interpolate-mode="0"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="SoundOut" patcher-x="69" patcher-y="-224" editor-visible="1" editor-x="40" editor-y="40"/>
+		<contraption-view contraption-name="FilePlayer_1" patcher-x="25" patcher-y="-618" editor-visible="1" editor-x="400" editor-y="0"/>
+		<contraption-view contraption-name="SGain_2" patcher-x="20" patcher-y="-361" editor-visible="0" editor-x="510" editor-y="340"/>
+		<contraption-view contraption-name="C4__s__1" patcher-x="25" patcher-y="-571"/>
+		<contraption-view contraption-name="EchoBoyStereo_1" patcher-x="25" patcher-y="-467" editor-visible="0" editor-x="10" editor-y="10" editor-width="470" editor-height="570"/>
+		<contraption-view contraption-name="Little_SpaceyStereo_1" patcher-x="22" patcher-y="-299" editor-visible="0" editor-x="20" editor-y="20" editor-width="490" editor-height="450"/>
+		<contraption-view contraption-name="SGain_1" patcher-x="20" patcher-y="-409" editor-visible="0" editor-x="510" editor-y="260"/>
+		<contraption-view contraption-name="FF_Pro_LStereo_1" patcher-x="22" patcher-y="-264" editor-visible="0" editor-x="400" editor-y="0" editor-width="570" editor-height="230"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>

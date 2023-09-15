@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications/AudioMulch%202.2.5" document-path="file:///Users/danielmkarlsson/Dropbox/MBA_local/amh">
+	<patch>
+		<clock tempo="140" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="__bubblerStereo?type=au&amp;key=aumf+2bbSDHK&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="__bubblerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXxAPanVj
+ZVBsdWdpblN0YXRlV3ZlcnNpb25Xc3VidHlwZRJhdW1mElNESEtbVXNlciBQcmVzZXRPEPwAAAAA
+AAAAAAAAAB4AAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQAAAAAAAAABQAAAAAA
+AAAGAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAMAAAAAAAA
+AA0AAAAAAAAADgAAAAAAAAAPAAAAAAAAABAAAAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAA
+FAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAYAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAb
+AAAAAAAAABwAAAAAAAAAHQAAAABPEQGqVkMyIaEBAAA8YnViYmxlciBwbHVnaW5WZXJzaW9uPSIw
+LjkxMDAwMDAwMDAwMDAwMDAzMTA5IiBwcmVzZXROYW1lPSIiIHRpbWU9IjAuMTY1MzU5NzgwMTky
+Mzc1MTgzMTEiIHRpbWV2YXJpPSIwIiBmZWVkYmFjaz0iMSIgZ3JhaW5zaXplPSIwLjUxNjUzNTQw
+MTM0NDI5OTMxNjQxIiBwYW52YXJpPSIwIiBkZW5zaXR5PSIwIiBnc3RhcnR2YXJpPSIwIiBvY3Rh
+dmU9IjEiIG9jdGF2ZXZhcmk9IjAiIHJldmVyc2FsPSIwIiB0aW1lbG9jaz0iMCIganVzdD0iMSIg
+ZmlsdGVyZnJlcT0iMSIgZmlsdGVycmVzb249IjEiIHAwPSIwIiBwMT0iMCIgcDI9IjAiIHAzPSIw
+IiBwND0iMCIgcDU9IjAiIHA2PSIwIiBwNz0iMCIgcDg9IjAiIHA5PSIwIiBwMTA9IjAiIHAxMT0i
+MCIgY29sb3I9IjAiIHdldGRyeT0iMSIgaW5nYWluPSIwLjUiIG91dGdhaW49IjAiLz4AEAASKzJi
+YgAIABcAHAApAC4AMwBFAE0AVQBaAF8AawFqAxgDGgAAAAAAAAIBAAAAAAAAAA8AAAAAAAAAAAAA
+AAAAAAMf
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="time" property-index="0">
+					<midi-controller smoothing="0" map-minimum="20" map-maximum="40">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="feedback" property-index="2">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="grainsize" property-index="3">
+					<midi-controller smoothing="0" map-minimum="4" map-maximum="32">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="density" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="7">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="filterfreq" property-index="12">
+					<midi-controller smoothing="0" map-minimum="20" map-maximum="20000">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="10"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Ozone_5_Maximizer?type=au&amp;key=aufxZnOMiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Maximizer_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9NEmladHBPEQgXGNVuAAIAAAALCAAAAADIQot5RT5QAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAMDAAAAAAAAAwMAAAMDAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAMhCAAAAAAAAAAAA
+AKBBAADIQgAAyEIAgMBAAADIQgAAAAAAAAABAQIAAAAAAAAAAgAAAAEAAAAAAAAAAQEAAAAAAAAA
+AgAAAAAAAAACAAAABQAAAAIAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAFtVc2VyIFByZXNl
+dBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAhrCHcAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAA
+AAAIeQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="P2Mixer" name="P2Mixer_1">
+			<properties>
+				<property index="0" name="MasterGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="MasterMute">
+					<bool>0</bool>
+				</property>
+				<property index="2" name="Mute_1">
+					<bool>0</bool>
+				</property>
+				<property index="3" name="Mute_2">
+					<bool>0</bool>
+				</property>
+				<property index="4" name="Solo_1">
+					<bool>0</bool>
+				</property>
+				<property index="5" name="Solo_2">
+					<bool>0</bool>
+				</property>
+				<property index="6" name="Gain_1">
+					<double>1</double>
+				</property>
+				<property index="7" name="Gain_2">
+					<double>1</double>
+				</property>
+				<property index="8" name="Pan_1">
+					<double>0</double>
+				</property>
+				<property index="9" name="Pan_2">
+					<double>1</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Mute_1" property-index="2">
+					<midi-controller invert="1" toggle="0" threshold="8064">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="0"/>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Mute_2" property-index="3">
+					<midi-controller invert="1" toggle="0" threshold="8064">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="1"/>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="Multiband_freeverb?type=vst" name="Multiband_freeverb_1">
+			<properties>
+				<property index="0" name="Bit Precision">
+					<double>0</double>
+				</property>
+				<property index="1" name="xover freq">
+					<double>0.021768910810351372</double>
+				</property>
+				<property index="2" name="wet">
+					<double>0.3720616400241852</double>
+				</property>
+				<property index="3" name="dry">
+					<double>0</double>
+				</property>
+				<property index="4" name="freeze">
+					<double>0</double>
+				</property>
+				<property index="5" name="high room size">
+					<double>1</double>
+				</property>
+				<property index="6" name="high damp">
+					<double>0.6141732335090637</double>
+				</property>
+				<property index="7" name="high width">
+					<double>1</double>
+				</property>
+				<property index="8" name="low room size">
+					<double>0</double>
+				</property>
+				<property index="9" name="low damp">
+					<double>0.8425197005271912</double>
+				</property>
+				<property index="10" name="low width">
+					<double>1</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="high room size" property-index="5">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="38"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="high damp" property-index="6">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="40"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="low room size" property-index="8">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="39"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="low damp" property-index="9">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="41"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.031496062992125984</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="4">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="42"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<audio-connection from="P2Mixer_1" from-outlet="1" to="__bubblerStereo_1" to-inlet="1"/>
+		<audio-connection from="P2Mixer_1" from-outlet="0" to="__bubblerStereo_1" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="1" to="SoundOut" to-inlet="1"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="0" to="P2Mixer_1" to-inlet="0"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="1" to="P2Mixer_1" to-inlet="1"/>
+		<audio-connection from="Multiband_freeverb_1" from-outlet="1" to="Ozone_5_Maximizer_1" to-inlet="1"/>
+		<audio-connection from="Multiband_freeverb_1" from-outlet="0" to="Ozone_5_Maximizer_1" to-inlet="0"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="1" to="Ozone_5_Maximizer_1" to-inlet="1"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="0" to="Ozone_5_Maximizer_1" to-inlet="0"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="0" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="1" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="Multiband_freeverb_1" to-inlet="0"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="Multiband_freeverb_1" to-inlet="1"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="1061" top="82" width="300" height="170" encoding="UTF-8">
+			<para></para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="479" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="180" snapshots-width="180" interpolate-mode="0"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="SoundOut" patcher-x="-117" patcher-y="-498" editor-visible="1" editor-x="440" editor-y="290"/>
+		<contraption-view contraption-name="__bubblerStereo_1" patcher-x="-116" patcher-y="-753" editor-visible="1" editor-x="0" editor-y="0" editor-width="440" editor-height="630"/>
+		<contraption-view contraption-name="Ozone_5_Maximizer_1" patcher-x="-117" patcher-y="-545" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="P2Mixer_1" patcher-x="15" patcher-y="-754" editor-visible="0" editor-x="20" editor-y="20"/>
+		<contraption-view contraption-name="Multiband_freeverb_1" patcher-x="-67" patcher-y="-646" editor-visible="1" editor-x="440" editor-y="0" editor-width="380" editor-height="290"/>
+		<contraption-view contraption-name="SGain_1" patcher-x="-67" patcher-y="-681" editor-visible="1" editor-x="820" editor-y="0"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>

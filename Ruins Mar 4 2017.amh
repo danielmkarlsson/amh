@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<audiomulch-document version="1" application-path="file:///Applications/AudioMulch%202.2.5" document-path="file:///Users/danielmkarlsson/Dropbox/MBA_local/amh">
+	<patch>
+		<clock tempo="140" loop-start="0" loop-end="0" loop-enabled="0">
+			<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+		</clock>
+		<contraption class="ClockPseudoSP" name="Clock">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MetasurfacePseudoSP" name="Metasurface">
+			<properties></properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SoundOut" name="SoundOut">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SouthPole" name="SouthPole_1">
+			<properties>
+				<property index="0" name="BaseCutoffFrequency">
+					<double>900</double>
+				</property>
+				<property index="1" name="BaseResonance">
+					<double>0</double>
+				</property>
+				<property index="2" name="BaseGain">
+					<double>1</double>
+				</property>
+				<property index="3" name="InputTriggerThreshold">
+					<double>0.5</double>
+				</property>
+				<property index="4" name="InputTriggerRetriggerDelay">
+					<double>20</double>
+				</property>
+				<property index="5" name="InputFollowerSmoothing">
+					<double>200</double>
+				</property>
+				<property index="6" name="InputFollowerCutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="7" name="InputFollowerResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="8" name="InputFollowerGainAmount">
+					<double>0</double>
+				</property>
+				<property index="9" name="SideChainTriggerThreshold">
+					<double>0.5</double>
+				</property>
+				<property index="10" name="SideChainTriggerRetriggerDelay">
+					<double>20</double>
+				</property>
+				<property index="11" name="SideChainFollowerSmoothing">
+					<double>200</double>
+				</property>
+				<property index="12" name="SideChainFollowerCutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="13" name="SideChainFollowerResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="14" name="SideChainFollowerGainAmount">
+					<double>0</double>
+				</property>
+				<property index="15" name="Envelope1TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="16" name="Envelope1AttackTime">
+					<double>20</double>
+				</property>
+				<property index="17" name="Envelope1DecayTime">
+					<double>100</double>
+				</property>
+				<property index="18" name="Envelope1SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="19" name="Envelope1ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="20" name="Envelope1GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="21" name="Envelope1GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="22" name="Envelope1CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="23" name="Envelope1ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="24" name="Envelope1GainAmount">
+					<double>0</double>
+				</property>
+				<property index="25" name="Envelope2TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="26" name="Envelope2AttackTime">
+					<double>20</double>
+				</property>
+				<property index="27" name="Envelope2DecayTime">
+					<double>100</double>
+				</property>
+				<property index="28" name="Envelope2SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="29" name="Envelope2ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="30" name="Envelope2GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="31" name="Envelope2GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="32" name="Envelope2CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="33" name="Envelope2ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="34" name="Envelope2GainAmount">
+					<double>0</double>
+				</property>
+				<property index="35" name="Envelope3TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="36" name="Envelope3AttackTime">
+					<double>20</double>
+				</property>
+				<property index="37" name="Envelope3DecayTime">
+					<double>100</double>
+				</property>
+				<property index="38" name="Envelope3SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="39" name="Envelope3ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="40" name="Envelope3GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="41" name="Envelope3GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="42" name="Envelope3CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="43" name="Envelope3ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="44" name="Envelope3GainAmount">
+					<double>0</double>
+				</property>
+				<property index="45" name="Pattern">
+					<pattern duration="192" matrix-resolution="1/16">
+						<pattern-channel channel-type="time-signatures">
+							<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+						</pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+					</pattern>
+				</property>
+				<property index="46" name="LFO1Waveform">
+					<enum>0</enum>
+				</property>
+				<property index="47" name="LFO1Mode">
+					<enum>1</enum>
+				</property>
+				<property index="48" name="LFO1AsynchronousRate">
+					<double>0.04204482076268553</double>
+				</property>
+				<property index="49" name="LFO1SynchronousPeriod">
+					<double>16</double>
+				</property>
+				<property index="50" name="LFO1SynchronousPhase">
+					<double>0</double>
+				</property>
+				<property index="51" name="LFO1SynchronousUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="52" name="LFO1CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="53" name="LFO1ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="54" name="LFO1GainAmount">
+					<double>0</double>
+				</property>
+				<property index="55" name="LFO2Waveform">
+					<enum>0</enum>
+				</property>
+				<property index="56" name="LFO2Mode">
+					<enum>0</enum>
+				</property>
+				<property index="57" name="LFO2AsynchronousRate">
+					<double>0.5</double>
+				</property>
+				<property index="58" name="LFO2SynchronousPeriod">
+					<double>16</double>
+				</property>
+				<property index="59" name="LFO2SynchronousPhase">
+					<double>0</double>
+				</property>
+				<property index="60" name="LFO2SynchronousUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="61" name="LFO2CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="62" name="LFO2ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="63" name="LFO2GainAmount">
+					<double>0</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="TestGen" name="TestGen_1">
+			<properties>
+				<property index="0" name="Amplitude">
+					<double>0.06309573444801933</double>
+				</property>
+				<property index="1" name="Frequency">
+					<double>440</double>
+				</property>
+				<property index="2" name="Waveform">
+					<enum>0</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="MGain" name="MGain_3">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.06309573444801933</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Maximizer?type=au&amp;key=aufxZnOMiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Maximizer_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9NEmladHBPEQgXGNVuAAIAAAALCAAAAADIQkIpoT5QAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAMhCQDrBwAAAAAAA
+AKBBAADIQgAAyEIAgMBAAADIQgAAAAAAAAABAQIAAAAAAAAAAgAAAAEAAAAAAAAAAQEAAAAAAAAA
+AgAAAAAAAAACAAAABQAAAAIAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAFtVc2VyIFByZXNl
+dBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAhrCHcAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAA
+AAAIeQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="EchoBoyStereo?type=au&amp;key=aufxEB  SToy&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="EchoBoyStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5ec291bmR0b3lzLWRhdGFUdHlwZVxtYW51ZmFjdHVyZXJU
+bmFtZVRkYXRhV3ZlcnNpb25Xc3VidHlwZV8RBvdXSURHRVQgPSBFY2hvQm95Ow1WRVJTSU9OID0g
+MzsNU0FWRURfQllfVkVSU0lPTiA9IDQuMS4xOw1QUkVTRVQgPTAxMDEwMDAwMTcwNDAxMDEwMDA0
+bzRdSEZRN0s/Vz1EZz9bPExFVDg9WjpdSFZYWT5SPl1JNGdsVmE1XTJYYDVbSDBKTWdmY2JjP0VA
+Yzk0a1ZJQmpfZE43X2JpZTFvYlgxMk1RPjxfTEtFOllSUmU5Z2c8V2kwalQ/UVhjVWVHb2hlZVsy
+UDldN0lnaEA8YUNaRDc9Zjs2UkIyO2w2RE5AOUZgQElcVE86Rmk/ZDRCVT86TElpQ2pQYWZWPFpc
+Y2dVTVBWQjpCMmE7QUpuXlQ1VEBpYzFMQTg+QldmMk83Zjs0NE9hQWZGOjhNPTtQUltRYW8+NU1i
+QWBlTElsZG5cQWxQQTlgOmRbbFFUZTlTNDxEUjA1TzxnQlBRZU1gZGluZ2BcamhJYVRiXmxqXms+
+aFNmZVlbRT1CSWNka1RlajFDQTdcODliYW1vMGpbYz81XUQ7bTZRbl40PjtEM0hOS2BfW2NhRFls
+NEtbT2FMTktmX0tBNV9TYmdPUjFEOjRXPTdLUmNvPj1Wa0hUQThiRTRlZTZESjZuUzhiOzE4QEg/
+ZUxDbTlsa19tNWxWNEBSMU1tMGZtbmZbOzU6YVdcaV1ORV02a1xJNlk9UDo8bDpdX15MNzdLMGJa
+T2ZeXmc9ZUlRX28+MEVBM1BeOFNTOTQyOkRLTFNtWUM5Vj9mZ09kYmREajg1XmNYW1ltWVdOMTRu
+W21SPEBaU2NGP1BpazhfO1dkTVJROk5ZTE5ZQG1TRzFTQzJnUWttZ1NmPmNcbDZpYjNcPm1rbFJW
+MWhKPEFUSlMyVUtYSj9pMDdSZWFuXz9rPGpUMGZka2lcQWpsOUZYTDM1NkNJMjdnYlg2blRtWmxT
+P2g1NkY7U15XUEQxZTtrTDE5UlU9TzFjWVIySF1WMzVuVVlVPldhWW1uVU49RUE9ST5Pb1BDMjlL
+WFRsQmVDWFpBT1xURDlDYVRMYWpsMkVEMmM9W21bMGEzP2RqMT5uXUhHSGJmOVdrT1dFXkpbZVdV
+U1k9Ok8zNlwyQjBWOVpWQEEzMldqRFs7ZjVFNGo6MGxKSDtXQWxCZl9ubmJgQltqSl5LYUs0aDBT
+MFpoVVZEQ2o8OVRRb25jOzJURTlrWj87REJLXUU6MkUzYDpvOk1EaDRCT0xNNWM+O2tMSWJFNWxX
+UWtTRWpZVkpMQWJfUkJLXTphPkk/SUFYS2o8UzhcNFExUG9FYT9kV2Neb2RHYkhBMjg1Z2QzS2dr
+SlxcRFs2TmNWZWlGZEteYVRDMGBrS2JJWmdtRFg3W0NeTWVXPUY4VmUxNFg2WFRbUzRZP0hJPWpM
+RE5LSVhmMV9dMklHSDtcVzIwNDhCW180OTpIQjJBPlhXU0VOS2BfW2NhRFlsNDg9XlZFaEpWTjc5
+bVlWakJfYzVES1g3W0NeTWVXPUY4VmUxNFg2WFRbUz9VVm1fQ0FaR1hNNVlVV0dhVUQ6b1pnPk5p
+OVBRZj1LWm5OaGQyZzZcaVxuOE9ibjxFO1NrZV9hOTJDVWVvTjZMTD07WEhBaDdBXElqWTRFYmI3
+Tks8WU0zaTVmUz9KOU9uU2ZgUWBOQ1peX0ZORj5UZFlsPElLal5EWkQ+V2k9MVA7PFVuVllFaUxD
+bDFXbThdM09BMEptXTNNPmRVOE07WEZvMWNOSV1iMUNDRU5mWVBkMmBHWDU9NE5gUFc7N2dsM1pf
+PGxGZUBfSV1dO2M8RE0/bElBMUNKUDY6NkwyM2tfR2phPzs3Q09TW15tNWBHa2ZIPlBOXT5pZ0ZM
+ZUhdUDZFRGdrW2ZVRFBYYGFIT0BdYWdQOm1hODQ0R0tdPTBeUVdbWmZHb1pkRGFpR1k/Z11DXlc+
+MmFCZWxlMEY9P21raWxuQTxmNT09S0I/PTVuSFY6Ql5kZ11MbzxMUTxHNFlOWUk3aUFWYUg8O1Y0
+MjNtNjdDbUE2bU9FalNLYjtNP1Q6TD9lakxLQ2JJOlcxWj5uTTloOVIwTTgwWFk1WFFYbl5dbGJQ
+PVI3MlZCSTU9Zm0/VVpbY2hmPjhAPjltUjdsTThNaTNpQ05hWEVpUz5rQT1kaFdDMDdPPW47ak1E
+WUE0OU9cbFk5ZzE/Sz5oVFlFS0I8OzRsMFpFRGlDZko9UEtrQFZFZjJkV1w1OEVYSVppUk9YXTE6
+P0BnZ0lfREQ3UWpkQTFEQF1ARU1aRVxdR2lXbUNuWl03XTFhSUVaUF9dbGFMVkVFXmlNWGdoaWI1
+X2lVVUpVbkEzPVJtTGNQYlI7NUtbWT9ON2pVN2hQaW1FWDAwMENbMDAwMDsNEmF1ZngSU1RveVtV
+c2VyIFByZXNldE8Q1AAAAAAAAAAAAAAAGQAAAAYAAAAAAAAAB8EoAAAAAAAIwUAAAAAAAAlCyAAA
+AAAADQAAAAAAAAAPAAAAAAAAABJBAAAAAAAAEwAAAAAAAAAVP4AAAAAAABhBAAAAAAAAGUN6AAAA
+AAAaAAAAAAAAAB4AAAAAAAAAIAAAAAAAAAAhAAAAAAAAACI/dcKPAAAAIwAAAAAAAAAkAAAAAAAA
+ACY/gAAAAAAAKkBAAAAAAAArPyi9BAAAADJBAAAAAAAAMwAAAAAAAAA+QIAAAAAAAHpC8AAAEAAS
+RUIgIAAIABcAJgArADgAPQBCAEoAUgdNB1IHVwdjCDoIPAAAAAAAAAIBAAAAAAAAAA8AAAAAAAAA
+AAAAAAAAAAhB
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SouthPole" name="SouthPole_2">
+			<properties>
+				<property index="0" name="BaseCutoffFrequency">
+					<double>900</double>
+				</property>
+				<property index="1" name="BaseResonance">
+					<double>0</double>
+				</property>
+				<property index="2" name="BaseGain">
+					<double>1</double>
+				</property>
+				<property index="3" name="InputTriggerThreshold">
+					<double>0.5</double>
+				</property>
+				<property index="4" name="InputTriggerRetriggerDelay">
+					<double>20</double>
+				</property>
+				<property index="5" name="InputFollowerSmoothing">
+					<double>200</double>
+				</property>
+				<property index="6" name="InputFollowerCutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="7" name="InputFollowerResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="8" name="InputFollowerGainAmount">
+					<double>0</double>
+				</property>
+				<property index="9" name="SideChainTriggerThreshold">
+					<double>0.5</double>
+				</property>
+				<property index="10" name="SideChainTriggerRetriggerDelay">
+					<double>20</double>
+				</property>
+				<property index="11" name="SideChainFollowerSmoothing">
+					<double>200</double>
+				</property>
+				<property index="12" name="SideChainFollowerCutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="13" name="SideChainFollowerResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="14" name="SideChainFollowerGainAmount">
+					<double>0</double>
+				</property>
+				<property index="15" name="Envelope1TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="16" name="Envelope1AttackTime">
+					<double>20</double>
+				</property>
+				<property index="17" name="Envelope1DecayTime">
+					<double>100</double>
+				</property>
+				<property index="18" name="Envelope1SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="19" name="Envelope1ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="20" name="Envelope1GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="21" name="Envelope1GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="22" name="Envelope1CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="23" name="Envelope1ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="24" name="Envelope1GainAmount">
+					<double>0</double>
+				</property>
+				<property index="25" name="Envelope2TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="26" name="Envelope2AttackTime">
+					<double>20</double>
+				</property>
+				<property index="27" name="Envelope2DecayTime">
+					<double>100</double>
+				</property>
+				<property index="28" name="Envelope2SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="29" name="Envelope2ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="30" name="Envelope2GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="31" name="Envelope2GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="32" name="Envelope2CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="33" name="Envelope2ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="34" name="Envelope2GainAmount">
+					<double>0</double>
+				</property>
+				<property index="35" name="Envelope3TriggerSource">
+					<enum>0</enum>
+				</property>
+				<property index="36" name="Envelope3AttackTime">
+					<double>20</double>
+				</property>
+				<property index="37" name="Envelope3DecayTime">
+					<double>100</double>
+				</property>
+				<property index="38" name="Envelope3SustainLevel">
+					<double>0.4</double>
+				</property>
+				<property index="39" name="Envelope3ReleaseTime">
+					<double>200</double>
+				</property>
+				<property index="40" name="Envelope3GateDuration">
+					<double>0.5</double>
+				</property>
+				<property index="41" name="Envelope3GateDurationUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="42" name="Envelope3CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="43" name="Envelope3ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="44" name="Envelope3GainAmount">
+					<double>0</double>
+				</property>
+				<property index="45" name="Pattern">
+					<pattern duration="192" matrix-resolution="1/16">
+						<pattern-channel channel-type="time-signatures">
+							<time-signature-timepoints>0	4	|	4
+</time-signature-timepoints>
+						</pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+						<pattern-channel channel-type="trigger-tie-matrix">x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x </pattern-channel>
+					</pattern>
+				</property>
+				<property index="46" name="LFO1Waveform">
+					<enum>0</enum>
+				</property>
+				<property index="47" name="LFO1Mode">
+					<enum>1</enum>
+				</property>
+				<property index="48" name="LFO1AsynchronousRate">
+					<double>0.031237883834732572</double>
+				</property>
+				<property index="49" name="LFO1SynchronousPeriod">
+					<double>16</double>
+				</property>
+				<property index="50" name="LFO1SynchronousPhase">
+					<double>0</double>
+				</property>
+				<property index="51" name="LFO1SynchronousUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="52" name="LFO1CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="53" name="LFO1ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="54" name="LFO1GainAmount">
+					<double>0</double>
+				</property>
+				<property index="55" name="LFO2Waveform">
+					<enum>0</enum>
+				</property>
+				<property index="56" name="LFO2Mode">
+					<enum>0</enum>
+				</property>
+				<property index="57" name="LFO2AsynchronousRate">
+					<double>0.5</double>
+				</property>
+				<property index="58" name="LFO2SynchronousPeriod">
+					<double>16</double>
+				</property>
+				<property index="59" name="LFO2SynchronousPhase">
+					<double>0</double>
+				</property>
+				<property index="60" name="LFO2SynchronousUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="61" name="LFO2CutoffFrequencyAmount">
+					<double>0</double>
+				</property>
+				<property index="62" name="LFO2ResonanceAmount">
+					<double>0</double>
+				</property>
+				<property index="63" name="LFO2GainAmount">
+					<double>0</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="TestGen" name="TestGen_2">
+			<properties>
+				<property index="0" name="Amplitude">
+					<double>0.06309573444801933</double>
+				</property>
+				<property index="1" name="Frequency">
+					<double>440</double>
+				</property>
+				<property index="2" name="Waveform">
+					<enum>0</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="OTTStereo?type=au&amp;key=aufxXfTTXFER&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="OTTStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5dUHJvZ3JhbU51bWJlclR0eXBlXG1hbnVmYWN0dXJlclRu
+YW1lV3ZzdGRhdGFXdmVyc2lvbldzdWJ0eXBlEAASYXVmeBJYRkVSW1VzZXIgUHJlc2V0TxCEQ2Nu
+SwAAAHxGeENrAAAAAVhmVFQAAAABAAAAE1VzZXIgUHJlc2V0AAAAAAAAAAAAAAAAAAAAAAA/gAAA
+PwAAAD8AAAA/AAAAAAAAAD8AAAA/AAAAPwAAAD+AAAA/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAD8AAAA+X7hSEAESWGZUVAgXJSo3PERMVFZbYGzz9QAAAAAAAAEBAAAAAAAAAA8AAAAA
+AAAAAAAAAAAAAAD6
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="FF_Pro_LStereo?type=au&amp;key=aumfFPLrFabF&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="FF_Pro_LStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXkZhYkZp
+bHRlckZsYWdzV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkZhYkZbVXNlciBQcmVzZXRPEKQAAAAAAAAA
+AAAAABMAAAAAQPD1wgAAAAFAQAAAAAAAAj6AAAAAAAADPsuW3QAAAAQ+1eJpAAAABT8ZmZoAAAAG
+P4AAAAAAAAcAAAAAAAAACAAAAAAAAAAJQAAAAAAAAAoAAAAAAAAACwAAAAAAAAAMP4AAAAAAAA0A
+AAAAAAAADj+AAAAAAAAPAAAAAAAAABA/gAAAAAAAET+AAAAAAAASAAAAABABEAASRlBMcgAIABcA
+HAApAC4AMwBCAEoAUgBXAFwAaAEPAREBEwAAAAAAAAIBAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAEY
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SDelay" name="SDelay_2">
+			<properties>
+				<property index="0" name="DelayUnits">
+					<enum>0</enum>
+				</property>
+				<property index="1" name="ClockSyncedDelayUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="2" name="LeftDelay">
+					<double>2000</double>
+				</property>
+				<property index="3" name="RightDelay">
+					<double>2000</double>
+				</property>
+				<property index="4" name="Feedback">
+					<double>0</double>
+				</property>
+				<property index="5" name="WetDryMix">
+					<double>1</double>
+				</property>
+				<property index="6" name="FeedbackMode">
+					<enum>1</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="C4__m_?type=au&amp;key=aufxDEQMksWV&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="C4__m__2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkR6AAAAAAADQ/oAAAAAAARDbAAA
+AAAABUP2gAAAAAAGREfAAAAAAAdEegAAAAAACEQSAAAAAAAJAAAAAAAAAApEMsAAAAAAC0OXAAAA
+AAAMAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAPRBIAAAAAABAAAAAAAAAAEUQmwAAAAAASQ4GAAAAA
+ABMAAAAAAAAAFAAAAAAAAAAVQ7iAAAAAABZEEgAAAAAAFwAAAAAAAAAYRBRAAAAAABlDSQAAAAAA
+GgAAAAAAAAAbAAAAAAAAABxENoAAAAAAHUQSAAAAAAAeAAAAAAAAAB9EBYAAAAAAIAAAAAAAAAAh
+AAAAAAAAACIAAAAAAAAAI0QkwABPEQTOAAAEzgAAAAQAAAABREVRTXNldEEAAASuWFBzdDxQcmVz
+ZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdl
+bmVyaWNUeXBlPSJSTUJDIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNDwvUGx1
+Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OS4xLjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3Rp
+dmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5
+PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0
+dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFyZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9
+IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43NSAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAg
+MwotODAgLTI0IDAuNzUgNjkuODE5OTk5OTk5OTk5OTkzMTc5IDQwLjI3MDAwMDAwMDAwMDAwMzEy
+NiAwIDAgKiAwCjAgMCAwIDAgMyAtNTAuNSAtMjQgMC43NSA1MC4xMTk5OTk5OTk5OTk5OTc0NDIK
+MjkuOTIwMDAwMDAwMDAwMDAxNzA1IDAgMCAqIDAgMCAwIDAgMAozIC0yMS42MDAwMDAwMDAwMDAw
+MDE0MjEgLTI0IDAuNzUgMzAuMDU5OTk5OTk5OTk5OTk4NzIxIDIwLjAzOTk5OTk5OTk5OTk5OTE0
+NyAwIDAgKgowIDAgMCAwIDAgMyAtMjcuMzAwMDAwMDAwMDAwMDAwNzExIC0yNCAwLjc1CjIwIDUg
+MCAwICogMCA8L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJCTxQcmVzZXREYXRhIFNldHVw
+PSJTRVRVUF9CIj4KCQkJPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj45MiA0MDAwIDExMDcx
+IDAuNTk5OTk5OTk5OTk5OTk5OTc3OCAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAgMAotMjcg
+LTggMC41IDM0Ljk5MDAwMDAwMDAwMDAwMTk5IDQwLjI3MDAwMDAwMDAwMDAwMzEyNiAwIDAgKiAw
+CjAgMCAwIDAgMCAtMTkuMTk5OTk5OTk5OTk5OTk5Mjg5IC04IDAuNSAxNi4wMzAwMDAwMDAwMDAw
+MDExMzcKMjUgMCAwICogMCAwIDAgMCAwCjAgLTMwLjEwMDAwMDAwMDAwMDAwMTQyMSAtOCAwLjUg
+NC45OTAwMDAwMDAwMDAwMDAyMTMyIDkuOTgwMDAwMDAwMDAwMDAwNDI2MyAwIDAgKgowIDAgMCAw
+IDAgMCAtMzUuMjk5OTk5OTk5OTk5OTk3MTU4IC04IDAuNQoyIDUgMCAwICogMCA8L1BhcmFtZXRl
+cnM+CgkJPC9QcmVzZXREYXRhPgoJPC9QcmVzZXQ+CjwvUHJlc2V0Q2h1bmtYTUxUcmVlPgoAAAAA
+EADSEBESFVExUTLRExRRMF5NYWluIElucHV0IEJ1c9ETFl8QD01haW4gT3V0cHV0IEJ1cxJERVFN
+AAgAGQAeACsAMAA1AEAASABVAF0AYgBnAHMBowZ1BncGfAZ+BoAGgwaFBpQGlwapAAAAAAAAAgEA
+AAAAAAAAGAAAAAAAAAAAAAAAAAAABq4=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C4__m_?type=au&amp;key=aufxDEQMksWV&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="C4__m__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkR6AAAAAAADQ/oAAAAAAARDbAAA
+AAAABUP2gAAAAAAGREfAAAAAAAdEegAAAAAACEQSAAAAAAAJAAAAAAAAAApEMsAAAAAAC0OXAAAA
+AAAMAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAPRBIAAAAAABAAAAAAAAAAEUQmwAAAAAASQ4GAAAAA
+ABMAAAAAAAAAFAAAAAAAAAAVQ7iAAAAAABZEEgAAAAAAFwAAAAAAAAAYRBRAAAAAABlDSQAAAAAA
+GgAAAAAAAAAbAAAAAAAAABxENoAAAAAAHUQSAAAAAAAeAAAAAAAAAB9EBYAAAAAAIAAAAAAAAAAh
+AAAAAAAAACIAAAAAAAAAI0QkwABPEQTOAAAEzgAAAAQAAAABREVRTXNldEEAAASuWFBzdDxQcmVz
+ZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdl
+bmVyaWNUeXBlPSJSTUJDIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNDwvUGx1
+Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OS4xLjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3Rp
+dmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5
+PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0
+dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFyZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9
+IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43NSAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAg
+MwotODAgLTI0IDAuNzUgNjkuODE5OTk5OTk5OTk5OTkzMTc5IDQwLjI3MDAwMDAwMDAwMDAwMzEy
+NiAwIDAgKiAwCjAgMCAwIDAgMyAtNTAuNSAtMjQgMC43NSA1MC4xMTk5OTk5OTk5OTk5OTc0NDIK
+MjkuOTIwMDAwMDAwMDAwMDAxNzA1IDAgMCAqIDAgMCAwIDAgMAozIC0yMS42MDAwMDAwMDAwMDAw
+MDE0MjEgLTI0IDAuNzUgMzAuMDU5OTk5OTk5OTk5OTk4NzIxIDIwLjAzOTk5OTk5OTk5OTk5OTE0
+NyAwIDAgKgowIDAgMCAwIDAgMyAtMjcuMzAwMDAwMDAwMDAwMDAwNzExIC0yNCAwLjc1CjIwIDUg
+MCAwICogMCA8L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJCTxQcmVzZXREYXRhIFNldHVw
+PSJTRVRVUF9CIj4KCQkJPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj45MiA0MDAwIDExMDcx
+IDAuNTk5OTk5OTk5OTk5OTk5OTc3OCAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAgMAotMjcg
+LTggMC41IDM0Ljk5MDAwMDAwMDAwMDAwMTk5IDQwLjI3MDAwMDAwMDAwMDAwMzEyNiAwIDAgKiAw
+CjAgMCAwIDAgMCAtMTkuMTk5OTk5OTk5OTk5OTk5Mjg5IC04IDAuNSAxNi4wMzAwMDAwMDAwMDAw
+MDExMzcKMjUgMCAwICogMCAwIDAgMCAwCjAgLTMwLjEwMDAwMDAwMDAwMDAwMTQyMSAtOCAwLjUg
+NC45OTAwMDAwMDAwMDAwMDAyMTMyIDkuOTgwMDAwMDAwMDAwMDAwNDI2MyAwIDAgKgowIDAgMCAw
+IDAgMCAtMzUuMjk5OTk5OTk5OTk5OTk3MTU4IC04IDAuNQoyIDUgMCAwICogMCA8L1BhcmFtZXRl
+cnM+CgkJPC9QcmVzZXREYXRhPgoJPC9QcmVzZXQ+CjwvUHJlc2V0Q2h1bmtYTUxUcmVlPgogMCAw
+EADSEBESFVExUTLRExRRMF5NYWluIElucHV0IEJ1c9ETFl8QD01haW4gT3V0cHV0IEJ1cxJERVFN
+AAgAGQAeACsAMAA1AEAASABVAF0AYgBnAHMBowZ1BncGfAZ+BoAGgwaFBpQGlwapAAAAAAAAAgEA
+AAAAAAAAGAAAAAAAAAAAAAAAAAAABq4=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="MGain" name="MGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.9763779527559056</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="3" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="MGain" name="MGain_2">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.2204724409448819</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="1" number="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="Ambience?type=au&amp;key=aufxÀ¼ÒMagJ&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Ambience_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBIHwLzSEk1hZ0pPELQAAAAAAAAAAAAAABUAAAAAP4AAAAAAAAE/gAAAAAAA
+Aj63RdEAAAADPwAAAAAAAAQ/AAAAAAAABT8AAAAAAAAGPwAAAAAAAAc/gAAAAAAACELIAAAAAAAJ
+QrQAAAAAAAoAAAAAAAAACz3MzM0AAAAMAAAAAAAAAA0/ZmZmAAAADgAAAAAAAAAPSnIepAAAABAA
+AAAAAAAAEQAAAAAAAAASQSAAAAAAABNBIAAAAAAAFEJIAABbVXNlciBQcmVzZXQQAAAIABUAGgAi
+AC8ANAA5AEEARgBLAFABBwETAAAAAAAAAgEAAAAAAAAADQAAAAAAAAAAAAAAAAAAARU=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="MParaEQ" name="MParaEQ_2">
+			<properties>
+				<property index="0" name="HSCutoffFrequency">
+					<double>10000</double>
+				</property>
+				<property index="1" name="HSGain">
+					<double>0</double>
+				</property>
+				<property index="2" name="BP1CenterFrequency">
+					<double>1000</double>
+				</property>
+				<property index="3" name="BP1Bandwidth">
+					<double>20</double>
+				</property>
+				<property index="4" name="BP1Gain">
+					<double>0</double>
+				</property>
+				<property index="5" name="BP2CenterFrequency">
+					<double>500</double>
+				</property>
+				<property index="6" name="BP2Bandwidth">
+					<double>20</double>
+				</property>
+				<property index="7" name="BP2Gain">
+					<double>0</double>
+				</property>
+				<property index="8" name="LSCutoffFrequency">
+					<double>400</double>
+				</property>
+				<property index="9" name="LSGain">
+					<double>-30</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SDelay" name="SDelay_3">
+			<properties>
+				<property index="0" name="DelayUnits">
+					<enum>0</enum>
+				</property>
+				<property index="1" name="ClockSyncedDelayUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="2" name="LeftDelay">
+					<double>2000</double>
+				</property>
+				<property index="3" name="RightDelay">
+					<double>2000</double>
+				</property>
+				<property index="4" name="Feedback">
+					<double>0</double>
+				</property>
+				<property index="5" name="WetDryMix">
+					<double>1</double>
+				</property>
+				<property index="6" name="FeedbackMode">
+					<enum>1</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SDelay" name="SDelay_4">
+			<properties>
+				<property index="0" name="DelayUnits">
+					<enum>0</enum>
+				</property>
+				<property index="1" name="ClockSyncedDelayUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="2" name="LeftDelay">
+					<double>2000</double>
+				</property>
+				<property index="3" name="RightDelay">
+					<double>2000</double>
+				</property>
+				<property index="4" name="Feedback">
+					<double>0</double>
+				</property>
+				<property index="5" name="WetDryMix">
+					<double>1</double>
+				</property>
+				<property index="6" name="FeedbackMode">
+					<enum>1</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="The_Glue?type=au&amp;key=aufxCyTgCytM&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="The_Glue_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXxAPanVj
+ZVBsdWdpblN0YXRlV3ZlcnNpb25Xc3VidHlwZRJhdWZ4EkN5dE1bVXNlciBQcmVzZXRPEGwAAAAA
+AAAAAAAAAAwAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQAAAAAAAAABQAAAAAA
+AAAGAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAACwAAAABPEQdRVkMyIUcH
+AAA8Q3l0b21pYyBQcm9kdWN0PSJUaGUgR2x1ZSIgVmVyc2lvbj0iMS4yLjEiPjxTb25nUHJlc2V0
+IFZlcnNpb249IjEuMi4xIj48U3RhdGUgVmVyc2lvbj0iMS4yLjEiPjxUdXBsZSBLZXk9IkN1cnJl
+bnRQcmVzZXQiIFZhbHVlPSIwIi8+PFR1cGxlIEtleT0iR3VpU3RhdGUwIiBWYWx1ZT0iMTIxLDg3
+LDE5MCwxMjIsMTE4LDE1MSwxMjUsMjE3LDE3MCw4NSwxNiwxMzgsOTksMTgsMjM0LDE1LDE1MSwx
+NjgsNCwxLDI0NiwxODIsMTM3LDE2NSwxNTgsMTkwLDIxMCwzNSwyNDQsMTg0LDEyNSwxMTQiLz48
+VHVwbGUgS2V5PSJHdWlTdGF0ZTEiIFZhbHVlPSIxMDAsMjIyLDEwMCw4OSwyMjEsMjMsMjM1LDI0
+NywxMjIsMTIzLDIyNCwxMDgsMTEzLDU2LDIyMSwyMiwyMDEsMTExLDM0LDEzNCwxNjMsMTI0LDkz
+LDI5LDIxOSwxNTgsMTkyLDIxNCwxNzksMTc2LDIzMCwxNDgiLz48VHVwbGUgS2V5PSJHdWlTdGF0
+ZTIiIFZhbHVlPSIyNDYsNjEsNjQsNjAsOTMsMTY0LDcwLDIxNywyMzEsMTUwLDc2LDEwNiwxMTEs
+NjYsMzIsMTQ0LDEwNSwxODcsOTksNzMsMTQ1LDExOSwxMSwyMTYsMTY2LDEwNyw1LDE4NSwxMTgs
+MTIyLDI2LDEyMSIvPjxUdXBsZSBLZXk9Ikd1aVN0YXRlMyIgVmFsdWU9IjE0ODczNjgwNTY3NzYi
+Lz48VHVwbGUgS2V5PSJHdWlTdGF0ZTQiIFZhbHVlPSIxNDg4NjM0MTA2ODYzIi8+PFR1cGxlIEtl
+eT0iT3ZlclNhbXBsZVJlYWx0aW1lIiBWYWx1ZT0iT2ZmIi8+PFR1cGxlIEtleT0iT3ZlclNhbXBs
+ZVJlbmRlciIgVmFsdWU9Ik9mZiIvPjxUdXBsZSBLZXk9IlNob3dQZWFrTmVlZGxlIiBWYWx1ZT0i
+ZmFsc2UiLz48L1N0YXRlPjxQcmVzZXQgTmFtZT0iRGVmYXVsdCIgVmVyc2lvbj0iMS4yLjEiPjxQ
+YXJhbWV0ZXJzPjxUdXBsZSBLZXk9IlBvd2VyIiBWYWx1ZT0iT24iLz48VHVwbGUgS2V5PSJUaHJl
+c2hvbGQiIFZhbHVlPSIwLjAwMDAwMDAgZEIiLz48VHVwbGUgS2V5PSJNYWtldXAiIFZhbHVlPSIw
+LjAwMDAwMDAgZEIiLz48VHVwbGUgS2V5PSJSYW5nZSIgVmFsdWU9IkZ1bGwiLz48VHVwbGUgS2V5
+PSJBdHRhY2siIFZhbHVlPSIxIG1TIi8+PFR1cGxlIEtleT0iUmVsZWFzZSIgVmFsdWU9IjAuNiBT
+Ii8+PFR1cGxlIEtleT0iUmF0aW8iIFZhbHVlPSI0Ii8+PFR1cGxlIEtleT0iQ29tcEluIiBWYWx1
+ZT0iT24iLz48VHVwbGUgS2V5PSJXZXRNaXgiIFZhbHVlPSIxMDAuMDAwMDAwICUiLz48VHVwbGUg
+S2V5PSJQZWFrQ2xpcEluIiBWYWx1ZT0iT2ZmIi8+PFR1cGxlIEtleT0iU2lkZWNoYWluSHAiIFZh
+bHVlPSJPZmYiLz48VHVwbGUgS2V5PSJFeHRTaWRlY2hhaW5JbiIgVmFsdWU9Ik9mZiIvPjwvUGFy
+YW1ldGVycz48L1ByZXNldD48UHJlc2V0IE5hbWU9IkRlZmF1bHQiIFZlcnNpb249IjEuMi4xIj48
+UGFyYW1ldGVycz48VHVwbGUgS2V5PSJQb3dlciIgVmFsdWU9Ik9uIi8+PFR1cGxlIEtleT0iVGhy
+ZXNob2xkIiBWYWx1ZT0iMC4wMDAwMDAwIGRCIi8+PFR1cGxlIEtleT0iTWFrZXVwIiBWYWx1ZT0i
+MC4wMDAwMDAwIGRCIi8+PFR1cGxlIEtleT0iUmFuZ2UiIFZhbHVlPSJGdWxsIi8+PFR1cGxlIEtl
+eT0iQXR0YWNrIiBWYWx1ZT0iMSBtUyIvPjxUdXBsZSBLZXk9IlJlbGVhc2UiIFZhbHVlPSIwLjYg
+UyIvPjxUdXBsZSBLZXk9IlJhdGlvIiBWYWx1ZT0iNCIvPjxUdXBsZSBLZXk9IkNvbXBJbiIgVmFs
+dWU9Ik9uIi8+PFR1cGxlIEtleT0iV2V0TWl4IiBWYWx1ZT0iMTAwLjAwMDAwMCAlIi8+PFR1cGxl
+IEtleT0iUGVha0NsaXBJbiIgVmFsdWU9Ik9mZiIvPjxUdXBsZSBLZXk9IlNpZGVjaGFpbkhwIiBW
+YWx1ZT0iT2ZmIi8+PFR1cGxlIEtleT0iRXh0U2lkZWNoYWluSW4iIFZhbHVlPSJPZmYiLz48L1Bh
+cmFtZXRlcnM+PC9QcmVzZXQ+PC9Tb25nUHJlc2V0PjwvQ3l0b21pYz4AeBAAEkN5VGcACAAXABwA
+KQAuADMARQBNAFUAWgBfAGsA2ggvCDEAAAAAAAACAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAINg==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_1">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.251188643150958</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="C6__s_?type=au&amp;key=aufxC6QSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C6__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RAbwAAAAAAAAAAAAAADYAAAAARFBVVQAAAAEAAAAAAAAAAgAAAAAAAAADRHoAAAAAAARDbDTF
+AAAABUP2eWIAAAAGREe/PgAAAAdEegAAAAAACAAAAAAAAAAJAAAAAAAAAApDloAAAAAAC0P6AAAA
+AAAMQ6W22wAAAA1D+v5yAAAADkP6/5kAAAAPQ5a20gAAABBDgIwmAAAAEQAAAAAAAAASAAAAAAAA
+ABNC3QAAAAAAFEQR1VUAAAAVQyQYYgAAABZEMsA2AAAAF0OXAH8AAAAYAAAAAAAAABkAAAAAAAAA
+GkNuAAAAAAAbRBHVVQAAABxDJBhiAAAAHUQmwOAAAAAeQ4F/pAAAAB8AAAAAAAAAIAAAAAAAAAAh
+RDaAAAAAACJEEdVVAAAAI0MkGGIAAAAkRBRAaAAAACVDSPnVAAAAJgAAAAAAAAAnAAAAAAAAAChE
+JLAAAAAAKUQR1VUAAAAqQyQYYgAAACtEBYFIAAAALAAAAAAAAAAtAAAAAAAAAC4AAAAAAAAAL0P0
+gAAAAAAwQ/oAAAAAADFD37bbAAAAMkP6/nIAAAAzQ/r/mQAAADRDlrbSAAAANUQ2ASRPEQdIAAAH
+SAAAAAQAAAABQzZRU3NldEEAAAcoWFBzdDxQcmVzZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+
+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdlbmVyaWNUeXBlPSI2TUJDIj4KCQk8UHJlc2V0
+SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNjwvUGx1Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+
+OS4xLjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1
+cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNz
+YWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFy
+ZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43
+NSAwIDAgMCAxMiAqICoKKiAqICogKiAwIDAgMCAwIDMKLTcxLjIwMDAwMDAwMDAwMDAwMjg0MiAt
+MTcuMTAwMDAwMDAwMDAwMDAxNDIxIDAuNzUgNjkuODE5OTk5OTk5OTk5OTkzMTc5IDQwLjI3MDAw
+MDAwMDAwMDAwMzEyNiAwIDAgKiAwCjAgMCAwIDAgMyAtNjEgLTE3LjEwMDAwMDAwMDAwMDAwMTQy
+MSAwLjc1IDUwLjExOTk5OTk5OTk5OTk5NzQ0MgoyOS45MjAwMDAwMDAwMDAwMDE3MDUgMCAwICog
+MCAwIDAgMCAwCjMgLTIxLjYwMDAwMDAwMDAwMDAwMTQyMSAtMTcuMTAwMDAwMDAwMDAwMDAxNDIx
+IDAuNzUgMzAuMDU5OTk5OTk5OTk5OTk4NzIxIDIwLjAzOTk5OTk5OTk5OTk5OTE0NyAwIDAgKgow
+IDAgMCAwIDAgMyAtMjcuMzAwMDAwMDAwMDAwMDAwNzExIC0xNy4xMDAwMDAwMDAwMDAwMDE0MjEg
+MC43NQoyMCA1IDAgMCAqIDAgMCAwIDAKMCAwIC01NS44OTk5OTk5OTk5OTk5OTg1NzkgLTEwLjA5
+OTk5OTk5OTk5OTk5OTY0NSAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3IDE2MC4zMTAwMDAwMDAw
+MDAwMDIyNyAwIDAKKiAwIDAgMCAwIDAgMCAtNDAuODk5OTk5OTk5OTk5OTk4NTc5IC01LjIwMDAw
+MDAwMDAwMDAwMDE3NzYKMC41IDE2LjAzMDAwMDAwMDAwMDAwMTEzNyAxNjAuMzEwMDAwMDAwMDAw
+MDAyMjcgMCAwICogMCAxMDAgMS42NDk5OTk5OTk5OTk5OTk5MTEyCjAgNC41IDI5OTcgMS42NDk5
+OTk5OTk5OTk5OTk5MTEyIDAgNC41IDAgMCAwCjAgMCAwIDAgMCAwIDAgMCAwCjAgMCAxIDEgMCA8
+L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJCTxQcmVzZXREYXRhIFNldHVwPSJTRVRVUF9C
+IiBTZXR1cE5hbWU9IkRlZmF1bHQgQSI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+
+OTIgNDAwMCAxMTA3MSAwLjU5OTk5OTk5OTk5OTk5OTk3NzggMCAwIDAgMCAqICoKKiAqICogKiAw
+IDAgMCAwIDAKMCAtOCAwLjUgMzQuOTkwMDAwMDAwMDAwMDAxOTkgNDAuMjcwMDAwMDAwMDAwMDAz
+MTI2IDEgMSAqIDAKMCAwIDAgMCAwIDAgLTggMC41IDE2LjAzMDAwMDAwMDAwMDAwMTEzNwoyNSAx
+IDEgKiAwIDAgMCAwIDAKMCAwIC04IDAuNSA0Ljk5MDAwMDAwMDAwMDAwMDIxMzIgOS45ODAwMDAw
+MDAwMDAwMDA0MjYzIDEgMSAqCjAgMCAwIDAgMCAwIDAgLTggMC41CjIgNSAxIDEgKiAwIDAgMCAw
+CjAgMS4xMDAwMDAwMDAwMDAwMDAwODg4IDAgMCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAxMTM3IDE2
+MC4zMTAwMDAwMDAwMDAwMDIyNyAxIDEKKiAwIDAgMCAwIDAgMSAwIDAKMC41IDE2LjAzMDAwMDAw
+MDAwMDAwMTEzNyAxNjAuMzEwMDAwMDAwMDAwMDAyMjcgMSAxICogMCAxMDAwIDEuNjQ5OTk5OTk5
+OTk5OTk5OTExMgowIDQuNSA1MDAzIDEuNjQ5OTk5OTk5OTk5OTk5OTExMiAwIDQuNSAwIDAgMAow
+IDAgMCAwIDAgMCAwIDAgMAowIDAgMSAxIDAgPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4K
+CTwvUHJlc2V0Pgo8L1ByZXNldENodW5rWE1MVHJlZT4KUGFyYRAA0hAREhVRMVEy0RMUUTBeTWFp
+biBJbnB1dCBCdXPRExZfEA9NYWluIE91dHB1dCBCdXMSQzZRUwAIABkAHgArADAANQBAAEgAVQBd
+AGIAZwBzAjMJfwmBCYYJiAmKCY0JjwmeCaEJswAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAA
+AAm4
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C4__s_?type=au&amp;key=aufxDEQSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C4__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkR6AAAAAAADQ/oAAAAAAARDbAAA
+AAAABUP2gAAAAAAGREfAAAAAAAdEegAAAAAACEQSAAAAAAAJQ5AAAAAAAApEMsAAAAAAC0OXAAAA
+AAAMAAAAAAAAAA0AAAAAAAAADkQaQAAAAAAPRBIAAAAAABBDkAAAAAAAEUQmwAAAAAASQ4GAAAAA
+ABMAAAAAAAAAFAAAAAAAAAAVRCoAAAAAABZEEgAAAAAAF0OQAAAAAAAYRBRAAAAAABlDSQAAAAAA
+GgAAAAAAAAAbAAAAAAAAABxENoAAAAAAHUQSAAAAAAAeQ5AAAAAAAB9EBYAAAAAAIAAAAAAAAAAh
+AAAAAAAAACIAAAAAAAAAI0QkwABPEQU+AAAFPgAAAAQAAAABREVRU3NldEEAAAUeWFBzdDxQcmVz
+ZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdl
+bmVyaWNUeXBlPSJSTUJDIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNDwvUGx1
+Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OS4xLjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3Rp
+dmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5
+PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0
+dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFyZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9
+IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43NSAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAg
+MwotMzAuNjAwMDAwMDAwMDAwMDAxNDIxIC0xMS45MDAwMDAwMDAwMDAwMDAzNTUgMC43NSA2OS44
+MTk5OTk5OTk5OTk5OTMxNzkgNDAuMjcwMDAwMDAwMDAwMDAzMTI2IDAgMCAqIDAKMCAwIDAgMCAz
+IC0yNS42MDAwMDAwMDAwMDAwMDE0MjEgLTExLjkwMDAwMDAwMDAwMDAwMDM1NSAwLjc1IDUwLjEx
+OTk5OTk5OTk5OTk5NzQ0MgoyOS45MjAwMDAwMDAwMDAwMDE3MDUgMCAwICogMCAwIDAgMCAwCjMg
+LTIxLjYwMDAwMDAwMDAwMDAwMTQyMSAtMTEuOTAwMDAwMDAwMDAwMDAwMzU1IDAuNzUgMzAuMDU5
+OTk5OTk5OTk5OTk4NzIxIDIwLjAzOTk5OTk5OTk5OTk5OTE0NyAwIDAgKgowIDAgMCAwIDAgMyAt
+MjcuMzAwMDAwMDAwMDAwMDAwNzExIC0xMS45MDAwMDAwMDAwMDAwMDAzNTUgMC43NQoyMCA1IDAg
+MCAqIDAgPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4KCQk8UHJlc2V0RGF0YSBTZXR1cD0i
+U0VUVVBfQiI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+OTIgNDAwMCAxMTA3MSAw
+LjU5OTk5OTk5OTk5OTk5OTk3NzggMCAwIDAgMCAqICoKKiAqICogKiAwIDAgMCAwIDAKLTI3IC04
+IDAuNSAzNC45OTAwMDAwMDAwMDAwMDE5OSA0MC4yNzAwMDAwMDAwMDAwMDMxMjYgMCAwICogMAow
+IDAgMCAwIDAgLTE5LjE5OTk5OTk5OTk5OTk5OTI4OSAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAx
+MTM3CjI1IDAgMCAqIDAgMCAwIDAgMAowIC0zMC4xMDAwMDAwMDAwMDAwMDE0MjEgLTggMC41IDQu
+OTkwMDAwMDAwMDAwMDAwMjEzMiA5Ljk4MDAwMDAwMDAwMDAwMDQyNjMgMCAwICoKMCAwIDAgMCAw
+IDAgLTM1LjI5OTk5OTk5OTk5OTk5NzE1OCAtOCAwLjUKMiA1IDAgMCAqIDAgPC9QYXJhbWV0ZXJz
+PgoJCTwvUHJlc2V0RGF0YT4KCTwvUHJlc2V0Pgo8L1ByZXNldENodW5rWE1MVHJlZT4KMDAwMBAA
+0hAREhVRMVEy0RMUUTBeTWFpbiBJbnB1dCBCdXPRExZfEA9NYWluIE91dHB1dCBCdXMSREVRUwAI
+ABkAHgArADAANQBAAEgAVQBdAGIAZwBzAaMG5QbnBuwG7gbwBvMG9QcEBwcHGQAAAAAAAAIBAAAA
+AAAAABgAAAAAAAAAAAAAAAAAAAce
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SDelay" name="SDelay_5">
+			<properties>
+				<property index="0" name="DelayUnits">
+					<enum>0</enum>
+				</property>
+				<property index="1" name="ClockSyncedDelayUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="2" name="LeftDelay">
+					<double>2000</double>
+				</property>
+				<property index="3" name="RightDelay">
+					<double>2000</double>
+				</property>
+				<property index="4" name="Feedback">
+					<double>0</double>
+				</property>
+				<property index="5" name="WetDryMix">
+					<double>1</double>
+				</property>
+				<property index="6" name="FeedbackMode">
+					<enum>1</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="SDelay" name="SDelay_1">
+			<properties>
+				<property index="0" name="DelayUnits">
+					<enum>0</enum>
+				</property>
+				<property index="1" name="ClockSyncedDelayUnit">
+					<rhythmic-unit>1/16</rhythmic-unit>
+				</property>
+				<property index="2" name="LeftDelay">
+					<double>2000</double>
+				</property>
+				<property index="3" name="RightDelay">
+					<double>2000</double>
+				</property>
+				<property index="4" name="Feedback">
+					<double>0</double>
+				</property>
+				<property index="5" name="WetDryMix">
+					<double>1</double>
+				</property>
+				<property index="6" name="FeedbackMode">
+					<enum>1</enum>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="TransverbStereo?type=au&amp;key=aumfDFtvDFX!&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="TransverbStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXmRlc3Ry
+b3lmeC1kYXRhV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkRGWCFbVXNlciBQcmVzZXRPEHwAAAAAAAAA
+AAAAAA4AAAAARSjAAAAAAAG/gAAAAAAAAgAAAAAAAAADP2ZsTAAAAATAAcSBAAAABQAAAAAAAAAG
+PczMzQAAAAc/gAAAAAAACD+AAAAAAAAJAAAAAAAAAApAAAAAAAAACwAAAAAAAAAMAAAAAAAAAA0A
+AAAATxECyERGdHYAAQUAAAAAAAAAACAAAAAOAAAAAQAAACQAAAAAAAAAAAAAAAEAAAACAAAAAwAA
+AAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA1UcmFuc3ZlcmIAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARSjAAL+AAAAAAAAA
+P2ZsTMABxIEAAAAAPczMzT+AAAA/gAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABJERnR2AAgAFwAcACkALgAzAEIA
+SgBSAFcAXABoAOcDswO1AAAAAAAAAgEAAAAAAAAADwAAAAAAAAAAAAAAAAAAA7o=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_2">
+			<properties>
+				<property index="0" name="Gain">
+					<double>1</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>1</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="5Combs" name="5Combs_1">
+			<properties>
+				<property index="0" name="InputGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="Frequency_1">
+					<double>83.48551089076223</double>
+				</property>
+				<property index="2" name="Frequency_2">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="3" name="Frequency_3">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="4" name="Frequency_4">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="5" name="Frequency_5">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="6" name="DecayTime_1">
+					<double>10</double>
+				</property>
+				<property index="7" name="DecayTime_2">
+					<double>0.02</double>
+				</property>
+				<property index="8" name="DecayTime_3">
+					<double>0.02</double>
+				</property>
+				<property index="9" name="DecayTime_4">
+					<double>0.02</double>
+				</property>
+				<property index="10" name="DecayTime_5">
+					<double>0.02</double>
+				</property>
+				<property index="11" name="Gain_1">
+					<double>0.3307086614173228</double>
+				</property>
+				<property index="12" name="Gain_2">
+					<double>0</double>
+				</property>
+				<property index="13" name="Gain_3">
+					<double>0</double>
+				</property>
+				<property index="14" name="Gain_4">
+					<double>0</double>
+				</property>
+				<property index="15" name="Gain_5">
+					<double>0</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Frequency_1" property-index="1">
+					<midi-controller use-non-linear-scale="1" smoothing="0" map-minimum="80" map-maximum="1200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="0"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_1" property-index="11">
+					<midi-controller smoothing="0" map-minimum="0" map-maximum="1.5">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="1" number="1"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="5Combs" name="5Combs_2">
+			<properties>
+				<property index="0" name="InputGain">
+					<double>1</double>
+				</property>
+				<property index="1" name="Frequency_1">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="2" name="Frequency_2">
+					<double>363.5714939307488</double>
+				</property>
+				<property index="3" name="Frequency_3">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="4" name="Frequency_4">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="5" name="Frequency_5">
+					<double>15.999999999999998</double>
+				</property>
+				<property index="6" name="DecayTime_1">
+					<double>0.02</double>
+				</property>
+				<property index="7" name="DecayTime_2">
+					<double>10</double>
+				</property>
+				<property index="8" name="DecayTime_3">
+					<double>0.02</double>
+				</property>
+				<property index="9" name="DecayTime_4">
+					<double>0.02</double>
+				</property>
+				<property index="10" name="DecayTime_5">
+					<double>0.02</double>
+				</property>
+				<property index="11" name="Gain_1">
+					<double>0</double>
+				</property>
+				<property index="12" name="Gain_2">
+					<double>1.4612612413250388</double>
+				</property>
+				<property index="13" name="Gain_3">
+					<double>0</double>
+				</property>
+				<property index="14" name="Gain_4">
+					<double>0</double>
+				</property>
+				<property index="15" name="Gain_5">
+					<double>0</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Frequency_2" property-index="2">
+					<midi-controller use-non-linear-scale="1" smoothing="0" map-minimum="80" map-maximum="1200">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="2" number="2"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="Gain_2" property-index="12">
+					<midi-controller smoothing="0.4000000059604645" map-minimum="0" map-maximum="1.5">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="3" number="3"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="MParaEQ" name="MParaEQ_1">
+			<properties>
+				<property index="0" name="HSCutoffFrequency">
+					<double>10000</double>
+				</property>
+				<property index="1" name="HSGain">
+					<double>0</double>
+				</property>
+				<property index="2" name="BP1CenterFrequency">
+					<double>1000</double>
+				</property>
+				<property index="3" name="BP1Bandwidth">
+					<double>20</double>
+				</property>
+				<property index="4" name="BP1Gain">
+					<double>0</double>
+				</property>
+				<property index="5" name="BP2CenterFrequency">
+					<double>500</double>
+				</property>
+				<property index="6" name="BP2Bandwidth">
+					<double>20</double>
+				</property>
+				<property index="7" name="BP2Gain">
+					<double>0</double>
+				</property>
+				<property index="8" name="LSCutoffFrequency">
+					<double>400</double>
+				</property>
+				<property index="9" name="LSGain">
+					<double>-30</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="FF_MicroMono?type=au&amp;key=aumfFMicFabF&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="FF_MicroMono_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXkZhYkZp
+bHRlckZsYWdzV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkZhYkZbVXNlciBQcmVzZXRPEEwAAAAAAAAA
+AAAAAAgAAAAAP379/AAAAAEAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQ/AAAAAAAABQAAAAAAAAAG
+AAAAAAAAAAcAAAAAEAEQABJGTWljCBccKS4zQkpSV1xot7m7AAAAAAAAAQEAAAAAAAAADwAAAAAA
+AAAAAAAAAAAAAMA=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Frequency" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0.5" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="2" number="5"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="FF_MicroMono?type=au&amp;key=aumfFMicFabF&amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="FF_MicroMono_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXkZhYkZp
+bHRlckZsYWdzV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkZhYkZbVXNlciBQcmVzZXRPEEwAAAAAAAAA
+AAAAAAgAAAAAPylSpQAAAAEAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQ/AAAAAAAABQAAAAAAAAAG
+AAAAAAAAAAcAAAAAEAEQABJGTWljCBccKS4zQkpSV1xot7m7AAAAAAAAAQEAAAAAAAAADwAAAAAA
+AAAAAAAAAAAAAMA=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Frequency" property-index="0">
+					<midi-controller smoothing="0" map-minimum="0.5" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="0" number="4"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Auto_Tune_EvoMono?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="Auto_Tune_EvoMono_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RD2AA
+AAAA4Gk8cAAAAAFERVFTc2V0QQAABR5YUHN0PFByZXNldENodW5rAAAABgAADnAAAAAgAAAADgAA
+AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAZAAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAA
+AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAB
+AAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAAB
+AAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0AAAACP//
++9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQ/RD9YP2w/eAAAA
+AAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAAD+M=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Auto_Tune_EvoMono?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="Auto_Tune_EvoMono_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RD2AE
+eIyghBRgAWAPAABgDwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgaTxwAAAABgAADnAAAAAgAAAADgAA
+AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAZAAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAA
+AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAB
+AAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAAB
+AAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0AAAACP//
++9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQ/RD9YP2w/eAAAA
+AAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAAD+M=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Auto_Tune_EvoMono?type=au&amp;key=aumfATxEVST &amp;inputBusChannelCounts=1&amp;outputBusChannelCounts=1" name="Auto_Tune_EvoMono_3">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PEFxtYW51ZmFjdHVyZXJUdHlwZVRuYW1lVGRhdGFbcHJv
+Z3JhbV9udW1ZdW5pcXVlX2lkV3ZlcnNpb25Xc3VidHlwZRJWU1QgEmF1bWZXRGVmYXVsdE8RD2AE
+eIyghBRgAWAPAABgDwAAAAAAAAAAAAAAAAAAAAAAAAR4jKCEFGABAAAABgAADnAAAAAgAAAADgAA
+AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAZAAAAAoAAAADAAAA8AAAAAAAAAABAAAA
+BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP///4gAAAABAAAAAQAAAAIAAAAAAAAAAAAAAGQAAAAAAB0AAAAAAAAAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAA
+AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA
+AAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAHQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAB
+AAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEA
+AAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAABAAAAAQAAAAEAAAAAAAEAAAAB
+AAAAAAABAAAAAQAAAAEAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAD/////AAAAAAAAAEYAAGh0AAAACP//
++9hEAAAAAERFeFRBESAAEkFUeEUACAAZACYAKwAwADUAQQBLAFMAWwBgAGUAbQ/RD9YP2w/eAAAA
+AAAAAgEAAAAAAAAAEQAAAAAAAAAAAAAAAAAAD+M=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_5">
+			<properties>
+				<property index="0" name="Gain">
+					<double>0.03793336837793035</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>1</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="Gain" property-index="0">
+					<midi-controller smoothing="2" map-minimum="0" map-maximum="1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="5" number="8"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+		</contraption>
+		<contraption class="FF_Pro_Q_2?type=au&amp;key=aumfFQ2pFabF&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="FF_Pro_Q_2_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXkZhYkZp
+bHRlckZsYWdzV3ZlcnNpb25Xc3VidHlwZRJhdW1mEkZhYkZbVXNlciBQcmVzZXRPEQX8AAAAAAAA
+AAAAAAC+AAAAAD+AAAAAAAABQFSaeAAAAALB8AAAAAAAAz6scm0AAAAEP4AAAAAAAAU/gAAAAAAA
+BkAAAAAAAAAHP4AAAAAAAAhBVs2vAAAACUEOXqoAAAAKPwAAAAAAAAsAAAAAAAAADD+AAAAAAAAN
+QAAAAAAAAA4/gAAAAAAAD0CgAAAAAAAQQfAAAAAAABE/Ozp7AAAAEgAAAAAAAAATP4AAAAAAABRA
+AAAAAAAAFUAAAAAAAAAWQR9z2gAAABcAAAAAAAAAGD8AAAAAAAAZAAAAAAAAABo/gAAAAAAAG0AA
+AAAAAAAcQAAAAAAAAB1BH3PaAAAAHgAAAAAAAAAfPwAAAAAAACAAAAAAAAAAIT+AAAAAAAAiQAAA
+AAAAACNAAAAAAAAAJEEfc9oAAAAlAAAAAAAAACY/AAAAAAAAJwAAAAAAAAAoP4AAAAAAAClAAAAA
+AAAAKkAAAAAAAAArQR9z2gAAACwAAAAAAAAALT8AAAAAAAAuAAAAAAAAAC8/gAAAAAAAMEAAAAAA
+AAAxQAAAAAAAADJBH3PaAAAAMwAAAAAAAAA0PwAAAAAAADUAAAAAAAAANj+AAAAAAAA3QAAAAAAA
+ADhAAAAAAAAAOUEfc9oAAAA6AAAAAAAAADs/AAAAAAAAPAAAAAAAAAA9P4AAAAAAAD5AAAAAAAAA
+P0AAAAAAAABAQR9z2gAAAEEAAAAAAAAAQj8AAAAAAABDAAAAAAAAAEQ/gAAAAAAARUAAAAAAAABG
+QAAAAAAAAEdBH3PaAAAASAAAAAAAAABJPwAAAAAAAEoAAAAAAAAASz+AAAAAAABMQAAAAAAAAE1A
+AAAAAAAATkEfc9oAAABPAAAAAAAAAFA/AAAAAAAAUQAAAAAAAABSP4AAAAAAAFNAAAAAAAAAVEAA
+AAAAAABVQR9z2gAAAFYAAAAAAAAAVz8AAAAAAABYAAAAAAAAAFk/gAAAAAAAWkAAAAAAAABbQAAA
+AAAAAFxBH3PaAAAAXQAAAAAAAABePwAAAAAAAF8AAAAAAAAAYD+AAAAAAABhQAAAAAAAAGJAAAAA
+AAAAY0Efc9oAAABkAAAAAAAAAGU/AAAAAAAAZgAAAAAAAABnP4AAAAAAAGhAAAAAAAAAaUAAAAAA
+AABqQR9z2gAAAGsAAAAAAAAAbD8AAAAAAABtAAAAAAAAAG4/gAAAAAAAb0AAAAAAAABwQAAAAAAA
+AHFBH3PaAAAAcgAAAAAAAABzPwAAAAAAAHQAAAAAAAAAdT+AAAAAAAB2QAAAAAAAAHdAAAAAAAAA
+eEEfc9oAAAB5AAAAAAAAAHo/AAAAAAAAewAAAAAAAAB8P4AAAAAAAH1AAAAAAAAAfkAAAAAAAAB/
+QR9z2gAAAIAAAAAAAAAAgT8AAAAAAACCAAAAAAAAAIM/gAAAAAAAhEAAAAAAAACFQAAAAAAAAIZB
+H3PaAAAAhwAAAAAAAACIPwAAAAAAAIkAAAAAAAAAij+AAAAAAACLQAAAAAAAAIxAAAAAAAAAjUEf
+c9oAAACOAAAAAAAAAI8/AAAAAAAAkAAAAAAAAACRP4AAAAAAAJJAAAAAAAAAk0AAAAAAAACUQR9z
+2gAAAJUAAAAAAAAAlj8AAAAAAACXAAAAAAAAAJg/gAAAAAAAmUAAAAAAAACaQAAAAAAAAJtBH3Pa
+AAAAnAAAAAAAAACdPwAAAAAAAJ4AAAAAAAAAnz+AAAAAAACgQAAAAAAAAKFAAAAAAAAAokEfc9oA
+AACjAAAAAAAAAKQ/AAAAAAAApQAAAAAAAACmP4AAAAAAAKdAAAAAAAAAqAAAAAAAAACpP4AAAAAA
+AKoAAAAAAAAAqz+AAAAAAACsAAAAAAAAAK0AAAAAAAAArgAAAAAAAACvAAAAAAAAALAAAAAAAAAA
+sT+AAAAAAACyP4AAAAAAALMAAAAAAAAAtD+AAAAAAAC1P4AAAAAAALZAAAAAAAAAt0BAAAAAAAC4
+AAAAAAAAALk/gAAAAAAAukBAAAAAAAC7AAAAAAAAALy/gAAAAAAAvQAAAAAQARAAEkZRMnAACAAX
+ABwAKQAuADMAQgBKAFIAVwBcAGgGaAZqBmwAAAAAAAACAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAG
+cQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="__bubblerStereo?type=au&amp;key=aumf+2bbSDHK&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="__bubblerStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhXxAPanVj
+ZVBsdWdpblN0YXRlV3ZlcnNpb25Xc3VidHlwZRJhdW1mElNESEtbVXNlciBQcmVzZXRPEPwAAAAA
+AAAAAAAAAB4AAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAQAAAAAAAAABQAAAAAA
+AAAGAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAMAAAAAAAA
+AA0AAAAAAAAADgAAAAAAAAAPAAAAAAAAABAAAAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAA
+FAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAYAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAb
+AAAAAAAAABwAAAAAAAAAHQAAAABPEQHTVkMyIcoBAAA8YnViYmxlciBwbHVnaW5WZXJzaW9uPSIw
+LjkxMDAwMDAwMDAwMDAwMDAzMTA5IiBwcmVzZXROYW1lPSIiIHRpbWU9IjAuMzAxMDMwMDA5OTg0
+OTcwMDkyNzciIHRpbWV2YXJpPSIwIiBmZWVkYmFjaz0iMSIgZ3JhaW5zaXplPSIwLjI2MTEwMjM3
+ODM2ODM3NzY4NTU1IiBwYW52YXJpPSIwIiBkZW5zaXR5PSIxIiBnc3RhcnR2YXJpPSIwIiBvY3Rh
+dmU9IjAuMDQ0MjkxMzQ3MjY1MjQzNTMwMjczIiBvY3RhdmV2YXJpPSIwIiByZXZlcnNhbD0iMCIg
+dGltZWxvY2s9IjAiIGp1c3Q9IjEiIGZpbHRlcmZyZXE9IjEiIGZpbHRlcnJlc29uPSIxIiBwMD0i
+MCIgcDE9IjAiIHAyPSIwIiBwMz0iMCIgcDQ9IjAiIHA1PSIwIiBwNj0iMCIgcDc9IjAiIHA4PSIw
+IiBwOT0iMCIgcDEwPSIwIiBwMTE9IjAiIGNvbG9yPSIwIiB3ZXRkcnk9IjEiIGluZ2Fpbj0iMC4x
+ODA0NzMzNzIzNDAyMDIzMzE1NCIgb3V0Z2Fpbj0iMCIvPgAQABIrMmJiAAgAFwAcACkALgAzAEUA
+TQBVAFoAXwBrAWoDQQNDAAAAAAAAAgEAAAAAAAAADwAAAAAAAAAAAAAAAAAAA0g=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources>
+				<property-sources property-name="grainsize" property-index="3">
+					<midi-controller smoothing="0" map-minimum="2" map-maximum="20">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="4" number="6"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+				<property-sources property-name="octave" property-index="7">
+					<midi-controller smoothing="0" map-minimum="-4" map-maximum="-1">
+						<midi-message-spec type="7-bit-control-change" port="0" channel="4" number="7"/>
+						<midi-mapping-curve>
+							<mapping-point in="0" out="0"/>
+							<mapping-point in="16383" out="1"/>
+						</midi-mapping-curve>
+					</midi-controller>
+				</property-sources>
+			</modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="FileRecorder" name="FileRecorder_1">
+			<properties>
+				<property index="0" name="File">
+					<soundfile></soundfile>
+				</property>
+				<property index="3" name="FileMode">
+					<enum>1</enum>
+				</property>
+				<property index="6" name="PunchMode">
+					<enum>0</enum>
+				</property>
+				<property index="7" name="RecordDuration">
+					<double>300000</double>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Imager?type=au&amp;key=aufxZnOIiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Imager_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9JEmladHBPEQgjGNVuAAIAAAAXCAAAAADIQgAAAABQAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAEhCAQEBAQEBAQAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAyEIAAOBAAADIwgCA7UEAAMjBAEA1QgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAACgQAAA8EKX09BEAEAcRgAAAAAAAAAAAgAAAAQAAAAAAAAAAAAA
+AFtVc2VyIFByZXNldBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAh3CIMAAAAAAAACAQAAAAAAAAAN
+AAAAAAAAAAAAAAAAAAAIhQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C1_gate__s_?type=au&amp;key=aufxGATSksWV&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="C1_gate__s__1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PGFR0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8QTAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAUQvgAAAAAACQ+YAAAAAAANDooAAAAAABENbAAAA
+AAAFQjQAAAAAAAZAoAAAAAAAB0QsQABPEQOvAAADrwAAAAQAAAABR0FUU3NldEEAAAOPWFBzdDxQ
+cmVzZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkNob3AgZ2F0ZSB3
+LzEwMG1zIGhvbGQiIEdlbmVyaWNUeXBlPSJDMSAgIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1
+Z2luTmFtZT5DMUdhdGU8L1BsdWdpbk5hbWU+CgkJCTxQbHVnaW5WZXJzaW9uPjkuMS4wPC9QbHVn
+aW5WZXJzaW9uPgoJCQk8QWN0aXZlU2V0dXA+U0VUVVBfQTwvQWN0aXZlU2V0dXA+CgkJCTxSZWFk
+T25seT50cnVlPC9SZWFkT25seT4KCQk8L1ByZXNldEhlYWRlcj4KCQk8TWVzc2FnZVRvU2hlbGwv
+PgoJCTxQcmVzZXREYXRhIFNldHVwPSJTRVRVUF9BIiBTZXR1cE5hbWU9IkNob3AgZ2F0ZSB3LzEw
+MG1zIGhvbGQiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFsV29ybGQiPjEwMC4xNTk5OTk5OTk5
+OTk5OTY1OSAxIDIgMjAgMCAtOTUuNSAtOTkuNSAwIC0xMDAgKgoqIDAgLTEwMCAtMTAwIDIgMTAw
+IDEwIC0yMCA3LjAzMDAwMDAwMDAwMDAwMDI0ODcKMTAgMCAqICogMCAwIDAgLTEwMCAtMjAKKiAq
+ICogKiAwIDAgMSA3MTI3IDAuNTk5OTk5OTk5OTk5OTk5OTc3OAowIDAgMTczIDE3MyAyIDAgMCA1
+ICoKKiAqICogKiA8L1BhcmFtZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJCTxQcmVzZXREYXRhIFNl
+dHVwPSJTRVRVUF9CIj4KCQkJPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj4wLjAxMDAwMDAw
+MDAwMDAwMDAwMDIwOCAwIDIgMzAgMCAtMTAwIC0xMDAgMCAtMTAwICoKKiAwIC0xMDAgLTEwMCAy
+IDUwIDAgMCAxCjAgMCAqICogMCAwIDAgLTEwMCAtMTAwCiogKiAqICogMCAwIDAgNzE3OSAwLjU5
+OTk5OTk5OTk5OTk5OTk3NzgKMCAwIDE3MyAxNzMgMCAwIDAgMCAqCiogKiAqICogPC9QYXJhbWV0
+ZXJzPgoJCTwvUHJlc2V0RGF0YT4KCTwvUHJlc2V0Pgo8L1ByZXNldENodW5rWE1MVHJlZT4KazhV
+RxAA0hAREhZRMVEy0hMQFBVRMF5NYWluIElucHV0IEJ1c18QFFNpZGUtQ2hhaW4gSW5wdXQgQnVz
+0RMXXxAPTWFpbiBPdXRwdXQgQnVzEkdBVFMACAAZAB4AKwAwADUAQABIAFUAXQBiAGcAcwDCBHUE
+dwR8BH4EgASFBIcElgStBLAEwgAAAAAAAAIBAAAAAAAAABkAAAAAAAAAAAAAAAAAAATH
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_4">
+			<properties>
+				<property index="0" name="Gain">
+					<double>1</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="AuxOut1" name="AuxOut1">
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="C1_gate__s_?type=au&amp;key=aufxGATSksWV&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="C1_gate__s__2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PGFR0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8QTAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAUQvgAAAAAACQ+YAAAAAAANESxB7AAAABENbAAAA
+AAAFQjQAAAAAAAZAoAAAAAAAB0QsQABPEQOxAAADsQAAAAQAAAABR0FUU3NldEEAAAORWFBzdDxQ
+cmVzZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkNob3AgZ2F0ZSB3
+LzEwMG1zIGhvbGQiIEdlbmVyaWNUeXBlPSJDMSAgIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1
+Z2luTmFtZT5DMUdhdGU8L1BsdWdpbk5hbWU+CgkJCTxQbHVnaW5WZXJzaW9uPjkuMS4wPC9QbHVn
+aW5WZXJzaW9uPgoJCQk8QWN0aXZlU2V0dXA+U0VUVVBfQTwvQWN0aXZlU2V0dXA+CgkJCTxSZWFk
+T25seT50cnVlPC9SZWFkT25seT4KCQk8L1ByZXNldEhlYWRlcj4KCQk8TWVzc2FnZVRvU2hlbGwv
+PgoJCTxQcmVzZXREYXRhIFNldHVwPSJTRVRVUF9BIiBTZXR1cE5hbWU9IkNob3AgZ2F0ZSB3LzEw
+MG1zIGhvbGQiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFsV29ybGQiPjEwMC4xNTk5OTk5OTk5
+OTk5OTY1OSAxIDIgMTc3NCAwIC05NS41IC05OS41IDAgLTEwMCAqCiogMCAtMTAwIC0xMDAgMiAx
+MDAgMTAgLTIwIDcuMDMwMDAwMDAwMDAwMDAwMjQ4NwoxMCAwICogKiAwIDAgMCAtMTAwIC0yMAoq
+ICogKiAqIDAgMCAxIDcxMjcgMC41OTk5OTk5OTk5OTk5OTk5Nzc4CjAgMCAxNzMgMTczIDIgMCAw
+IDUgKgoqICogKiAqIDwvUGFyYW1ldGVycz4KCQk8L1ByZXNldERhdGE+CgkJPFByZXNldERhdGEg
+U2V0dXA9IlNFVFVQX0IiPgoJCQk8UGFyYW1ldGVycyBUeXBlPSJSZWFsV29ybGQiPjAuMDEwMDAw
+MDAwMDAwMDAwMDAwMjA4IDAgMiAzMCAwIC0xMDAgLTEwMCAwIC0xMDAgKgoqIDAgLTEwMCAtMTAw
+IDIgNTAgMCAwIDEKMCAwICogKiAwIDAgMCAtMTAwIC0xMDAKKiAqICogKiAwIDAgMCA3MTc5IDAu
+NTk5OTk5OTk5OTk5OTk5OTc3OAowIDAgMTczIDE3MyAwIDAgMCAwICoKKiAqICogKiA8L1BhcmFt
+ZXRlcnM+CgkJPC9QcmVzZXREYXRhPgoJPC9QcmVzZXQ+CjwvUHJlc2V0Q2h1bmtYTUxUcmVlPgpV
+R1ZoEADSEBESFlExUTLSExAUFVEwXk1haW4gSW5wdXQgQnVzXxAUU2lkZS1DaGFpbiBJbnB1dCBC
+dXPRExdfEA9NYWluIE91dHB1dCBCdXMSR0FUUwAIABkAHgArADAANQBAAEgAVQBdAGIAZwBzAMIE
+dwR5BH4EgASCBIcEiQSYBK8EsgTEAAAAAAAAAgEAAAAAAAAAGQAAAAAAAAAAAAAAAAAABMk=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="C4__s_?type=au&amp;key=aufxDEQSksWV&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="C4__s__2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDYAQIDBAUGBwgJCgsMDQ4PF1R0eXBlXG1hbnVmYWN0dXJlclRuYW1lVGRhdGFaV2F2
+ZXNfWFBzdFd2ZXJzaW9uXGVsZW1lbnQtbmFtZVdzdWJ0eXBlEmF1ZngSa3NXVltVc2VyIFByZXNl
+dE8RASwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAAAAAkR6AAAAAAADQ/oAAAAAAARDbAAA
+AAAABUP2gAAAAAAGREfAAAAAAAdEegAAAAAACEQSAAAAAAAJQdAAAAAAAApEMsAAAAAAC0OXAAAA
+AAAMAAAAAAAAAA0AAAAAAAAADkQaQAAAAAAPRBIAAAAAABBB0AAAAAAAEUQmwAAAAAASQ4GAAAAA
+ABMAAAAAAAAAFAAAAAAAAAAVRCoAAAAAABZEEgAAAAAAF0HQAAAAAAAYRBRAAAAAABlDSQAAAAAA
+GgAAAAAAAAAbAAAAAAAAABxENoAAAAAAHUQSAAAAAAAeQdAAAAAAAB9EBYAAAAAAIAAAAAAAAAAh
+AAAAAAAAACIAAAAAAAAAI0QkwABPEQU+AAAFPgAAAAQAAAABREVRU3NldEEAAAUeWFBzdDxQcmVz
+ZXRDaHVua1hNTFRyZWUgdmVyc2lvbj0iMiI+Cgk8UHJlc2V0IE5hbWU9IkhhcmQgYmFzaWMiIEdl
+bmVyaWNUeXBlPSJSTUJDIj4KCQk8UHJlc2V0SGVhZGVyPgoJCQk8UGx1Z2luTmFtZT5DNDwvUGx1
+Z2luTmFtZT4KCQkJPFBsdWdpblZlcnNpb24+OS4xLjA8L1BsdWdpblZlcnNpb24+CgkJCTxBY3Rp
+dmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4KCQkJPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5
+PgoJCTwvUHJlc2V0SGVhZGVyPgoJCTxNZXNzYWdlVG9TaGVsbC8+CgkJPFByZXNldERhdGEgU2V0
+dXA9IlNFVFVQX0EiIFNldHVwTmFtZT0iSGFyZCBiYXNpYyI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9
+IlJlYWxXb3JsZCI+ODYgNTQ5IDUwMDMgMC43NSAwIDAgMCAwICogKgoqICogKiAqIDAgMCAwIDAg
+MwotMzAuNjAwMDAwMDAwMDAwMDAxNDIxIC0yMi44OTk5OTk5OTk5OTk5OTg1NzkgMC43NSA2OS44
+MTk5OTk5OTk5OTk5OTMxNzkgNDAuMjcwMDAwMDAwMDAwMDAzMTI2IDAgMCAqIDAKMCAwIDAgMCAz
+IC0yNS42MDAwMDAwMDAwMDAwMDE0MjEgLTIyLjg5OTk5OTk5OTk5OTk5ODU3OSAwLjc1IDUwLjEx
+OTk5OTk5OTk5OTk5NzQ0MgoyOS45MjAwMDAwMDAwMDAwMDE3MDUgMCAwICogMCAwIDAgMCAwCjMg
+LTIxLjYwMDAwMDAwMDAwMDAwMTQyMSAtMjIuODk5OTk5OTk5OTk5OTk4NTc5IDAuNzUgMzAuMDU5
+OTk5OTk5OTk5OTk4NzIxIDIwLjAzOTk5OTk5OTk5OTk5OTE0NyAwIDAgKgowIDAgMCAwIDAgMyAt
+MjcuMzAwMDAwMDAwMDAwMDAwNzExIC0yMi44OTk5OTk5OTk5OTk5OTg1NzkgMC43NQoyMCA1IDAg
+MCAqIDAgPC9QYXJhbWV0ZXJzPgoJCTwvUHJlc2V0RGF0YT4KCQk8UHJlc2V0RGF0YSBTZXR1cD0i
+U0VUVVBfQiI+CgkJCTxQYXJhbWV0ZXJzIFR5cGU9IlJlYWxXb3JsZCI+OTIgNDAwMCAxMTA3MSAw
+LjU5OTk5OTk5OTk5OTk5OTk3NzggMCAwIDAgMCAqICoKKiAqICogKiAwIDAgMCAwIDAKLTI3IC04
+IDAuNSAzNC45OTAwMDAwMDAwMDAwMDE5OSA0MC4yNzAwMDAwMDAwMDAwMDMxMjYgMCAwICogMAow
+IDAgMCAwIDAgLTE5LjE5OTk5OTk5OTk5OTk5OTI4OSAtOCAwLjUgMTYuMDMwMDAwMDAwMDAwMDAx
+MTM3CjI1IDAgMCAqIDAgMCAwIDAgMAowIC0zMC4xMDAwMDAwMDAwMDAwMDE0MjEgLTggMC41IDQu
+OTkwMDAwMDAwMDAwMDAwMjEzMiA5Ljk4MDAwMDAwMDAwMDAwMDQyNjMgMCAwICoKMCAwIDAgMCAw
+IDAgLTM1LjI5OTk5OTk5OTk5OTk5NzE1OCAtOCAwLjUKMiA1IDAgMCAqIDAgPC9QYXJhbWV0ZXJz
+PgoJCTwvUHJlc2V0RGF0YT4KCTwvUHJlc2V0Pgo8L1ByZXNldENodW5rWE1MVHJlZT4K/////xAA
+0hAREhVRMVEy0RMUUTBeTWFpbiBJbnB1dCBCdXPRExZfEA9NYWluIE91dHB1dCBCdXMSREVRUwAI
+ABkAHgArADAANQBAAEgAVQBdAGIAZwBzAaMG5QbnBuwG7gbwBvMG9QcEBwcHGQAAAAAAAAIBAAAA
+AAAAABgAAAAAAAAAAAAAAAAAAAce
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SatinStereo?type=au&amp;key=aumfuhSTUHfX&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="SatinStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDXAQIDBAUGBwgJCgsMDQ5UdHlwZVxtYW51ZmFjdHVyZXJUbmFtZVRkYXRhWEFNX1NU
+QVRFV3ZlcnNpb25Xc3VidHlwZRJhdW1mElVIZlhbVXNlciBQcmVzZXRPEQIkAAAAAAAAAAAAAABD
+AAAAAD+AAAAAAAABAAAAAAAAAAIAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAVB8AAAAAAABgAAAAAA
+AAAHQsgAAAAAAAhBEAAAAAAACT+AAAAAAAAKwUAAAAAAAAvC8AAAAAAADMLIAAAAAAANwkgAAAAA
+AA5BIAAAAAAADz+AAAAAAAAQAAAAAAAAABFAQAAAAAAAEkCAAAAAAAATAAAAAAAAABQAAAAAAAAA
+FQAAAAAAAAAWAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAZQsgAAAAAABoAAAAAAAAAGwAAAAAAAAAc
+AAAAAAAAAB0AAAAAAAAAHgAAAAAAAAAfAAAAAAAAACAAAAAAAAAAIT+AAAAAAAAiP4AAAAAAACM/
+gAAAAAAAJD+AAAAAAAAlAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAoAAAAAAAAACkAAAAAAAAAKkLI
+AAAAAAArQ0gAAAAAACxFegAAAAAALT+AAAAAAAAuQkgAAAAAAC9AQAAAAAAAMAAAAAAAAAAxAAAA
+AAAAADIAAAAAAAAAMwAAAAAAAAA0v4AAAAAAADU/gAAAAAAANkLIAAAAAAA3AAAAAAAAADhAwAAA
+AAAAOUDAAAAAAAA6P4AAAAAAADs/gAAAAAAAPD8AAAAAAAA9PwAAAAAAAD4AAAAAAAAAPwAAAAAA
+AABAAAAAAAAAAEE/gAAAAAAAQkAAAABPEQn0I0FNPVNhdGluCiNWZXJzPTEwMjAwCiNFbmRpYW49
+bGl0dGxlCiNubT05CiNtcz1ub25lCiNtcz1Nb2RXaGwKI21zPVBpdGNoVwojbXM9QnJlYXRoCiNt
+cz1YcHJlc3MKI21zPUdhdGUKI21zPUtleUZvbAojbXM9VmVsb2NpdHkKI21zPUFUb3VjaAojbnY9
+MQojbXY9R2F0ZQojY209bWFpbgpDY09wPTEwMC4wMAojU2F0aW49MQojY209UENvcmUKU0Jhc2U9
+NApTd2luZz0wLjAwClNUcmlnPTEKUFNvbmc9MApQRm9sZD0wClBGaWxlPTEKR0ZpbGU9MgpHU2Nh
+bGU9MApDaExheT0wClN1cnJPPTEKUmV2PTI1NzcKTEVEPTAuMDAKUEFHRT0wClBhZ2VzT249MApD
+b3JlTj0zClNsaWNlPTQKVUlfb3A9MgpNaWRpQT01Ck1pZGlQPTYKI2NtPUdDMQpHSUQ9MApHck5h
+bWUxPTcKR3JOYW1lMj04CkdyTmFtZTM9OQpHck5hbWU0PTEwCkdyTmFtZTU9MTEKR3JOYW1lNj0x
+MgpHck5hbWU3PTEzCkdyTmFtZTg9MTQKR3JOYW1lOT0xNQpHck5hbTEwPTE2CiNjbT1NaWRpCk1v
+ZGU9MApQb3J0YT0wLjAwClBCVXA9MgpQQkRuPTIKTVR1blM9MApNVHVuTj0xNwpNVHVuVD0xOApU
+cnNwPS0xMgpGVHVuPTAuMDAKUG9ydFJnPTEwMC4wMApSTm90ZT0wClJWZWw9MApLZXlTcmM9MAoj
+Y209U2F0aW4KaW5nYWluPTAuMDAKb2dhaW49MC4wMApzcGVlZD0zMC4wMApiaWFzPTAuMDAKcGVt
+cGg9MTAwLjAwCmNoZWFkcj05LjAwCm1ha2V1cD0xCnZ1cmVmPS0xMi4wMApoaXNzPS0xMjAuMDAK
+bW5vaXNlPS0xMDAuMDAKeHRhbGs9LTUwLjAwCndvd2ZsdHI9MTAuMDAKbXRyc3JjPTAKbXZ1cm1z
+PTAKb3V0Y2xwPTEKYnlwYXNzPTAKZXFwcmU9MwplcXBvc3Q9NAp0cHR5cGU9MApuaGVhZHM9MApo
+ZGlzdDE9MC4wMApoZGlzdDI9MC4wMApoZGlzdDM9MC4wMApoZGlzdDQ9MC4wMApobHZsMT0xMDAu
+MDAKaGx2bDI9MC4wMApobHZsMz0wLjAwCmhsdmw0PTAuMDAKaHBhbjE9MC4wMApocGFuMj0wLjAw
+CmhwYW4zPTAuMDAKaHBhbjQ9MC4wMApobXJhdGUxPTEuMDAKaG1yYXRlMj0xLjAwCmhtcmF0ZTM9
+MS4wMApobXJhdGU0PTEuMDAKaG1hbXQxPTAuMDAKaG1hbXQyPTAuMDAKaG1hbXQzPTAuMDAKaG1h
+bXQ0PTAuMDAKZmVlZGJrPTAuMDAKbWl4PTEwMC4wMApmYmhwPTIwMC4wMApmYmxwPTQwMDAuMDAK
+ZmJsaW1pdD0xCmhidW1wPTUwLjAwCmhnYXA9My4wMAptb2RlPTAKc2VydmljZT0xCmRseW1vZGU9
+MApkbHlzeW5jPTAKY21fcHJlPTAKY21fcG9zdD0tMQpjbV9vbj0xCmNtX21peD0xMDAuMDAKYnB0
+YXBlPTAKZnJhbmdlPTUuMDAKZmZpbj02CmZmb3V0PTYKZmZpbm11bD0xLjAwCmZmb3VtdWw9MS4w
+MApmc2hwaW49MC41MApmc2hwb3V0PTAuNTAKZnRyaWc9MApmbWFudWFsPTAuMDAKZmludmVydD0w
+Cmhzc211dGU9MQphemltdXRoPTIuMDAKI2NtPUluc3AxCk1vZGU9MQoKCgovLyBTZWN0aW9uIGZv
+ciB1Z2x5IGNvbXByZXNzZWQgYmluYXJ5IERhdGEKLy8gRE9OJ1QgVE9VQ0ggVEhJUwoKJCQkJDIw
+MzYKP2dkZ2NlbmViOmNhYWFhYWFhOmNuYWFhYWFhOmVhYWFhYWFhOmFhYWFpYWRwOmFhYWJhYWFh
+OmFhYWFhYWVhOgphYWFhZWFlYTphYWFhaWFlYTphYWFha2FlYTphYTplYzplYjpnZjplYTpjYTpv
+YTpnYjpnbTpoYzpoZDpoZTptCmE6bmk6ZmE6aGE6aWE6amE6a2E6cGE6cGk6YWU6YW06YmE6YmU6
+Y2UhcXZBN2VtZ3BnZEhJQTI1MHF0QTdmZksKREpGT0pES0RMY29IaGZQSkRLRExBNDNxdEE3MXF0
+QTdrbWJsVWhqR0RsamVoa2Npb2JuV2pnYWxiaGJib2huawpOaG1ka21nTm9kbWtlZWZqZGVTY25j
+cFJmZ2pibWRuZmpubWRvZ2RnYWhZSmVmWmRjZ2lkamtmZmdGamZraGJkCmpibWZkbW1samtrb2Jw
+b2RtcGNkcVZBMTBhYlRtbWFkcXZBMjYzcVFBMTM4cXJBN3NBMjdxckE3c0EyN3FyQTcKc0EyN3Fy
+QTdzQTI3cXJBN3NBMjdxckE3c0EyN3FyQTdzQTI3cXJBN3NBMjdxckE3c0EyN3FyQTdzQTI3cXRB
+NwpnZURnZ0hoZklMRktnZEhJREEyMnV3eHl6QTFNRUExR0VxQWFjQTV1QTN1d3h5ekExTUVBMUd0
+Q0ExWENBMUZDCkExZGFDQTFFQ0ExT0NBMWdhQ0ExUENBMVFDQTFpaUNBMVJDQTFqaUNBMVNDQTFr
+aUNBMWxhQ0ExbGlDQTFNQ0EKMW1pQ0ExbmFDQTFOQ0ExR0NBMW9pQ0ExVENBMVVDQTJCQTFWQkEx
+YWlCQTFXQkExWEJBMVlCQTFiaUJBMWJtQgpBMUZCQTFaQkExY2lCQTFjbUJBMWRhQkExZGVCQTFk
+aUJBMWRtQkExRUJBMWVlQkExZWlCQTFlbUJBMU9CQTFmCmVCQTFmaUJBMWZtQkExZ2FCQTFnZUJB
+MWdpQkExSUJBMVBCQTFMQkExaGlCQTFobUJBMVFCQTFpY0JBMWllQkEKMWlnQkExaWlCQTFpa0JB
+MWltQkExaW9CQTFSQkExamNCQTFqZUJBMWpnQkExamlCQTFqa0JBMWptQkExam9CQQoxU0JBMWtj
+QkExa2VCQTFrZ0JBMWtpQkExa2tCQTFrbUJBMWtvQkExbGFCQTFsY0JBMWxlQkExbGdCQTFsaUJB
+CjFsa0JBMWxtQkExbG9CQTFNQkExbWNCQTFtZUJBMW1nQkExbWlCQTFta0JBMW1tQkExbW9CQTFu
+YUJBMW5jQkEKMW5lQkExbmdCQTFOQkExbmtCQTFubUJBMW5vQkExR0JBMW9jQkExb2VCQTFvZ0JB
+MW9pQkExb2tCQTFvbUJBMQpvb0JBMVRCQTFwY0JBMXBlQkExcGdCQTFVQkExcGtCQTFwbUJBMXBv
+Qj04Njk3MgoAABAAEnVoU1QACAAXABwAKQAuADMAPABEAEwAUQBWAGICigyCDIQAAAAAAAACAQAA
+AAAAAAAPAAAAAAAAAAAAAAAAAAAMiQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_3">
+			<properties>
+				<property index="0" name="Gain">
+					<double>3.1622776601683795</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Little_SpaceyStereo?type=au&amp;key=aumfLiSpExSl&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Little_SpaceyStereo_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVtZhJMaVNwEkV4U2xPEKQAAAAAAAAAAAAAABMAAAAAQsgAAAAAAAEAAAAAAAAA
+AgAAAAAAAAADPYm7IgAAAAQAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAcAAAAAAAAACECgAAAAAAAJ
+AAAAAAAAAAoAAAAAAAAACz5MzM0AAAAMAAAAAAAAAA0AAAAAAAAADkIgAAAAAAAPvta1rQAAABA9
+hCEIAAAAET4wLAsAAAASAAAAAFtVc2VyIFByZXNldBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAD3
+AQMAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAAAAABBQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="Ambience?type=au&amp;key=aufxÀ¼ÒMagJ&amp;inputBusChannelCounts=2&amp;outputBusChannelCounts=2" name="Ambience_1">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBIHwLzSEk1hZ0pPELQAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAE/gAAAAAAA
+Aj+AAAAAAAADPwAAAAAAAAQ/AAAAAAAABT8AAAAAAAAGPwAAAAAAAAc/gAAAAAAACELIAAAAAAAJ
+QsgAAAAAAAoAAAAAAAAACz3MzM0AAAAMAAAAAAAAAA0/ZmZmAAAADgAAAAAAAAAPSnIepAAAABAA
+AAAAAAAAEQAAAAAAAAASQSAAAAAAABNBIAAAAAAAFEJIAABbVXNlciBQcmVzZXQQAAAIABUAGgAi
+AC8ANAA5AEEARgBLAFABBwETAAAAAAAAAgEAAAAAAAAADQAAAAAAAAAAAAAAAAAAARU=
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<contraption class="SGain" name="SGain_6">
+			<properties>
+				<property index="0" name="Gain">
+					<double>2.511886431509582e-10</double>
+				</property>
+				<property index="1" name="Mute">
+					<bool>0</bool>
+				</property>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+		</contraption>
+		<contraption class="Ozone_5_Maximizer?type=au&amp;key=aufxZnOMiZtp&amp;inputBusChannelCounts=2,2&amp;outputBusChannelCounts=2" name="Ozone_5_Maximizer_2">
+			<properties>
+				<au-class-info>
+YnBsaXN0MDDWAQIDBAUGBwgJCgsMVHR5cGVXc3VidHlwZVxtYW51ZmFjdHVyZXJUZGF0YVRuYW1l
+V3ZlcnNpb24SYXVmeBJabk9NEmladHBPEQgXGNVuAAIAAAALCAAAAADIQgAAAABQAAAAAAAAAAEA
+AAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA
+AAAAAAAAAQEAAgAAAAEAAAABAAAAAAAAAAIAAAADAAAAAAAAAAAAAAC8BgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAEAAAAAgAAAAAAAAAAAQEBAAAAAAAAAMhCAAAAAAAAAAAA
+AKBBAADIQgAAyEIAAIBAAADIQgAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAAAEAAAAAAAAA
+AgAAAAAAAAACAAAABQAAAAIAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAFtVc2VyIFByZXNl
+dBAAAAgAFQAaACIALwA0ADkAQQBGAEsAUAhrCHcAAAAAAAACAQAAAAAAAAANAAAAAAAAAAAAAAAA
+AAAIeQ==
+				</au-class-info>
+			</properties>
+			<presets></presets>
+			<modulation-sources></modulation-sources>
+			<vst-midi-settings receive-mode="omni" receive-port="0"/>
+		</contraption>
+		<audio-connection from="SatinStereo_1" from-outlet="1" to="C1_gate__s__2" to-inlet="3"/>
+		<audio-connection from="SDelay_3" from-outlet="0" to="SDelay_4" to-inlet="0"/>
+		<audio-connection from="SGain_4" from-outlet="0" to="SoundOut" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="1" to="SGain_1" to-inlet="0"/>
+		<audio-connection from="Little_SpaceyStereo_1" from-outlet="1" to="SatinStereo_1" to-inlet="1"/>
+		<audio-connection from="C1_gate__s__1" from-outlet="1" to="FF_MicroMono_2" to-inlet="0"/>
+		<audio-connection from="SGain_2" from-outlet="0" to="SouthPole_1" to-inlet="0"/>
+		<audio-connection from="C4__m__2" from-outlet="0" to="MGain_1" to-inlet="0"/>
+		<audio-connection from="MGain_3" from-outlet="0" to="SGain_5" to-inlet="0"/>
+		<audio-connection from="C4__m__1" from-outlet="0" to="MGain_2" to-inlet="0"/>
+		<audio-connection from="SDelay_1" from-outlet="1" to="SDelay_2" to-inlet="1"/>
+		<audio-connection from="SatinStereo_1" from-outlet="1" to="C1_gate__s__2" to-inlet="1"/>
+		<audio-connection from="C4__m__1" from-outlet="0" to="MGain_2" to-inlet="0"/>
+		<audio-connection from="Ambience_2" from-outlet="0" to="EchoBoyStereo_1" to-inlet="0"/>
+		<audio-connection from="C4__m__2" from-outlet="0" to="MGain_1" to-inlet="0"/>
+		<audio-connection from="5Combs_2" from-outlet="0" to="Auto_Tune_EvoMono_2" to-inlet="0"/>
+		<audio-connection from="SDelay_3" from-outlet="1" to="SDelay_4" to-inlet="1"/>
+		<audio-connection from="C4__s__2" from-outlet="1" to="OTTStereo_1" to-inlet="1"/>
+		<audio-connection from="SouthPole_2" from-outlet="0" to="MParaEQ_2" to-inlet="0"/>
+		<audio-connection from="SDelay_1" from-outlet="0" to="SDelay_2" to-inlet="0"/>
+		<audio-connection from="Auto_Tune_EvoMono_3" from-outlet="0" to="MGain_3" to-inlet="0"/>
+		<audio-connection from="SDelay_4" from-outlet="1" to="SDelay_5" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="0" to="Ambience_1" to-inlet="0"/>
+		<audio-connection from="Auto_Tune_EvoMono_2" from-outlet="0" to="C1_gate__s__1" to-inlet="3"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="0" to="Ambience_2" to-inlet="0"/>
+		<audio-connection from="C6__s__1" from-outlet="0" to="SGain_1" to-inlet="1"/>
+		<audio-connection from="MGain_1" from-outlet="0" to="SDelay_1" to-inlet="1"/>
+		<audio-connection from="C4__s__1" from-outlet="1" to="Ozone_5_Maximizer_1" to-inlet="1"/>
+		<audio-connection from="SDelay_2" from-outlet="1" to="SDelay_3" to-inlet="1"/>
+		<audio-connection from="SDelay_4" from-outlet="0" to="SDelay_5" to-inlet="0"/>
+		<audio-connection from="SDelay_2" from-outlet="0" to="SDelay_3" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Imager_1" from-outlet="1" to="FF_Pro_LStereo_1" to-inlet="1"/>
+		<audio-connection from="C4__s__1" from-outlet="0" to="Ozone_5_Maximizer_1" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_1" from-outlet="1" to="Ambience_2" to-inlet="1"/>
+		<audio-connection from="SDelay_5" from-outlet="1" to="TransverbStereo_1" to-inlet="1"/>
+		<audio-connection from="SatinStereo_1" from-outlet="0" to="C1_gate__s__2" to-inlet="2"/>
+		<audio-connection from="C1_gate__s__2" from-outlet="1" to="C4__s__2" to-inlet="1"/>
+		<audio-connection from="TransverbStereo_1" from-outlet="0" to="C6__s__1" to-inlet="0"/>
+		<audio-connection from="C4__s__2" from-outlet="0" to="OTTStereo_1" to-inlet="0"/>
+		<audio-connection from="TestGen_1" from-outlet="0" to="SGain_2" to-inlet="0"/>
+		<audio-connection from="TestGen_2" from-outlet="0" to="SGain_2" to-inlet="1"/>
+		<audio-connection from="SGain_2" from-outlet="1" to="SouthPole_2" to-inlet="0"/>
+		<audio-connection from="Ambience_2" from-outlet="1" to="EchoBoyStereo_1" to-inlet="1"/>
+		<audio-connection from="SGain_3" from-outlet="1" to="Little_SpaceyStereo_1" to-inlet="1"/>
+		<audio-connection from="SouthPole_1" from-outlet="0" to="MParaEQ_1" to-inlet="0"/>
+		<audio-connection from="FF_MicroMono_2" from-outlet="0" to="C4__m__2" to-inlet="0"/>
+		<audio-connection from="FF_MicroMono_1" from-outlet="0" to="C4__m__1" to-inlet="0"/>
+		<audio-connection from="5Combs_1" from-outlet="0" to="Auto_Tune_EvoMono_1" to-inlet="0"/>
+		<audio-connection from="MGain_2" from-outlet="0" to="SDelay_1" to-inlet="0"/>
+		<audio-connection from="MParaEQ_1" from-outlet="0" to="5Combs_1" to-inlet="0"/>
+		<audio-connection from="MParaEQ_2" from-outlet="0" to="5Combs_2" to-inlet="0"/>
+		<audio-connection from="C1_gate__s__1" from-outlet="0" to="FF_MicroMono_1" to-inlet="0"/>
+		<audio-connection from="The_Glue_1" from-outlet="0" to="FF_Pro_Q_2_1" to-inlet="0"/>
+		<audio-connection from="SGain_6" from-outlet="0" to="__bubblerStereo_1" to-inlet="0"/>
+		<audio-connection from="Ambience_1" from-outlet="0" to="C4__s__1" to-inlet="0"/>
+		<audio-connection from="SGain_5" from-outlet="0" to="EchoBoyStereo_1" to-inlet="1"/>
+		<audio-connection from="SGain_4" from-outlet="1" to="SoundOut" to-inlet="1"/>
+		<audio-connection from="The_Glue_1" from-outlet="1" to="FF_Pro_Q_2_1" to-inlet="1"/>
+		<audio-connection from="__bubblerStereo_1" from-outlet="0" to="Auto_Tune_EvoMono_3" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Imager_1" from-outlet="0" to="FF_Pro_LStereo_1" to-inlet="0"/>
+		<audio-connection from="FileRecorder_1" from-outlet="1" to="AuxOut1" to-inlet="1"/>
+		<audio-connection from="FileRecorder_1" from-outlet="0" to="AuxOut1" to-inlet="0"/>
+		<audio-connection from="FF_Pro_Q_2_1" from-outlet="0" to="Ozone_5_Imager_1" to-inlet="0"/>
+		<audio-connection from="FF_Pro_Q_2_1" from-outlet="1" to="Ozone_5_Imager_1" to-inlet="1"/>
+		<audio-connection from="SDelay_5" from-outlet="0" to="TransverbStereo_1" to-inlet="0"/>
+		<audio-connection from="TransverbStereo_1" from-outlet="1" to="C6__s__1" to-inlet="1"/>
+		<audio-connection from="Auto_Tune_EvoMono_1" from-outlet="0" to="C1_gate__s__1" to-inlet="0"/>
+		<audio-connection from="Auto_Tune_EvoMono_1" from-outlet="0" to="C1_gate__s__1" to-inlet="2"/>
+		<audio-connection from="Auto_Tune_EvoMono_2" from-outlet="0" to="C1_gate__s__1" to-inlet="1"/>
+		<audio-connection from="FF_Pro_LStereo_1" from-outlet="0" to="SGain_4" to-inlet="0"/>
+		<audio-connection from="FF_Pro_LStereo_1" from-outlet="1" to="SGain_4" to-inlet="1"/>
+		<audio-connection from="C1_gate__s__2" from-outlet="0" to="C4__s__2" to-inlet="0"/>
+		<audio-connection from="SatinStereo_1" from-outlet="0" to="C1_gate__s__2" to-inlet="0"/>
+		<audio-connection from="EchoBoyStereo_1" from-outlet="0" to="SGain_3" to-inlet="0"/>
+		<audio-connection from="EchoBoyStereo_1" from-outlet="1" to="SGain_3" to-inlet="1"/>
+		<audio-connection from="Little_SpaceyStereo_1" from-outlet="0" to="SatinStereo_1" to-inlet="0"/>
+		<audio-connection from="SGain_3" from-outlet="0" to="Little_SpaceyStereo_1" to-inlet="0"/>
+		<audio-connection from="OTTStereo_1" from-outlet="0" to="The_Glue_1" to-inlet="0"/>
+		<audio-connection from="OTTStereo_1" from-outlet="1" to="The_Glue_1" to-inlet="1"/>
+		<audio-connection from="MGain_2" from-outlet="0" to="SGain_6" to-inlet="0"/>
+		<audio-connection from="Ambience_1" from-outlet="1" to="C4__s__1" to-inlet="1"/>
+		<audio-connection from="SGain_1" from-outlet="1" to="Ambience_1" to-inlet="1"/>
+		<audio-connection from="MGain_2" from-outlet="0" to="Ambience_1" to-inlet="0"/>
+		<audio-connection from="MGain_1" from-outlet="0" to="Ambience_1" to-inlet="1"/>
+		<audio-connection from="SGain_6" from-outlet="1" to="__bubblerStereo_1" to-inlet="1"/>
+		<audio-connection from="MGain_1" from-outlet="0" to="SGain_6" to-inlet="1"/>
+		<audio-connection from="SGain_5" from-outlet="0" to="EchoBoyStereo_1" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_2" from-outlet="0" to="FileRecorder_1" to-inlet="0"/>
+		<audio-connection from="Ozone_5_Maximizer_2" from-outlet="1" to="FileRecorder_1" to-inlet="1"/>
+		<audio-connection from="Ambience_2" from-outlet="0" to="Ozone_5_Maximizer_2" to-inlet="0"/>
+		<audio-connection from="Ambience_2" from-outlet="1" to="Ozone_5_Maximizer_2" to-inlet="1"/>
+		<audio-connection from="SGain_5" from-outlet="0" to="Ozone_5_Maximizer_2" to-inlet="0"/>
+		<audio-connection from="SGain_5" from-outlet="0" to="Ozone_5_Maximizer_2" to-inlet="1"/>
+	</patch>
+	<application-view>
+		<notes visible="0" left="1061" top="82" width="300" height="170" encoding="UTF-8">
+			<para></para>
+		</notes>
+		<metasurface-view visible="0" left="5" top="479" width="580" height="260" parameters-visible="1" snapshots-visible="1" parameters-width="334" snapshots-width="144" interpolate-mode="1"></metasurface-view>
+	</application-view>
+	<contraption-views>
+		<contraption-view contraption-name="SoundOut" patcher-x="234" patcher-y="-402" editor-visible="0" editor-x="0" editor-y="520"/>
+		<contraption-view contraption-name="SouthPole_1" patcher-x="-248" patcher-y="-962" editor-visible="0" editor-x="80" editor-y="170"/>
+		<contraption-view contraption-name="TestGen_1" patcher-x="-215" patcher-y="-1068" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="MGain_3" patcher-x="-190" patcher-y="-423" editor-visible="0" editor-x="0" editor-y="420"/>
+		<contraption-view contraption-name="Ozone_5_Maximizer_1" patcher-x="-36" patcher-y="-439" editor-visible="0" editor-x="0" editor-y="250"/>
+		<contraption-view contraption-name="EchoBoyStereo_1" patcher-x="234" patcher-y="-996" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="SouthPole_2" patcher-x="-65" patcher-y="-960" editor-visible="0" editor-x="20" editor-y="20"/>
+		<contraption-view contraption-name="TestGen_2" patcher-x="-69" patcher-y="-1067"/>
+		<contraption-view contraption-name="OTTStereo_1" patcher-x="234" patcher-y="-701" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="FF_Pro_LStereo_1" patcher-x="233" patcher-y="-518" editor-visible="0" editor-x="0" editor-y="230"/>
+		<contraption-view contraption-name="SDelay_2" patcher-x="102" patcher-y="-1006"/>
+		<contraption-view contraption-name="C4__m__2" patcher-x="-66" patcher-y="-650" editor-visible="0" editor-x="10" editor-y="10"/>
+		<contraption-view contraption-name="C4__m__1" patcher-x="-249" patcher-y="-656" editor-visible="0" editor-x="220" editor-y="0"/>
+		<contraption-view contraption-name="MGain_1" patcher-x="-66" patcher-y="-595" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="MGain_2" patcher-x="-249" patcher-y="-609" editor-visible="0" editor-x="320" editor-y="0"/>
+		<contraption-view contraption-name="Ambience_2" patcher-x="234" patcher-y="-1051"/>
+		<contraption-view contraption-name="MParaEQ_2" patcher-x="-65" patcher-y="-914" editor-visible="0" editor-x="480" editor-y="0"/>
+		<contraption-view contraption-name="SDelay_3" patcher-x="102" patcher-y="-963"/>
+		<contraption-view contraption-name="SDelay_4" patcher-x="102" patcher-y="-920"/>
+		<contraption-view contraption-name="The_Glue_1" patcher-x="233" patcher-y="-656"/>
+		<contraption-view contraption-name="SGain_1" patcher-x="103" patcher-y="-739" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="C6__s__1" patcher-x="102" patcher-y="-793" editor-visible="0" editor-x="0" editor-y="230"/>
+		<contraption-view contraption-name="C4__s__1" patcher-x="-35" patcher-y="-484" editor-visible="0" editor-x="20" editor-y="20"/>
+		<contraption-view contraption-name="SDelay_5" patcher-x="102" patcher-y="-878"/>
+		<contraption-view contraption-name="SDelay_1" patcher-x="102" patcher-y="-1048" editor-visible="0" editor-x="470" editor-y="0"/>
+		<contraption-view contraption-name="TransverbStereo_1" patcher-x="102" patcher-y="-836" editor-visible="0" editor-x="0" editor-y="230"/>
+		<contraption-view contraption-name="SGain_2" patcher-x="-138" patcher-y="-1017" editor-visible="1" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="5Combs_1" patcher-x="-248" patcher-y="-866" editor-visible="0" editor-x="0" editor-y="70"/>
+		<contraption-view contraption-name="5Combs_2" patcher-x="-65" patcher-y="-867" editor-visible="0" editor-x="0" editor-y="330"/>
+		<contraption-view contraption-name="MParaEQ_1" patcher-x="-248" patcher-y="-910" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="FF_MicroMono_2" patcher-x="-66" patcher-y="-698" editor-visible="0" editor-x="210" editor-y="410"/>
+		<contraption-view contraption-name="FF_MicroMono_1" patcher-x="-249" patcher-y="-700" editor-visible="0" editor-x="260" editor-y="100"/>
+		<contraption-view contraption-name="Auto_Tune_EvoMono_1" patcher-x="-248" patcher-y="-820" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="Auto_Tune_EvoMono_2" patcher-x="-65" patcher-y="-819"/>
+		<contraption-view contraption-name="Auto_Tune_EvoMono_3" patcher-x="-204" patcher-y="-473" editor-visible="0" editor-x="0" editor-y="260"/>
+		<contraption-view contraption-name="SGain_5" patcher-x="332" patcher-y="-1050" editor-visible="1" editor-x="510" editor-y="0"/>
+		<contraption-view contraption-name="FF_Pro_Q_2_1" patcher-x="233" patcher-y="-611" editor-visible="0" editor-x="0" editor-y="230"/>
+		<contraption-view contraption-name="__bubblerStereo_1" patcher-x="-206" patcher-y="-518" editor-visible="0" editor-x="70" editor-y="0" editor-width="440" editor-height="230"/>
+		<contraption-view contraption-name="FileRecorder_1" patcher-x="398" patcher-y="-962" editor-visible="1" editor-x="0" editor-y="130"/>
+		<contraption-view contraption-name="Ozone_5_Imager_1" patcher-x="233" patcher-y="-565" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="C1_gate__s__1" patcher-x="-146" patcher-y="-751" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="SGain_4" patcher-x="234" patcher-y="-450" editor-visible="1" editor-x="0" editor-y="330"/>
+		<contraption-view contraption-name="AuxOut1" patcher-x="323" patcher-y="-402"/>
+		<contraption-view contraption-name="C1_gate__s__2" patcher-x="234" patcher-y="-795" editor-visible="0" editor-x="580" editor-y="0"/>
+		<contraption-view contraption-name="C4__s__2" patcher-x="234" patcher-y="-748" editor-visible="0" editor-x="480" editor-y="0"/>
+		<contraption-view contraption-name="SatinStereo_1" patcher-x="234" patcher-y="-853" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="SGain_3" patcher-x="234" patcher-y="-951" editor-visible="0" editor-x="490" editor-y="0"/>
+		<contraption-view contraption-name="Little_SpaceyStereo_1" patcher-x="234" patcher-y="-901" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="Ambience_1" patcher-x="-35" patcher-y="-531" editor-visible="0" editor-x="0" editor-y="0"/>
+		<contraption-view contraption-name="SGain_6" patcher-x="-206" patcher-y="-553" editor-visible="0" editor-x="110" editor-y="0"/>
+		<contraption-view contraption-name="Ozone_5_Maximizer_2" patcher-x="398" patcher-y="-997" editor-visible="0" editor-x="10" editor-y="200"/>
+	</contraption-views>
+	<automation-views></automation-views>
+</audiomulch-document>
